@@ -1,0 +1,180 @@
+*process started at 2020-08-07 13:59:06 (UTC)
+starting a thread of retrieval/new submissions/abstracts for math.ST
+getting daily entries for math.ST
+joining threads of retrieval/new submissions/abstracts
+new submissions for math.ST
+log file does not exists: var/logfiles/mathSTb_tweet_summaries.csv
+
+thread arXiv category: math.ST
+arXiv id: 
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291735627948384261
+text: [2020-08-07 (UTC), 1 new article found for mathST]
+
+
+thread arXiv category: math.ST
+arXiv id: 2008.02437
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291735653927907333
+text: Yuetian Luo, Garvesh Raskutti, Ming Yuan, Anru R. Zhang: A Sharp Blockwise Tensor Perturbation Bound for Orthogonal Iteration https://arxiv.org/abs/2008.02437 https://arxiv.org/pdf/2008.02437
+
+
+thread arXiv category: math.ST
+arXiv id: 2008.02437
+url: https://twitter.com/user/status/1291735653927907333
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291735680062640135
+text: In this paper, we develop novel perturbation bounds for the high-order orthogonal iteration (HOOI) [DLDMV00b]. Under mild regularity conditions, we establish blockwise tensor perturbation bounds for HOOI with guarantees for both [1/7 of https://arxiv.org/abs/2008.02437v1]
+
+
+thread arXiv category: math.ST
+arXiv id: 2008.02437
+url: https://twitter.com/user/status/1291735680062640135
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291735706268651520
+text: tensor reconstruction in Hilbert-Schmidt norm $\|\widehat{\bcT} - \bcT \|_{\tHS}$ and mode-$k$ singular subspace estimation in Schatten-$q$ norm $\| \sin \Theta (\widehat{\U}_k, \U_k) \|_q$ for any $q \geq 1$. We show the upper [2/7 of https://arxiv.org/abs/2008.02437v1]
+
+
+thread arXiv category: math.ST
+arXiv id: 2008.02437
+url: https://twitter.com/user/status/1291735706268651520
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291735732470439941
+text: bounds of mode-$k$ singular subspace estimation are unilateral and converge linearly to a quantity characterized by blockwise errors of the perturbation and signal strength. For the tensor reconstruction error bound, we express the [3/7 of https://arxiv.org/abs/2008.02437v1]
+
+
+thread arXiv category: math.ST
+arXiv id: 2008.02437
+url: https://twitter.com/user/status/1291735732470439941
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291735758672289797
+text: bound through a simple quantity $\xi$, which depends only on perturbation and the multilinear rank of the underlying signal. Rate matching deterministic lower bound for tensor reconstruction, which demonstrates the optimality of [4/7 of https://arxiv.org/abs/2008.02437v1]
+
+
+thread arXiv category: math.ST
+arXiv id: 2008.02437
+url: https://twitter.com/user/status/1291735758672289797
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291735784932937730
+text: HOOI, is also provided. Furthermore, we prove that one-step HOOI (i.e., HOOI with only a single iteration) is also optimal in terms of tensor reconstruction and can be used to lower the computational cost. The perturbation results [5/7 of https://arxiv.org/abs/2008.02437v1]
+
+
+thread arXiv category: math.ST
+arXiv id: 2008.02437
+url: https://twitter.com/user/status/1291735784932937730
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291735811298193410
+text: are also extended to the case that only partial modes of $\bcT$ have low-rank structure. We support our theoretical results by extensive numerical studies. Finally, we apply the novel perturbation bounds of HOOI on two applications, [6/7 of https://arxiv.org/abs/2008.02437v1]
+
+
+thread arXiv category: math.ST
+arXiv id: 2008.02437
+url: https://twitter.com/user/status/1291735811298193410
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291735837424545793
+text: tensor denoising and tensor co-clustering, from machine learning and statistics, which demonstrates the superiority of the new perturbation results. [7/7 of https://arxiv.org/abs/2008.02437v1]
+
+
+*crosslist process started at 2020-08-07 14:00:03 (UTC) 
+*time from the start: 0:00:57
+start a crosslist thread of math.ST
+joining crosslist threads
+math.ST   2008.02455   math.PR
+
+thread arXiv category: math.ST
+arXiv id: 2008.02455
+url: https://twitter.com/user/status/1291636919068106756
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291735868680499205
+text: 
+
+math.ST   2008.02479   stat.ML
+not in logfiles: stat.ML
+math.ST   2008.02545   stat.ML
+not in logfiles: stat.ML
+
+*replacement process started at 2020-08-07 14:00:11 (UTC)
+*time from the start: 0:01:05
+*time from the cross-list start: 0:00:08
+start a replacement thread of math.ST
+math.ST   1712.04912   stat.ML
+not in logfiles: stat.ML
+math.ST   1804.02605   math.ST
+joining replacement threads
+
+thread arXiv category: math.ST
+arXiv id: 1804.02605
+url: https://twitter.com/user/status/983506517159698433
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/983506517159698433
+text: 
+
+
+thread arXiv category: math.ST
+arXiv id: 1804.02605
+url: https://twitter.com/user/status/983506517159698433
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291735921780387845
+text: 
+
+math.ST   1804.11249   q-bio.PE
+not in logfiles: q-bio.PE
+math.ST   1905.12347   math.ST
+
+thread arXiv category: math.ST
+arXiv id: 1905.12347
+url: https://twitter.com/user/status/1133911076393766912
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1133911076393766912
+text: 
+
+
+thread arXiv category: math.ST
+arXiv id: 1905.12347
+url: https://twitter.com/user/status/1133911076393766912
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291735976050483202
+text: 
+
+math.ST   1911.00538   math.ST
+
+thread arXiv category: math.ST
+arXiv id: 1911.00538
+url: https://twitter.com/user/status/1191542375190953985
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1191542375190953985
+text: 
+
+
+thread arXiv category: math.ST
+arXiv id: 1911.00538
+url: https://twitter.com/user/status/1191542375190953985
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291736030022791168
+text: 
+
+math.ST   2006.15785   cs.LG
+not in logfiles: cs.LG
+
+*process ended at 2020-08-07 14:00:49 (UTC)
+*time from the start: 0:01:43
+*time from the cross-list start: 0:00:46
+*time from the replacement start: 0:00:38

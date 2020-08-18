@@ -1,0 +1,236 @@
+Traceback (most recent call last):
+  File "/home/okada/.hidden/Dropbox/misc/prog/twXiv/twXiv_post.py", line 196, in update
+    result = api.retweet(tw_id_str)
+  File "/home/okada/.local/lib/python3.8/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/okada/.local/lib/python3.8/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 144, 'message': 'No status found with that ID.'}]
+
+*process started at 2020-08-06 13:11:37 (UTC)
+starting a thread of retrieval/new submissions/abstracts for math.GN
+getting daily entries for math.GN
+waiting for a next thread of retrieval/new submissions/abstracts
+empty feed entries for math.GN
+sleep and retry for math.GN
+starting a thread of retrieval/new submissions/abstracts for math.GT
+getting daily entries for math.GT
+joining threads of retrieval/new submissions/abstracts
+new submissions for math.GT
+log file does not exists: var/logfiles/mathGTb_tweet_summaries.csv
+
+thread arXiv category: math.GT
+arXiv id: 
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291361316100173825
+text: [2020-08-06 (UTC), 3 new articles found for mathGT]
+
+
+thread arXiv category: math.GT
+arXiv id: 2008.01836
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291361342440345601
+text: Jennifer Hom: Lectures notes on Heegaard Floer homology https://arxiv.org/abs/2008.01836 https://arxiv.org/pdf/2008.01836
+
+
+thread arXiv category: math.GT
+arXiv id: 2008.01836
+url: https://twitter.com/user/status/1291361342440345601
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291361368906428418
+text: These are the lecture notes for a course on Heegaard Floer homology held at PCMI in Summer 2019. We describe Heegaard diagrams, Heegaard Floer homology, knot Floer homology, and the relationship between the knot and 3-manifold [1/2 of https://arxiv.org/abs/2008.01836v1]
+
+
+thread arXiv category: math.GT
+arXiv id: 2008.01836
+url: https://twitter.com/user/status/1291361368906428418
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291361395406073857
+text: invariants. [2/2 of https://arxiv.org/abs/2008.01836v1]
+
+
+thread arXiv category: math.GT
+arXiv id: 2008.02131
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291361421792391169
+text: Taketo Sano: Fixing the functoriality of Khovanov homology: a simple approach https://arxiv.org/abs/2008.02131 https://arxiv.org/pdf/2008.02131
+
+
+thread arXiv category: math.GT
+arXiv id: 2008.02131
+url: https://twitter.com/user/status/1291361421792391169
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291361448224931840
+text: Khovanov homology is functorial up to sign with respect to link cobordisms. The sign indeterminacy has been fixed by several authors, by extending the original theory both conceptually and algebraically. In this paper we propose an [1/2 of https://arxiv.org/abs/2008.02131v1]
+
+
+thread arXiv category: math.GT
+arXiv id: 2008.02131
+url: https://twitter.com/user/status/1291361448224931840
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291361474879713280
+text: alternative approach: we stay in the classical setup and fix the functoriality by simply adjusting the signs of the morphisms associated to the Reidemeister moves and the Morse moves. [2/2 of https://arxiv.org/abs/2008.02131v1]
+
+
+thread arXiv category: math.GT
+arXiv id: 2008.02262
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291361501488402432
+text: Amitesh Datta: The braid group $B_3$ in the framework of continued fractions https://arxiv.org/abs/2008.02262 https://arxiv.org/pdf/2008.02262
+
+
+thread arXiv category: math.GT
+arXiv id: 2008.02262
+url: https://twitter.com/user/status/1291361501488402432
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291361527769923584
+text: We use the classical interpretation of the braid group $B_3$ as a central extension of the modular group $\text{PSL}_2\left(\mathbb{Z}\right)$ to establish new and fundamental properties of $B_3$ using the theory of continued [1/3 of https://arxiv.org/abs/2008.02262v1]
+
+
+thread arXiv category: math.GT
+arXiv id: 2008.02262
+url: https://twitter.com/user/status/1291361527769923584
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291361554269523968
+text: fractions. In particular, we give simple and natural linear time algorithms to solve the word and conjugacy problems in $B_3$. The algorithms introduced in this paper are easy to implement and are the most efficient algorithms in [2/3 of https://arxiv.org/abs/2008.02262v1]
+
+
+thread arXiv category: math.GT
+arXiv id: 2008.02262
+url: https://twitter.com/user/status/1291361554269523968
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291361580634877955
+text: the literature to solve these problems in the braid group $B_3$. [3/3 of https://arxiv.org/abs/2008.02262v1]
+
+
+empty feed entries for math.GN
+sleep and retry for math.GN
+empty feed entries for math.GN
+sleep and retry for math.GN
+new submissions for math.GN
+log file does not exists: var/logfiles/mathGNb_tweet_summaries.csv
+
+thread arXiv category: math.GN
+arXiv id: 
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291376430165577730
+text: [2020-08-06 (UTC), 0 new article found for mathGN]
+
+
+*crosslist process started at 2020-08-06 14:11:54 (UTC) 
+*time from the start: 1:00:17
+start a crosslist thread of math.GN
+waiting for a next crosslist thread
+start a crosslist thread of math.GT
+math.GT   2008.01823   math.DG
+joining crosslist threads
+
+retweet error for arXiv categorymath.GTarXiv id: 2008.01823text: tw_id_str: 1291275993814978560
+
+*replacement process started at 2020-08-06 14:12:54 (UTC)
+*time from the start: 1:01:17
+*time from the cross-list start: 0:01:00
+start a replacement thread of math.GN
+waiting for a next replacement thread
+start a replacement thread of math.GT
+math.GT   1403.5217   math.MG
+joining replacement threads
+version >5 for 1403.5217
+math.GT   1705.06219   math.GR
+
+thread arXiv category: math.GT
+arXiv id: 1705.06219
+url: https://twitter.com/user/status/865015678297714688
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/865015678297714688
+text: 
+
+
+thread arXiv category: math.GT
+arXiv id: 1705.06219
+url: https://twitter.com/user/status/865015678297714688
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291376757996523520
+text: 
+
+math.GT   1808.04220   math.CO
+
+thread arXiv category: math.GT
+arXiv id: 1808.04220
+url: https://twitter.com/user/status/1029522971340066816
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1029522971340066816
+text: 
+
+
+thread arXiv category: math.GT
+arXiv id: 1808.04220
+url: https://twitter.com/user/status/1029522971340066816
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291376815261413376
+text: 
+
+math.GT   1905.13588   math.GT
+
+thread arXiv category: math.GT
+arXiv id: 1905.13588
+url: https://twitter.com/user/status/1135354625542873088
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1135354625542873088
+text: 
+
+
+thread arXiv category: math.GT
+arXiv id: 1905.13588
+url: https://twitter.com/user/status/1135354625542873088
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291376872454938625
+text: 
+
+math.GT   2007.13796   math.GT
+
+thread arXiv category: math.GT
+arXiv id: 2007.13796
+url: https://twitter.com/user/status/1288282438280462336
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1288282438280462336
+text: 
+
+
+thread arXiv category: math.GT
+arXiv id: 2007.13796
+url: https://twitter.com/user/status/1288282438280462336
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291376927140241416
+text: 
+
+
+*process ended at 2020-08-06 14:13:53 (UTC)
+*time from the start: 1:02:16
+*time from the cross-list start: 0:01:59
+*time from the replacement start: 0:00:59

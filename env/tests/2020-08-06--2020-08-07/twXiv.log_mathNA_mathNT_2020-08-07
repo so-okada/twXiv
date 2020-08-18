@@ -1,0 +1,1112 @@
+*process started at 2020-08-07 05:53:02 (UTC)
+starting a thread of retrieval/new submissions/abstracts for math.NA
+getting daily entries for math.NA
+waiting for a next thread of retrieval/new submissions/abstracts
+new submissions for math.NA
+log file does not exists: var/logfiles/mathNAb_tweet_summaries.csv
+
+thread arXiv category: math.NA
+arXiv id: 
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291613307409850369
+text: [2020-08-07 (UTC), 2 new articles found for mathNA]
+
+starting a thread of retrieval/new submissions/abstracts for math.NT
+getting daily entries for math.NT
+joining threads of retrieval/new submissions/abstracts
+new submissions for math.NT
+
+thread arXiv category: math.NT
+arXiv id: 
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291613328486182917
+text: [2020-08-07 (UTC), 14 new articles found for mathNT]
+
+
+thread arXiv category: math.NA
+arXiv id: 2008.02710
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291613341153030145
+text: Konstantin Avrachenkov, Patrick Brown, Nelly Litvak: Red Light Green Light Method for Solving Large Markov Chains https://arxiv.org/abs/2008.02710 https://arxiv.org/pdf/2008.02710
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02310
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291613354448941056
+text: Angelot Behajaina: R\'ealisations galoisiennes explicites de certaines familles de $2$-groupes https://arxiv.org/abs/2008.02310 https://arxiv.org/pdf/2008.02310
+
+
+thread arXiv category: math.NA
+arXiv id: 2008.02710
+url: https://twitter.com/user/status/1291613341153030145
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613367363203074
+text: Discrete-time discrete-state finite Markov chains are versatile mathematical models for a wide range of real-life stochastic processes. One of most common tasks in studies of Markov chains is computation of the stationary [1/6 of https://arxiv.org/abs/2008.02710v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02310
+url: https://twitter.com/user/status/1291613354448941056
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613380696920064
+text: In this paper, we construct, for some $2$-groups $G$, explicit Galois extensions $E/\mathbb{Q}(T)$ of group $G$ with $E\cap\overline{\mathbb{Q}}=\mathbb{Q}$. We also provide explicit arithmetic progressions of integers $t_0$ such [1/2 of https://arxiv.org/abs/2008.02310v1]
+
+
+thread arXiv category: math.NA
+arXiv id: 2008.02710
+url: https://twitter.com/user/status/1291613367363203074
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613393573429248
+text: distribution. Without loss of generality, and drawing our motivation from applications to large networks, we interpret this problem as one of computing the stationary distribution of a random walk on a graph. We propose a new [2/6 of https://arxiv.org/abs/2008.02710v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02310
+url: https://twitter.com/user/status/1291613380696920064
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613407070703616
+text: that the specialization $E_{t_0}/\mathbb{Q}$ of $E/\mathbb{Q}(T)$ at $t_0$ has Galois group $G$. [2/2 of https://arxiv.org/abs/2008.02310v1]
+
+
+thread arXiv category: math.NA
+arXiv id: 2008.02710
+url: https://twitter.com/user/status/1291613393573429248
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613419645222913
+text: controlled, easily distributed algorithm for this task, briefly summarized as follows: at the beginning, each node receives a fixed amount of cash (positive or negative), and at each iteration, some nodes receive `green light' to [3/6 of https://arxiv.org/abs/2008.02710v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02343
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291613433188687873
+text: Felipe A. Ramirez: A note on sequences that do not have metric Poissonian pair correlations https://arxiv.org/abs/2008.02343 https://arxiv.org/pdf/2008.02343
+
+
+thread arXiv category: math.NA
+arXiv id: 2008.02710
+url: https://twitter.com/user/status/1291613419645222913
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613445830262784
+text: distribute their wealth or debt proportionally to the transition probabilities of the Markov chain; the stationary probability of a node is computed as a ratio of the cash distributed by this a node to the total cash distributed by [4/6 of https://arxiv.org/abs/2008.02710v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02343
+url: https://twitter.com/user/status/1291613433188687873
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613459545612288
+text: The purpose of this note is to present a construction of sequences which do not have metric Poissonian pair correlations (MPPC) and whose additive energies grow at rates that come arbitrarily close to a threshold below which it is [1/3 of https://arxiv.org/abs/2008.02343v1]
+
+
+thread arXiv category: math.NA
+arXiv id: 2008.02710
+url: https://twitter.com/user/status/1291613445830262784
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613472040431616
+text: all nodes together. Our method includes as special cases a wide range of known, very different, and previously disconnected methods including power iterations, Gauss-Southwell, and online distributed algorithms. We prove exponential [5/6 of https://arxiv.org/abs/2008.02710v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02343
+url: https://twitter.com/user/status/1291613459545612288
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613485722296320
+text: believed that all sequences have MPPC. A nearly identical result appears already in work of Lachmann and Technau and is proved using a totally different strategy. The main novelty here is the simplicity of the proof, which we arrive [2/3 of https://arxiv.org/abs/2008.02343v1]
+
+
+thread arXiv category: math.NA
+arXiv id: 2008.02710
+url: https://twitter.com/user/status/1291613472040431616
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613498309349376
+text: convergence of our method, demonstrate its high efficiency, and derive scheduling strategies for the green-light, that achieve convergence rate faster than state-of-the-art algorithms. [6/6 of https://arxiv.org/abs/2008.02710v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02343
+url: https://twitter.com/user/status/1291613485722296320
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613511911477251
+text: at by modifying a construction of Bourgain. [3/3 of https://arxiv.org/abs/2008.02343v1]
+
+
+thread arXiv category: math.NA
+arXiv id: 2008.02724
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291613524414758912
+text: Frank Uhlig: Zeroing Neural Networks, an Introduction to, a Survey of, and Predictive Computations for Time-varying Matrix Problems https://arxiv.org/abs/2008.02724 https://arxiv.org/pdf/2008.02724
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02351
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291613538016927745
+text: Felipe A. Ramirez: Remarks about inhomogeneous pair correlations https://arxiv.org/abs/2008.02351 https://arxiv.org/pdf/2008.02351
+
+
+thread arXiv category: math.NA
+arXiv id: 2008.02724
+url: https://twitter.com/user/status/1291613524414758912
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613550616514560
+text: This paper is designed to increase knowledge and understanding of time-varying matrix problems and Zeroing Neural Networks in the numerical analysis community of the west. Zeroing neural networks (ZNN) were invented 20 years ago in [1/8 of https://arxiv.org/abs/2008.02724v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02351
+url: https://twitter.com/user/status/1291613538016927745
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613564126429187
+text: Given an infinite subset $\mathcal A \subseteq\mathbb N$, let $A$ denote its smallest $N$ elements. There is a rich and growing literature on the question of whether for typical $\alpha\in[0,1]$, the pair correlations of the set [1/3 of https://arxiv.org/abs/2008.02351v1]
+
+
+thread arXiv category: math.NA
+arXiv id: 2008.02724
+url: https://twitter.com/user/status/1291613550616514560
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613576868716544
+text: China and almost all of their advances have been made in and still come from its birthplace. ZNN methods have become a backbone for solving discretized sensor driven time-varying matrix problems in real-time, in theory and in [2/8 of https://arxiv.org/abs/2008.02724v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02351
+url: https://twitter.com/user/status/1291613564126429187
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613590336630785
+text: $\alpha A \pmod 1\subset [0,1]$ are asymptotically Poissonian as $N$ increases. We define an inhomogeneous generalization of the concept of pair correlation, and we consider the corresponding doubly metric question. Many of the [2/3 of https://arxiv.org/abs/2008.02351v1]
+
+
+thread arXiv category: math.NA
+arXiv id: 2008.02724
+url: https://twitter.com/user/status/1291613576868716544
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613602961477634
+text: on-chip applications for robots, in control theory and engineering in general. They have become the method of choice for many time-varying matrix problems that benefit from or require efficient, accurate and predictive real-time [3/8 of https://arxiv.org/abs/2008.02724v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02351
+url: https://twitter.com/user/status/1291613590336630785
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613616441970694
+text: results from the usual setting carry over to this new setting. Moreover, the double metricity allows us to establish some new results whose singly metric analogues are missing from the literature. [3/3 of https://arxiv.org/abs/2008.02351v1]
+
+
+thread arXiv category: math.NA
+arXiv id: 2008.02724
+url: https://twitter.com/user/status/1291613602961477634
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613629037477889
+text: computations. The typical ZNN algorithm needs seven distinct steps for its set-up. The construction of ZNN algorithms starts with an error equation and the stipulation that the error function decrease exponentially fast. The error [4/8 of https://arxiv.org/abs/2008.02724v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02422
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291613642710847490
+text: Takenori Kataoka: Equivariant Iwasawa theory for elliptic curves https://arxiv.org/abs/2008.02422 https://arxiv.org/pdf/2008.02422
+
+
+thread arXiv category: math.NA
+arXiv id: 2008.02724
+url: https://twitter.com/user/status/1291613629037477889
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613655188959233
+text: function DE is then mated with a convergent look-ahead finite difference formula to create a derivative free computer code that predicts the future state of the system reliably from current and earlier state data. Matlab codes for [5/8 of https://arxiv.org/abs/2008.02724v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02422
+url: https://twitter.com/user/status/1291613642710847490
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613668795273219
+text: We discuss abelian equivariant Iwasawa theory for elliptic curves over $\mathbb{Q}$ at good supersingular primes and non-anomalous good ordinary primes. Using Kobayashi's method, we construct equivariant Coleman maps, which send the [1/3 of https://arxiv.org/abs/2008.02422v1]
+
+
+thread arXiv category: math.NA
+arXiv id: 2008.02724
+url: https://twitter.com/user/status/1291613655188959233
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613681411698688
+text: ZNN typically consist of one linear equations solve and one short recursion of current and previous state data per time step. This makes ZNN based algorithms highly competitive with ODE IVP path following or homotopy methods that [6/8 of https://arxiv.org/abs/2008.02724v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02422
+url: https://twitter.com/user/status/1291613668795273219
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613695051669505
+text: Beilinson-Kato element to the equivariant $p$-adic $L$-functions. Then we propose equivariant main conjectures and, under certain assumptions, prove one divisibility via Euler system machinery. As an application, we prove a case of [2/3 of https://arxiv.org/abs/2008.02422v1]
+
+
+thread arXiv category: math.NA
+arXiv id: 2008.02724
+url: https://twitter.com/user/status/1291613681411698688
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613707689107457
+text: are not designed to work with constant sampling gap incoming sensor data but rather work adaptively. To illustrate the easy adaptability of ZNN and further the understanding of ZNN, this paper details the seven set-up steps for 11 [7/8 of https://arxiv.org/abs/2008.02724v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02422
+url: https://twitter.com/user/status/1291613695051669505
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613721211465729
+text: a conjecture of Mazur-Tate. [3/3 of https://arxiv.org/abs/2008.02422v1]
+
+
+thread arXiv category: math.NA
+arXiv id: 2008.02724
+url: https://twitter.com/user/status/1291613707689107457
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613733790216192
+text: separate time-varying problems and supplies the codes for six. Open problems are mentioned as well as detailed references to recent work on each of the treated problems. [8/8 of https://arxiv.org/abs/2008.02724v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02488
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291613747329433602
+text: Ilham A. Aliev, Ayhan Dil: Tornheim-like series, harmonic numbers and zeta values https://arxiv.org/abs/2008.02488 https://arxiv.org/pdf/2008.02488
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02488
+url: https://twitter.com/user/status/1291613747329433602
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613773380296704
+text: Explicit evaluations of the Tornheim-like double series in the form \[ \sum_{n,m=1}^\infty \frac{H_{n+m+s}}{nm\left( n+m+s \right)},\ s\in \mathbb{N\cup } \left\{ 0 \right\} \] and their extensions are given. Furthermore, series of [1/2 of https://arxiv.org/abs/2008.02488v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02488
+url: https://twitter.com/user/status/1291613773380296704
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613799540121600
+text: the type \[ \sum_{m=1}^\infty \frac{2H_{2m+1}-H_{m}}{2m\left( 2m+1 \right)} \] and some other Tornheim-like multiple series are evaluated in terms of the zeta values. [2/2 of https://arxiv.org/abs/2008.02488v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02525
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291613825733545984
+text: Naoki Imai, Jean-Stefan Koskivirta: Vector bundles on the stack of $G$-zips https://arxiv.org/abs/2008.02525 https://arxiv.org/pdf/2008.02525
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02525
+url: https://twitter.com/user/status/1291613825733545984
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613851771756544
+text: For a connected reductive group $G$ over a finite field, we study vector bundles on the stack of $G$-zips. In particular, we give a formula in the general case for the space of global sections of a vector bundle attached to a [1/3 of https://arxiv.org/abs/2008.02525v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02525
+url: https://twitter.com/user/status/1291613851771756544
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613878028087296
+text: representation of a parabolic subgroup in terms of the Brylinski--Kostant filtration. Moreover, we give an equivalence of categories between the category of vector bundles on the stack of $G$-zips coming from representations of the [2/3 of https://arxiv.org/abs/2008.02525v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02525
+url: https://twitter.com/user/status/1291613878028087296
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613904250888196
+text: Levi quotient and a category of admissible filtered modules with actions of the group of rational points of the Levi quotient. [3/3 of https://arxiv.org/abs/2008.02525v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02541
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291613930452709382
+text: He-Xia Ni: A $q$-Dwork-type generalization of Rodriguez-Villegas' supercongruences https://arxiv.org/abs/2008.02541 https://arxiv.org/pdf/2008.02541
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02541
+url: https://twitter.com/user/status/1291613930452709382
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613956516192256
+text: Guo and Zudilin [Adv. Math. 346 (2019), 329--358] developed an analytical method, called `creative microscoping', to prove many supercongruences by establishing their $q$-analogues. In this paper, we apply this method to give a [1/2 of https://arxiv.org/abs/2008.02541v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02541
+url: https://twitter.com/user/status/1291613956516192256
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291613982705369103
+text: $q$-Dwork-type generalization of Rodriguez-Villegas' supercongruences, which was recently conjectured by Guo and Zudilin. [2/2 of https://arxiv.org/abs/2008.02541v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02570
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291614008856862721
+text: Takashi Nakamura: The Davenport-Heilbronn function and zeta functions composed by the Hurwitz and periodic zeta functions https://arxiv.org/abs/2008.02570 https://arxiv.org/pdf/2008.02570
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02570
+url: https://twitter.com/user/status/1291614008856862721
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291614034962214912
+text: Let $L(s,\chi)$ be the Dirichlet $L$-function and $G(\chi)$ be the Gauss sum associate with a primitive Dirichlet character $\chi$ (${\rm{mod}} \,\, q$). As an analogue or improvement of the Davenport-Heilbronn function, we show [1/5 of https://arxiv.org/abs/2008.02570v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02570
+url: https://twitter.com/user/status/1291614034962214912
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291614061122088961
+text: that $f (s,\chi) := q^s L(s,\chi) + i^{-\kappa (\chi)} G(\chi) L(s,\overline{\chi})$, where $\kappa (\chi) :=(1-\chi (-1))/2$ and $\overline{\chi}$ is the complex conjugate of $\chi$, satisfies the functional equation exactly the [2/5 of https://arxiv.org/abs/2008.02570v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02570
+url: https://twitter.com/user/status/1291614061122088961
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291614087231631360
+text: same type of the Riemann zeta function if $\chi$ is even. In addition, we show that $f (\sigma,\chi) \ne 0$ all $\sigma \ge 1$. Moreover, we prove that $f(\sigma,\chi) \ne 0$ for all $1/2 \le \sigma < 1$ if and only if [3/5 of https://arxiv.org/abs/2008.02570v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02570
+url: https://twitter.com/user/status/1291614087231631360
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291614113336983552
+text: $L(\sigma,\chi) \ne 0$ for all $1/2 \le \sigma < 1$. When $\chi$ is real, all complex zeros of $f(s,\chi)$ with $\Re (s) >0$ are on the line $\sigma =1/2$ if and only if GRH for $L(s,\chi)$ is true. However, $f (s,\chi)$ has [4/5 of https://arxiv.org/abs/2008.02570v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02570
+url: https://twitter.com/user/status/1291614113336983552
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291614139559755776
+text: infinitely many zeros off the critical line $\sigma =1/2$ if $\chi$ is non-real. [5/5 of https://arxiv.org/abs/2008.02570v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02571
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291614165639995392
+text: Francesc Castella, Giada Grossi, Jaehoon Lee, Christopher Skinner: On the anticyclotomic Iwasawa theory of rational elliptic curves at Eisenstein primes https://arxiv.org/abs/2008.02571 https://arxiv.org/pdf/2008.02571
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02571
+url: https://twitter.com/user/status/1291614165639995392
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291614191845924864
+text: Let $E/\mathbb{Q}$ be an elliptic curve, and $p$ a prime where $E$ has good reduction, and assume that $E$ admits a rational $p$-isogeny. In this paper, we study the anticyclotomic Iwasawa theory of $E$ over an imaginary quadratic [1/3 of https://arxiv.org/abs/2008.02571v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02571
+url: https://twitter.com/user/status/1291614191845924864
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291614218060304385
+text: field in which $p$ splits, which we relate to the anticyclotomic Iwasawa theory of characters following the method of Greenberg--Vatsal. As a result of our study, we obtain a proof, under mild hypotheses, of Perrin-Riou's Heegner [2/3 of https://arxiv.org/abs/2008.02571v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02571
+url: https://twitter.com/user/status/1291614218060304385
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291614244178288641
+text: point main conjecture, as well as a $p$-converse to the theorem of Gross--Zagier and Kolyvagin and the $p$-part of the Birch--Swinnerton-Dyer formula in analytic rank $1$ for Eisenstein primes $p$. [3/3 of https://arxiv.org/abs/2008.02571v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02587
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291614270271062019
+text: Angelot Behajaina: Th\'eorie inverse de Galois sur les corps des fractions rationnelles tordus https://arxiv.org/abs/2008.02587 https://arxiv.org/pdf/2008.02587
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02587
+url: https://twitter.com/user/status/1291614270271062019
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291614296372154369
+text: In this article, we prove that if $H$ is a skew field of center $k$ and $\sigma$ an automorphism of finite order of $H$ such that the fixed subfield $k^{\langle \sigma \rangle}$ of $k$ under the action of $\sigma$ contains an ample [1/3 of https://arxiv.org/abs/2008.02587v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02587
+url: https://twitter.com/user/status/1291614296372154369
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291614322553008129
+text: field, then the inverse Galois problem has a positive answer over the skew field $H(t,\sigma)$ of twisted rational fractions. Moreover, if $k^{\langle \sigma \rangle}$ contains either a real closed field, or an Henselian field of [2/3 of https://arxiv.org/abs/2008.02587v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02587
+url: https://twitter.com/user/status/1291614322553008129
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291614348784238592
+text: residue characteristic $0$ and containing all roots of unity, then the profree group of countable rank $\widehat{F}_{\omega}$ is a Galois group over $H(t,\sigma)$. [3/3 of https://arxiv.org/abs/2008.02587v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02619
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291614374948265985
+text: José Alves Oliveira, Daniela Oliveira, Lucas Reis: On iterations of rational functions over perfect fields https://arxiv.org/abs/2008.02619 https://arxiv.org/pdf/2008.02619
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02619
+url: https://twitter.com/user/status/1291614374948265985
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291614401103978497
+text: Let $\mathbb K$ be a perfect field of characterstic $p\ge 0$ and let $R\in \mathbb K(x)$ be a rational function. This paper studies the number $\Delta_{\alpha, R}(n)$ of distinct solutions of $R^{(n)}(x)=\alpha$ over the algebraic [1/4 of https://arxiv.org/abs/2008.02619v1]
+Traceback (most recent call last):
+  File "/home/okada/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 4411, in get_value
+    return libindex.get_value_at(s, key)
+  File "pandas/_libs/index.pyx", line 44, in pandas._libs.index.get_value_at
+  File "pandas/_libs/index.pyx", line 45, in pandas._libs.index.get_value_at
+  File "pandas/_libs/util.pxd", line 98, in pandas._libs.util.get_value_at
+  File "pandas/_libs/util.pxd", line 83, in pandas._libs.util.validate_indexer
+TypeError: 'str' object cannot be interpreted as an integer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/okada/misc/prog/twXiv/twXiv_post.py", line 398, in crosslists_replacements
+    log_time = row['utc']
+  File "/home/okada/.local/lib/python3.8/site-packages/pandas/core/series.py", line 871, in __getitem__
+    result = self.index.get_value(self, key)
+  File "/home/okada/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 4419, in get_value
+    raise e1
+  File "/home/okada/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 4405, in get_value
+    return self._engine.get_value(s, k, tz=getattr(series.dtype, "tz", None))
+  File "pandas/_libs/index.pyx", line 80, in pandas._libs.index.IndexEngine.get_value
+  File "pandas/_libs/index.pyx", line 90, in pandas._libs.index.IndexEngine.get_value
+  File "pandas/_libs/index.pyx", line 138, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1619, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1627, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'utc'
+Exception in thread math.NT:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/okada/misc/prog/twXiv/twXiv_post.py", line 371, in crosslists
+    crosslists_replacements(logfiles, cat, api, update_limited,
+  File "/home/okada/misc/prog/twXiv/twXiv_post.py", line 402, in crosslists_replacements
+    log_time = datetime.fromisoformat(log_time)
+UnboundLocalError: local variable 'log_time' referenced before assignment
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02619
+url: https://twitter.com/user/status/1291614401103978497
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291614427322540035
+text: closure $\overline{\mathbb K}$ of $\mathbb K$, where $\alpha\in \overline{\mathbb K}$ and $R^{(n)}$ is the $n$-fold composition of $R$ with itself. With the exception of some pairs $(\alpha, R)$, we prove that $\Delta_{\alpha, [2/4 of https://arxiv.org/abs/2008.02619v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02619
+url: https://twitter.com/user/status/1291614427322540035
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291614453511806976
+text: R}(n)=c_{\alpha, R}\cdot d^n+O_{\alpha, R}(1)$ for some $0<c_{\alpha, R}\le 1<d$. The number $d$ is readily obtained from $R$ and we provide estimates on $c_{\alpha, R}$. Moreover we prove that the exceptional pairs $(\alpha, R)$ [3/4 of https://arxiv.org/abs/2008.02619v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02619
+url: https://twitter.com/user/status/1291614453511806976
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291614479659094016
+text: satisfy $\Delta_{\alpha, R}(n)\le 2$ for every $n\ge 0$, and we fully describe them. We also discuss further questions and propose some problems in the case where $\mathbb K$ is finite. [4/4 of https://arxiv.org/abs/2008.02619v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02621
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291614505873498112
+text: Oliver Thomas: Duality for $K$-analytic Cohomology https://arxiv.org/abs/2008.02621 https://arxiv.org/pdf/2008.02621
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02621
+url: https://twitter.com/user/status/1291614505873498112
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291614531999866880
+text: We prove a duality result for the analytic cohomology of Lie groups over non-archimedean fields acting on locally convex vector spaces. [1/1 of https://arxiv.org/abs/2008.02621v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02647
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291614558256160768
+text: Ji-Cai Liu: Supercongruences for sums involving Domb numbers https://arxiv.org/abs/2008.02647 https://arxiv.org/pdf/2008.02647
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02647
+url: https://twitter.com/user/status/1291614558256160768
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291614584273432577
+text: We prove some supercongruence and divisibility results on sums involving Domb numbers, which confirm four conjectures of Sun. For instance, by using a transformation formula due to Chan and Zudilin, we show that for any prime $p\ge [1/3 of https://arxiv.org/abs/2008.02647v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02647
+url: https://twitter.com/user/status/1291614584273432577
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291614610542354433
+text: 5$, \begin{align*} \sum_{k=0}^{p-1}\frac{3k+1}{(-32)^k}{\rm Domb}(k)\equiv (-1)^{\frac{p-1}{2}}p+p^3E_{p-3} \pmod{p^4}, \end{align*} which is regarded as a $p$-adic analogue of the following interesting formula for $1/\pi$ due to [2/3 of https://arxiv.org/abs/2008.02647v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02647
+url: https://twitter.com/user/status/1291614610542354433
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291614636731535360
+text: Rogers: \begin{align*} \sum_{k=0}^{\infty}\frac{3k+1}{(-32)^k}{\rm Domb}(k)=\frac{2}{\pi}. \end{align*} Here ${\rm Domb}(n)$ and $E_n$ are the famous Domb numbers and Euler numbers. [3/3 of https://arxiv.org/abs/2008.02647v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02717
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291614662954348545
+text: Robert Granger, Thorsten Kleinjung, Arjen K. Lenstra, Benjamin Wesolowski, Jens Zumbrägel: Computation of a 30750-Bit Binary Field Discrete Logarithm https://arxiv.org/abs/2008.02717 https://arxiv.org/pdf/2008.02717
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02717
+url: https://twitter.com/user/status/1291614662954348545
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291614689076551680
+text: This paper reports on the computation of a discrete logarithm in the finite field $\mathbb F_{2^{30750}}$, breaking by a large margin the previous record, which was set in January 2014 by a computation in $\mathbb F_{2^{9234}}$. The [1/8 of https://arxiv.org/abs/2008.02717v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02717
+url: https://twitter.com/user/status/1291614689076551680
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291614715328700416
+text: present computation made essential use of the elimination step of the quasi-polynomial algorithm due to Granger, Kleinjung and Zumbr\"agel, and is the first large-scale experiment to truly test and successfully demonstrate its [2/8 of https://arxiv.org/abs/2008.02717v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02717
+url: https://twitter.com/user/status/1291614715328700416
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291614741652275201
+text: potential when applied recursively, which is when it leads to the stated complexity. It required the equivalent of about 2900 core years on a single core of an Intel Xeon Ivy Bridge processor running at 2.6 GHz, which is comparable [3/8 of https://arxiv.org/abs/2008.02717v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02717
+url: https://twitter.com/user/status/1291614741652275201
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291614767971409920
+text: to the approximately 3100 core years expended for the discrete logarithm record for prime fields, set in a field of bit-length 795, and demonstrates just how much easier the problem is for this level of computational effort. In [4/8 of https://arxiv.org/abs/2008.02717v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02717
+url: https://twitter.com/user/status/1291614767971409920
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291614794148012034
+text: order to make the computation feasible we introduced several innovative techniques for the elimination of small degree irreducible elements, which meant that we avoided performing any costly Gr\"obner basis computations, in contrast [5/8 of https://arxiv.org/abs/2008.02717v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02717
+url: https://twitter.com/user/status/1291614794148012034
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291614820303646720
+text: to all previous records since early 2013. While such computations are crucial to the $L(\frac 1 4 + o(1))$ complexity algorithms, they were simply too slow for our purposes. Finally, this computation should serve as a serious [6/8 of https://arxiv.org/abs/2008.02717v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02717
+url: https://twitter.com/user/status/1291614820303646720
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291614846501281792
+text: deterrent to cryptographers who are still proposing to rely on the discrete logarithm security of such finite fields in applications, despite the existence of two quasi-polynomial algorithms and the prospect of even faster [7/8 of https://arxiv.org/abs/2008.02717v1]
+
+
+thread arXiv category: math.NT
+arXiv id: 2008.02717
+url: https://twitter.com/user/status/1291614846501281792
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291614872615100416
+text: algorithms being developed. [8/8 of https://arxiv.org/abs/2008.02717v1]
+
+
+*crosslist process started at 2020-08-07 05:59:23 (UTC) 
+*time from the start: 0:06:21
+start a crosslist thread of math.NA
+waiting for a next crosslist thread
+math.NA   2008.02437   math.ST
+math.NA   2008.02517   math.OC
+math.NA   2008.02659   math.AP
+start a crosslist thread of math.NT
+joining crosslist threads
+var/logfiles/mathNTb_retweets.csv math.NT
+
+*replacement process started at 2020-08-07 05:59:28 (UTC)
+*time from the start: 0:06:26
+*time from the cross-list start: 0:00:05
+start a replacement thread of math.NA
+math.NA   1706.01361   math.NA
+waiting for a next replacement thread
+
+thread arXiv category: math.NA
+arXiv id: 1706.01361
+url: https://twitter.com/user/status/871887427752796160
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/871887427752796160
+text: 
+
+start a replacement thread of math.NT
+math.NT   1702.04708   math.NT
+joining replacement threads
+
+thread arXiv category: math.NT
+arXiv id: 1702.04708
+url: https://twitter.com/user/status/832047373215936513
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/832047373215936513
+text: 
+
+
+thread arXiv category: math.NA
+arXiv id: 1706.01361
+url: https://twitter.com/user/status/871887427752796160
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291614955578388480
+text: 
+
+
+thread arXiv category: math.NT
+arXiv id: 1702.04708
+url: https://twitter.com/user/status/832047373215936513
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291614968941391872
+text: 
+
+math.NA   1902.01635   math.NA
+
+thread arXiv category: math.NA
+arXiv id: 1902.01635
+url: https://twitter.com/user/status/1092970481899040773
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1092970481899040773
+text: 
+
+math.NT   1810.02273   math.NT
+
+thread arXiv category: math.NT
+arXiv id: 1810.02273
+url: https://twitter.com/user/status/1048008478176858112
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1048008478176858112
+text: 
+
+
+thread arXiv category: math.NA
+arXiv id: 1902.01635
+url: https://twitter.com/user/status/1092970481899040773
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291615012549615617
+text: 
+
+
+thread arXiv category: math.NT
+arXiv id: 1810.02273
+url: https://twitter.com/user/status/1048008478176858112
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291615025887502337
+text: 
+
+math.NA   1906.05475   math.NA
+
+thread arXiv category: math.NA
+arXiv id: 1906.05475
+url: https://twitter.com/user/status/1139343376153632768
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1139343376153632768
+text: 
+
+math.NT   1810.11564   math.NT
+
+thread arXiv category: math.NT
+arXiv id: 1810.11564
+url: https://twitter.com/user/status/1057083822532001793
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1057083822532001793
+text: 
+
+
+thread arXiv category: math.NA
+arXiv id: 1906.05475
+url: https://twitter.com/user/status/1139343376153632768
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291615068942106624
+text: 
+
+
+thread arXiv category: math.NT
+arXiv id: 1810.11564
+url: https://twitter.com/user/status/1057083822532001793
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291615081973735426
+text: 
+
+math.NA   1907.08592   stat.ML
+not in logfiles: stat.ML
+math.NA   2005.01811   math.NA
+
+thread arXiv category: math.NA
+arXiv id: 2005.01811
+url: https://twitter.com/user/status/1257844159613829120
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1257844159613829120
+text: 
+
+math.NT   1903.05032   math.NT
+
+thread arXiv category: math.NT
+arXiv id: 1903.05032
+url: https://twitter.com/user/status/1105641636741017600
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1105641636741017600
+text: 
+
+
+thread arXiv category: math.NA
+arXiv id: 2005.01811
+url: https://twitter.com/user/status/1257844159613829120
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291615125518946305
+text: 
+
+
+thread arXiv category: math.NT
+arXiv id: 1903.05032
+url: https://twitter.com/user/status/1105641636741017600
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291615138500374528
+text: 
+
+math.NA   2007.04170   math.NA
+
+thread arXiv category: math.NA
+arXiv id: 2007.04170
+url: https://twitter.com/user/status/1281036903978897408
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1281036903978897408
+text: 
+
+math.NT   1904.03489   math.NT
+
+thread arXiv category: math.NT
+arXiv id: 1904.03489
+url: https://twitter.com/user/status/1115427758564208640
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1115427758564208640
+text: 
+
+
+thread arXiv category: math.NA
+arXiv id: 2007.04170
+url: https://twitter.com/user/status/1281036903978897408
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291615181504569347
+text: 
+
+
+thread arXiv category: math.NT
+arXiv id: 1904.03489
+url: https://twitter.com/user/status/1115427758564208640
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291615194423025665
+text: 
+
+math.NA   2008.02125   math.NA
+math.NT   1905.00035   hep-th
+not in logfiles: hep-th
+math.NT   1910.12303   math.NT
+
+thread arXiv category: math.NT
+arXiv id: 1910.12303
+url: https://twitter.com/user/status/1188991478049067008
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1188991478049067008
+text: 
+
+
+thread arXiv category: math.NT
+arXiv id: 1910.12303
+url: https://twitter.com/user/status/1188991478049067008
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291615250798637056
+text: 
+
+math.NT   1912.12556   math.AG
+
+thread arXiv category: math.NT
+arXiv id: 1912.12556
+url: https://twitter.com/user/status/1212189574329319424
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1212189574329319424
+text: 
+
+
+thread arXiv category: math.NT
+arXiv id: 1912.12556
+url: https://twitter.com/user/status/1212189574329319424
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291615307472150529
+text: 
+
+math.NT   2002.07475   math.NT
+
+thread arXiv category: math.NT
+arXiv id: 2002.07475
+url: https://twitter.com/user/status/1229953848938123265
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1229953848938123265
+text: 
+
+
+thread arXiv category: math.NT
+arXiv id: 2002.07475
+url: https://twitter.com/user/status/1229953848938123265
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291615363541512192
+text: 
+
+math.NT   2003.05768   math.NT
+
+thread arXiv category: math.NT
+arXiv id: 2003.05768
+url: https://twitter.com/user/status/1238275700357906433
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1238275700357906433
+text: 
+
+
+thread arXiv category: math.NT
+arXiv id: 2003.05768
+url: https://twitter.com/user/status/1238275700357906433
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291615419619373056
+text: 
+
+math.NT   2004.09353   math.NT
+
+thread arXiv category: math.NT
+arXiv id: 2004.09353
+url: https://twitter.com/user/status/1252410665265795074
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1252410665265795074
+text: 
+
+
+thread arXiv category: math.NT
+arXiv id: 2004.09353
+url: https://twitter.com/user/status/1252410665265795074
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291615475936288768
+text: 
+
+math.NT   2005.13328   math.NT
+
+thread arXiv category: math.NT
+arXiv id: 2005.13328
+url: https://twitter.com/user/status/1265816942260043777
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1265816942260043777
+text: 
+
+
+thread arXiv category: math.NT
+arXiv id: 2005.13328
+url: https://twitter.com/user/status/1265816942260043777
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291615531972177920
+text: 
+
+math.NT   2007.01894   math.NT
+
+thread arXiv category: math.NT
+arXiv id: 2007.01894
+url: https://twitter.com/user/status/1280313534690148352
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1280313534690148352
+text: 
+
+
+thread arXiv category: math.NT
+arXiv id: 2007.01894
+url: https://twitter.com/user/status/1280313534690148352
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291615588066799616
+text: 
+
+math.NT   2007.06879   math.NT
+
+thread arXiv category: math.NT
+arXiv id: 2007.06879
+url: https://twitter.com/user/status/1283211724129173504
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1283211724129173504
+text: 
+
+
+thread arXiv category: math.NT
+arXiv id: 2007.06879
+url: https://twitter.com/user/status/1283211724129173504
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291615644090134529
+text: 
+
+math.NT   2007.16016   math.NT
+
+*process ended at 2020-08-07 06:02:28 (UTC)
+*time from the start: 0:09:26
+*time from the cross-list start: 0:03:05
+*time from the replacement start: 0:03:00

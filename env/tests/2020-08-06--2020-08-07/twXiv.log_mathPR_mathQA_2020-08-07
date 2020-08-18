@@ -1,0 +1,695 @@
+*process started at 2020-08-07 07:25:04 (UTC)
+starting a thread of retrieval/new submissions/abstracts for math.PR
+getting daily entries for math.PR
+waiting for a next thread of retrieval/new submissions/abstracts
+new submissions for math.PR
+log file does not exists: var/logfiles/mathPRb_tweet_summaries.csv
+
+thread arXiv category: math.PR
+arXiv id: 
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291636471980388352
+text: [2020-08-07 (UTC), 9 new articles found for mathPR]
+
+starting a thread of retrieval/new submissions/abstracts for math.QA
+getting daily entries for math.QA
+joining threads of retrieval/new submissions/abstracts
+new submissions for math.QA
+log file does not exists: var/logfiles/mathQAb_tweet_summaries.csv
+
+thread arXiv category: math.QA
+arXiv id: 
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291636487709057025
+text: [2020-08-07 (UTC), 0 new article found for mathQA]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02335
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291636500250034178
+text: Lucio Galeati, Fabian A. Harang: Regularization of multiplicative SDEs through additive noise https://arxiv.org/abs/2008.02335 https://arxiv.org/pdf/2008.02335
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02335
+url: https://twitter.com/user/status/1291636500250034178
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291636526359515137
+text: We investigate the regularizing effect of certain additive continuous perturbations on SDEs with multiplicative fractional Brownian motion (fBm). Traditionally, a Lipschitz requirement on the drift and diffusion coefficients is [1/4 of https://arxiv.org/abs/2008.02335v1]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02335
+url: https://twitter.com/user/status/1291636526359515137
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291636552527777792
+text: imposed to ensure existence and uniqueness of the SDE. We show that suitable perturbations restore existence, uniqueness and regularity of the flow for the resulting equation, even when both the drift and the diffusion coefficients [2/4 of https://arxiv.org/abs/2008.02335v1]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02335
+url: https://twitter.com/user/status/1291636552527777792
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291636578645766145
+text: are distributional, thus extending the program of regularization by noise to the case of multiplicative SDEs.  Our method relies on a combination of the non-linear Young formalism developed by Catellier and Gubinelli, and stochastic [3/4 of https://arxiv.org/abs/2008.02335v1]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02335
+url: https://twitter.com/user/status/1291636578645766145
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291636604776271874
+text: averaging estimates recently obtained by Hairer and Li. [4/4 of https://arxiv.org/abs/2008.02335v1]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02390
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291636630864846849
+text: Martin Dieckmann: A restricted superposition principle for (non-)linear Fokker-Planck-Kolmogorov equations on Hilbert spaces https://arxiv.org/abs/2008.02390 https://arxiv.org/pdf/2008.02390
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02390
+url: https://twitter.com/user/status/1291636630864846849
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291636657062518784
+text: We carefully combine three well-known results to ensure joint existence of solutions to Fokker-Planck-Kolmogorov equations and martingale problems allowing us to derive a version (covering a restricted subclass of solutions) of the [1/2 of https://arxiv.org/abs/2008.02390v1]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02390
+url: https://twitter.com/user/status/1291636657062518784
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291636683306201088
+text: Ambrosio-Figalli-Trevisan superposition principle that is valid on separable infinite-dimensional Hilbert spaces. Furthermore, we transfer this restricted superposition principle into a nonlinear setting. [2/2 of https://arxiv.org/abs/2008.02390v1]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02408
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291636709512249344
+text: Le Chen, Davar Khoshnevisan, David Nualart, Fei Pu: Central limit theorems for spatial averages of the stochastic heat equation via Malliavin-Stein's method https://arxiv.org/abs/2008.02408 https://arxiv.org/pdf/2008.02408
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02408
+url: https://twitter.com/user/status/1291636709512249344
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291636735768539136
+text: Suppose that $\{u(t\,, x)\}_{t >0, x \in\mathbb{R}^d}$ is the solution to a $d$-dimensional stochastic heat equation driven by a Gaussian noise that is white in time and has a spatially homogeneous covariance that satisfies Dalang's [1/4 of https://arxiv.org/abs/2008.02408v1]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02408
+url: https://twitter.com/user/status/1291636735768539136
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291636762121404418
+text: condition. The purpose of this paper is to establish quantitative central limit theorems for spatial averages of the form $N^{-d} \int_{[0,N]^d} g(u(t\,,x))\, \mathrm{d} x$, as $N\rightarrow\infty$, where $g$ is a [2/4 of https://arxiv.org/abs/2008.02408v1]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02408
+url: https://twitter.com/user/status/1291636762121404418
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291636788251877377
+text: Lipschitz-continuous function or belongs to a class of locally-Lipschitz functions, using a combination of the Malliavin calculus and Stein's method for normal approximations. Our results include a central limit theorem for the {\it [3/4 of https://arxiv.org/abs/2008.02408v1]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02408
+url: https://twitter.com/user/status/1291636788251877377
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291636814369832960
+text: Hopf-Cole} solution to KPZ equation. We also establish a functional central limit theorem for these spatial averages. [4/4 of https://arxiv.org/abs/2008.02408v1]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02420
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291636840613609472
+text: Xiangyu Wang, Jianming Xia, Zuo Quan Xu, Zhou Yang: Minimal Quantile Functions Subject to Stochastic Dominance Constraints https://arxiv.org/abs/2008.02420 https://arxiv.org/pdf/2008.02420
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02420
+url: https://twitter.com/user/status/1291636840613609472
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291636866802835456
+text: We consider a problem of finding an SSD-minimal quantile function subject to the mixture of multiple first-order stochastic dominance (FSD) and second-order stochastic dominance (SSD) constraints. The solution is explicitly worked [1/2 of https://arxiv.org/abs/2008.02420v1]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02420
+url: https://twitter.com/user/status/1291636866802835456
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291636892979486721
+text: out and has a closed relation to the Skorokhod problem. We then apply this result to solve an expenditure minimization problem with the mixture of an FSD constraint and an SSD constraint in financial economics. [2/2 of https://arxiv.org/abs/2008.02420v1]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02455
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291636919068106756
+text: Guanyang Wang: Exact Convergence Rate Analysis of the Independence Metropolis-Hastings Algorithms https://arxiv.org/abs/2008.02455 https://arxiv.org/pdf/2008.02455
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02455
+url: https://twitter.com/user/status/1291636919068106756
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291636945198563328
+text: A well-known difficult problem regarding Metropolis-Hastings algorithms is to get sharp bounds on their convergence rates. Moreover, different initializations may have different convergence rates so a uniform upper bound may be too [1/4 of https://arxiv.org/abs/2008.02455v1]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02455
+url: https://twitter.com/user/status/1291636945198563328
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291636971442278400
+text: conservative to be used in practice. In this paper, we study the convergence properties of the Independence Metropolis-Hastings (IMH) algorithms on both general and discrete state spaces. Under mild conditions, we derive the exact [2/4 of https://arxiv.org/abs/2008.02455v1]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02455
+url: https://twitter.com/user/status/1291636971442278400
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291636997585432577
+text: convergence rate and prove that different initializations of the IMH algorithm have the same convergence rate. In particular, we get the exact convergence speed for IMH algorithms on general state spaces under certain conditions. [3/4 of https://arxiv.org/abs/2008.02455v1]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02455
+url: https://twitter.com/user/status/1291636997585432577
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291637023774666752
+text: Connections with the Random Walk Metropolis-Hastings (RWMH) algorithm are also discussed, which solve the conjecture proposed by Atchade and Perron using a counterexample. [4/4 of https://arxiv.org/abs/2008.02455v1]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02544
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291637049934585856
+text: Erwan Hingant, Romain Yvinec: Quasi-stationary distribution and metastability for the stochastic Becker-D\"oring model https://arxiv.org/abs/2008.02544 https://arxiv.org/pdf/2008.02544
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02544
+url: https://twitter.com/user/status/1291637049934585856
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291637076044083202
+text: We study a stochastic version of the classical Becker-D\"oring model, a well-known kinetic model for cluster formation that predicts the existence of a long-lived metastable state before a thermodynamically unfavorable nucleation [1/3 of https://arxiv.org/abs/2008.02544v1]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02544
+url: https://twitter.com/user/status/1291637076044083202
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291637102321393664
+text: occurs, leading to a phase transition phenomena. This continuous-time Markov chain model has received little attention, compared to its deterministic differential equations counterpart. We show that the stochastic formulation leads [2/3 of https://arxiv.org/abs/2008.02544v1]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02544
+url: https://twitter.com/user/status/1291637102321393664
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291637128485462016
+text: to a precise and quantitative description of stochastic nucleation events thanks to an exponentially ergodic quasi-stationary distribution for the process conditionally on nucleation has not yet occurred. [3/3 of https://arxiv.org/abs/2008.02544v1]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02568
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291637154574028801
+text: Vitalii Konarovskyi, Victor Marx: Conditional Distribution of Independent Brownian Motions to Event of Coalescing Paths https://arxiv.org/abs/2008.02568 https://arxiv.org/pdf/2008.02568
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02568
+url: https://twitter.com/user/status/1291637154574028801
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291637180872368128
+text: We consider a family of independent real-valued Brownian motions starting at distinct points and are interested in the description of the conditional distribution of this family to the event that trajectories coalesce, which is of [1/3 of https://arxiv.org/abs/2008.02568v1]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02568
+url: https://twitter.com/user/status/1291637180872368128
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291637207065751552
+text: probability zero. We develop a general approach to construct a conditional probability to events of measure zero and apply it first when the above-mentioned family is finite and then when the family is infinite. In both cases, it [2/3 of https://arxiv.org/abs/2008.02568v1]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02568
+url: https://twitter.com/user/status/1291637207065751552
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291637233271730176
+text: leads us to the distribution of a modified massive Arratia flow [arXiv:1408.0628] as the conditional distribution. [3/3 of https://arxiv.org/abs/2008.02568v1]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02709
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291637259528110081
+text: Adrien Boulanger, Pierre Mathieu, Cagri Sert, Alessandro Sisto: Large deviations for random walks on hyperbolic spaces https://arxiv.org/abs/2008.02709 https://arxiv.org/pdf/2008.02709
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02709
+url: https://twitter.com/user/status/1291637259528110081
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291637285637599241
+text: Let $\Gamma$ be a countable group acting on a geodesic hyperbolic metric space $X$ and $\mu$ a probability measure on $\Gamma$ whose support generates a non-elementary semigroup. Under the assumption that $\mu$ has a finite [1/3 of https://arxiv.org/abs/2008.02709v1]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02709
+url: https://twitter.com/user/status/1291637285637599241
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291637311952781312
+text: exponential moment, we establish large deviations results for the distance and the translation length of a random walk with driving measure $\mu$. One of the consequences of our results confirms a special case of a conjecture [2/3 of https://arxiv.org/abs/2008.02709v1]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02709
+url: https://twitter.com/user/status/1291637311952781312
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291637338355851264
+text: regarding large deviations of spectral radii of random matrix products. [3/3 of https://arxiv.org/abs/2008.02709v1]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02761
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291637364406644737
+text: Frederik Sørensen: A down-up chain with persistent labels on multifurcating trees https://arxiv.org/abs/2008.02761 https://arxiv.org/pdf/2008.02761
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02761
+url: https://twitter.com/user/status/1291637364406644737
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291637390457503745
+text: In this paper, we propose to study a general notion of a down-up Markov chain for multifurcating trees with n labelled leaves. We study in detail down-up chains associated with the $(\alpha, \gamma)$-model of Chen et al. (2009), [1/5 of https://arxiv.org/abs/2008.02761v1]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02761
+url: https://twitter.com/user/status/1291637390457503745
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291637416634155008
+text: generalising and further developing previous work by Forman et al. (2018, 2020) in the binary special cases. The technique we deploy utilizes the construction of a growth process and a down-up Markov chain on trees with planar [2/5 of https://arxiv.org/abs/2008.02761v1]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02761
+url: https://twitter.com/user/status/1291637416634155008
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291637442806571013
+text: structure. Our construction ensures that natural projections of the down-up chain are Markov chains in their own right. We establish label dynamics that at the same time preserve the labelled alpha-gamma distribution and keep the [3/5 of https://arxiv.org/abs/2008.02761v1]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02761
+url: https://twitter.com/user/status/1291637442806571013
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291637469084037121
+text: branch points between the k smallest labels for order $n^2$ time steps for all k larger than 2. We conjecture the existence of diffusive scaling limits generalising the "Aldous diffusion" by Forman et al. (2018+) as a [4/5 of https://arxiv.org/abs/2008.02761v1]
+
+
+thread arXiv category: math.PR
+arXiv id: 2008.02761
+url: https://twitter.com/user/status/1291637469084037121
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291637495508000769
+text: continuum-tree-valued process and the "algebraic {\alpha}-Ford tree evolution" by L\"{o}hr et al. (2018+) and by Nussbaumer and Winter (2020) as a process in a space of algebraic trees. [5/5 of https://arxiv.org/abs/2008.02761v1]
+
+
+*crosslist process started at 2020-08-07 07:29:17 (UTC) 
+*time from the start: 0:04:13
+start a crosslist thread of math.PR
+waiting for a next crosslist thread
+math.PR   2008.02351   math.NT
+start a crosslist thread of math.QA
+joining crosslist threads
+**retweet error for arXiv categorymath.PR, arXiv id: 2008.02351, text: , tw_id_str: 1291613538016927745
+math.PR   2008.02464   stat.ML
+not in logfiles: stat.ML
+math.PR   2008.02710   math.NA
+
+thread arXiv category: math.PR
+arXiv id: 2008.02710
+url: https://twitter.com/user/status/1291613341153030145
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291637758235009026
+text: 
+
+
+*replacement process started at 2020-08-07 07:30:19 (UTC)
+*time from the start: 0:05:15
+*time from the cross-list start: 0:01:02
+start a replacement thread of math.PR
+math.PR   1710.06493   math.CV
+version >5 for 1710.06493
+math.PR   1812.03526   math.PR
+waiting for a next replacement thread
+
+thread arXiv category: math.PR
+arXiv id: 1812.03526
+url: https://twitter.com/user/status/1072315718576812032
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1072315718576812032
+text: 
+
+start a replacement thread of math.QA
+math.QA   1901.04850   math.AT
+joining replacement threads
+
+thread arXiv category: math.QA
+arXiv id: 1901.04850
+url: https://twitter.com/user/status/1085353119695818752
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1085353119695818752
+text: 
+
+
+thread arXiv category: math.PR
+arXiv id: 1812.03526
+url: https://twitter.com/user/status/1072315718576812032
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291637818863702016
+text: 
+
+
+thread arXiv category: math.QA
+arXiv id: 1901.04850
+url: https://twitter.com/user/status/1085353119695818752
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291637832197345281
+text: 
+
+math.PR   1902.07976   math.PR
+
+thread arXiv category: math.PR
+arXiv id: 1902.07976
+url: https://twitter.com/user/status/1098769877869854720
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1098769877869854720
+text: 
+
+math.QA   1908.07128   math.QA
+
+thread arXiv category: math.QA
+arXiv id: 1908.07128
+url: https://twitter.com/user/status/1163987643316576261
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1163987643316576261
+text: 
+
+
+thread arXiv category: math.PR
+arXiv id: 1902.07976
+url: https://twitter.com/user/status/1098769877869854720
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291637876027842562
+text: 
+
+
+thread arXiv category: math.QA
+arXiv id: 1908.07128
+url: https://twitter.com/user/status/1163987643316576261
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291637888719847424
+text: 
+
+math.PR   1906.11480   math.MG
+
+thread arXiv category: math.PR
+arXiv id: 1906.11480
+url: https://twitter.com/user/status/1144415733973078016
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1144415733973078016
+text: 
+
+
+thread arXiv category: math.PR
+arXiv id: 1906.11480
+url: https://twitter.com/user/status/1144415733973078016
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291637930063142914
+text: 
+
+math.PR   1909.05047   math.PR
+
+thread arXiv category: math.PR
+arXiv id: 1909.05047
+url: https://twitter.com/user/status/1171959906166956034
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1171959906166956034
+text: 
+
+
+thread arXiv category: math.PR
+arXiv id: 1909.05047
+url: https://twitter.com/user/status/1171959906166956034
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291637986472288256
+text: 
+
+math.PR   1912.03561   math.PR
+
+thread arXiv category: math.PR
+arXiv id: 1912.03561
+url: https://twitter.com/user/status/1204224838933475333
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1204224838933475333
+text: 
+
+
+thread arXiv category: math.PR
+arXiv id: 1912.03561
+url: https://twitter.com/user/status/1204224838933475333
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291638043825209344
+text: 
+
+math.PR   1912.12556   math.AG
+
+thread arXiv category: math.PR
+arXiv id: 1912.12556
+url: https://twitter.com/user/status/1212189574329319424
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1212189574329319424
+text: 
+
+
+thread arXiv category: math.PR
+arXiv id: 1912.12556
+url: https://twitter.com/user/status/1212189574329319424
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291638100561518593
+text: 
+
+math.PR   2003.05892   math.GR
+
+thread arXiv category: math.PR
+arXiv id: 2003.05892
+url: https://twitter.com/user/status/1238272858037444608
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1238272858037444608
+text: 
+
+
+thread arXiv category: math.PR
+arXiv id: 2003.05892
+url: https://twitter.com/user/status/1238272858037444608
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291638154483490817
+text: 
+
+math.PR   2003.10911   math.SP
+
+thread arXiv category: math.PR
+arXiv id: 2003.10911
+url: https://twitter.com/user/status/1242611119946002432
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1242611119946002432
+text: 
+
+
+thread arXiv category: math.PR
+arXiv id: 2003.10911
+url: https://twitter.com/user/status/1242611119946002432
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291638207377883136
+text: 
+
+math.PR   2004.14346   math.PR
+
+thread arXiv category: math.PR
+arXiv id: 2004.14346
+url: https://twitter.com/user/status/1255671501983846400
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1255671501983846400
+text: 
+
+
+thread arXiv category: math.PR
+arXiv id: 2004.14346
+url: https://twitter.com/user/status/1255671501983846400
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291638264151986177
+text: 
+
+math.PR   2005.13036   math.PR
+
+thread arXiv category: math.PR
+arXiv id: 2005.13036
+url: https://twitter.com/user/status/1265818137582120961
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1265818137582120961
+text: 
+
+
+thread arXiv category: math.PR
+arXiv id: 2005.13036
+url: https://twitter.com/user/status/1265818137582120961
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291638321152573440
+text: 
+
+math.PR   2005.14566   math.PR
+
+thread arXiv category: math.PR
+arXiv id: 2005.14566
+url: https://twitter.com/user/status/1267616759219011585
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1267616759219011585
+text: 
+
+
+thread arXiv category: math.PR
+arXiv id: 2005.14566
+url: https://twitter.com/user/status/1267616759219011585
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291638378350305280
+text: 
+Traceback (most recent call last):
+  File "/home/okada/misc/prog/twXiv/twXiv_post.py", line 196, in update
+    result = api.retweet(tw_id_str)
+  File "/home/okada/.local/lib/python3.8/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/okada/.local/lib/python3.8/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 328, 'message': 'Retweet is not permissible for this status.'}]
+
+math.PR   2006.07003   math.MP
+
+thread arXiv category: math.PR
+arXiv id: 2006.07003
+url: https://twitter.com/user/status/1272338992189431809
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1272338992189431809
+text: 
+
+
+thread arXiv category: math.PR
+arXiv id: 2006.07003
+url: https://twitter.com/user/status/1272338992189431809
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291638434310709249
+text: 
+
+math.PR   2006.14009   cs.DS
+not in logfiles: cs.DS
+math.PR   2007.10969   cond-mat.stat-mech
+not in logfiles: cond-mat.stat-mech
+math.PR   2008.02225   math.PR
+
+*process ended at 2020-08-07 07:33:02 (UTC)
+*time from the start: 0:07:58
+*time from the cross-list start: 0:03:45
+*time from the replacement start: 0:02:43

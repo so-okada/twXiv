@@ -1,0 +1,682 @@
+*process started at 2020-08-07 07:02:07 (UTC)
+starting a thread of retrieval/new submissions/abstracts for math.OA
+getting daily entries for math.OA
+waiting for a next thread of retrieval/new submissions/abstracts
+new submissions for math.OA
+log file does not exists: var/logfiles/mathOAb_tweet_summaries.csv
+
+thread arXiv category: math.OA
+arXiv id: 
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291630694221848578
+text: [2020-08-07 (UTC), 0 new article found for mathOA]
+
+starting a thread of retrieval/new submissions/abstracts for math.OC
+getting daily entries for math.OC
+joining threads of retrieval/new submissions/abstracts
+new submissions for math.OC
+log file does not exists: var/logfiles/mathOCb_tweet_summaries.csv
+
+thread arXiv category: math.OC
+arXiv id: 
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291630718699728896
+text: [2020-08-07 (UTC), 8 new articles found for mathOC]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02305
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291630744725381120
+text: Nayyer Mehanfar, Alireza Ghaffari-Hadigheh: Induced optimal partition invariancy in linear optimization: constraints perturbation https://arxiv.org/abs/2008.02305 https://arxiv.org/pdf/2008.02305
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02305
+url: https://twitter.com/user/status/1291630744725381120
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291630770881085440
+text: In this paper, we study uni-parametric linear optimization problems, in which simultaneously the right-hand-side and the left-hand-side of constraints are linearly perturbed with identical parameter.  In addition to the concept of [1/4 of https://arxiv.org/abs/2008.02305v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02305
+url: https://twitter.com/user/status/1291630770881085440
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291630797074489344
+text: change point, the induced optimal partition is introduced, and its relation to the well-known optimal partition is investigated. Further, the concept of free variables in each invariancy intervals is described. A modified [2/4 of https://arxiv.org/abs/2008.02305v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02305
+url: https://twitter.com/user/status/1291630797074489344
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291630823179862016
+text: generalized computational method is provided with the capability of identifying the intervals for the parameter value where induced optimal partitions are invariant. The behavior of the optimal value function is described in its [3/4 of https://arxiv.org/abs/2008.02305v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02305
+url: https://twitter.com/user/status/1291630823179862016
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291630849406824448
+text: domain. Some concrete examples depict the results. We further implement the methodology on some test problems to observe its behavior on large scale problems. [4/4 of https://arxiv.org/abs/2008.02305v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02379
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291630875545755649
+text: Behdad Chalaki, Andreas A. Malikopoulos: Optimal Control of Connected and Automated Vehicles at Multiple Adjacent Intersections https://arxiv.org/abs/2008.02379 https://arxiv.org/pdf/2008.02379
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02379
+url: https://twitter.com/user/status/1291630875545755649
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291630901722415105
+text: In this paper, we establish a decentralized optimal control framework for connected and automated vehicles (CAVs) crossing multiple adjacent, multi-lane intersections to minimize energy consumption and improve traffic throughput. [1/5 of https://arxiv.org/abs/2008.02379v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02379
+url: https://twitter.com/user/status/1291630901722415105
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291630927949344768
+text: Our framework consists of two layers of planning. In the upper-level planning, each CAV computes its optimal arrival time at each intersection recursively along with the optimal lane to improve the traffic throughput. In the [2/5 of https://arxiv.org/abs/2008.02379v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02379
+url: https://twitter.com/user/status/1291630927949344768
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291630954071523329
+text: low-level planning, we formulate an energy-optimal control problem with interior-point constraints, the solution of which yields the optimal control input (acceleration/deceleration) of each CAV to cross the intersections at the [3/5 of https://arxiv.org/abs/2008.02379v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02379
+url: https://twitter.com/user/status/1291630954071523329
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291630980206178304
+text: time specified by the upper-level planning. Moreover, we extend the results of the proposed bi-level framework to include a bounded steady-state error in tracking the optimal position of the CAVs. Finally, we demonstrate the [4/5 of https://arxiv.org/abs/2008.02379v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02379
+url: https://twitter.com/user/status/1291630980206178304
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631006424809475
+text: effectiveness of the proposed framework through simulation and comparison with traditional signalized intersections. [5/5 of https://arxiv.org/abs/2008.02379v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02418
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291631032609828864
+text: Meruza Kubentayeva, Alexander Gasnikov: Finding equilibria in the traffic assignment problem with primal-dual gradient methods for Stable Dynamics model and Beckmann model https://arxiv.org/abs/2008.02418 https://arxiv.org/pdf/2008.02418
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02418
+url: https://twitter.com/user/status/1291631032609828864
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631058731974656
+text: In this paper we consider application of several gradient methods to the traffic assignment problem. Namely, we search equilibria in the Stable Dynamics model (Nesterov and De Palma, 2003) and the Beckmann model. Unlike the [1/4 of https://arxiv.org/abs/2008.02418v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02418
+url: https://twitter.com/user/status/1291631058731974656
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631084917026817
+text: celebrated Frank-Wolfe method widely used for the Beckmann model, these gradients methods solve the dual problem and then reconstruct a solution to the primal one. We estimate complexity of the universal gradient method, the [2/4 of https://arxiv.org/abs/2008.02418v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02418
+url: https://twitter.com/user/status/1291631084917026817
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631111005642753
+text: universal method of similar triangles, and the method of weighted dual averages, in this problem. Due to the primal-dual nature of these methods, we use a duality gap in stopping criterion. In particular, we present a novel way to [3/4 of https://arxiv.org/abs/2008.02418v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02418
+url: https://twitter.com/user/status/1291631111005642753
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631137106751488
+text: estimate a duality gap in the Stable Dynamics model. [4/4 of https://arxiv.org/abs/2008.02418v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02491
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291631163103010816
+text: Carlos Esteve, Borjan Geshkovski, Dario Pighin, Enrique Zuazua: Large-time asymptotics in deep learning https://arxiv.org/abs/2008.02491 https://arxiv.org/pdf/2008.02491
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02491
+url: https://twitter.com/user/status/1291631163103010816
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631189220982786
+text: It is by now well-known that practical deep supervised learning may roughly be cast as an optimal control problem for a specific discrete-time, nonlinear dynamical system called an artificial neural network. In this work, we [1/9 of https://arxiv.org/abs/2008.02491v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02491
+url: https://twitter.com/user/status/1291631189220982786
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631215393435648
+text: consider the continuous-time formulation of the deep supervised learning problem, and study the latter's behavior when the final time horizon increases, a fact that can be interpreted as increasing the number of layers in the neural [2/9 of https://arxiv.org/abs/2008.02491v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02491
+url: https://twitter.com/user/status/1291631215393435648
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631241570078721
+text: network setting.When considering the classical regularized empirical risk minimization problem, we show that, in long time, the optimal states converge to zero training error, namely approach the zero training error regime, whilst [3/9 of https://arxiv.org/abs/2008.02491v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02491
+url: https://twitter.com/user/status/1291631241570078721
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631267809656834
+text: the optimal control parameters approach, on an appropriate scale, minimal norm parameters with corresponding states precisely in the zero training error regime. This result provides an alternative theoretical underpinning to the [4/9 of https://arxiv.org/abs/2008.02491v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02491
+url: https://twitter.com/user/status/1291631267809656834
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631293998878721
+text: notion that neural networks learn best in the overparametrized regime, when seen from the large layer perspective. We also propose a learning problem consisting of minimizing a cost with a state tracking term, and establish the [5/9 of https://arxiv.org/abs/2008.02491v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02491
+url: https://twitter.com/user/status/1291631293998878721
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631320200708097
+text: well-known turnpike property, which indicates that the solutions of the learning problem in long time intervals consist of three pieces, the first and the last of which being transient short-time arcs, and the middle piece being a [6/9 of https://arxiv.org/abs/2008.02491v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02491
+url: https://twitter.com/user/status/1291631320200708097
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631346347991041
+text: long-time arc staying exponentially close to the optimal solution of an associated static learning problem. This property in fact stipulates a quantitative estimate for the number of layers required to reach the zero training error [7/9 of https://arxiv.org/abs/2008.02491v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02491
+url: https://twitter.com/user/status/1291631346347991041
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631372453294081
+text: regime. Both of the aforementioned asymptotic regimes are addressed in the context of continuous-time and continuous space-time neural networks, the latter taking the form of nonlinear, integro-differential equations, hence covering [8/9 of https://arxiv.org/abs/2008.02491v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02491
+url: https://twitter.com/user/status/1291631372453294081
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631398541905925
+text: residual neural networks with both fixed and possibly variable depths. [9/9 of https://arxiv.org/abs/2008.02491v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02517
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291631424559144960
+text: Mario Lezcano-Casado: Curvature-Dependant Global Convergence Rates for Optimization on Manifolds of Bounded Geometry https://arxiv.org/abs/2008.02517 https://arxiv.org/pdf/2008.02517
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02517
+url: https://twitter.com/user/status/1291631424559144960
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631450656104448
+text: We give curvature-dependant convergence rates for the optimization of weakly convex functions defined on a manifold of 1-bounded geometry via Riemannian gradient descent and via the dynamic trivialization algorithm. In order to do [1/4 of https://arxiv.org/abs/2008.02517v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02517
+url: https://twitter.com/user/status/1291631450656104448
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631476870504448
+text: this, we give a tighter bound on the norm of the Hessian of the Riemannian exponential than the previously known. We compute these bounds explicitly for some manifolds commonly used in the optimization literature such as the special [2/4 of https://arxiv.org/abs/2008.02517v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02517
+url: https://twitter.com/user/status/1291631476870504448
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631502984282112
+text: orthogonal group and the real Grassmannian. Along the way, we present self-contained proofs of fully general bounds on the norm of the differential of the exponential map and certain cosine inequalities on manifolds, which are [3/4 of https://arxiv.org/abs/2008.02517v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02517
+url: https://twitter.com/user/status/1291631502984282112
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631529198628864
+text: commonly used in optimization on manifolds. [4/4 of https://arxiv.org/abs/2008.02517v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02532
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291631555341717504
+text: Dimche Kostadinov, Davide Scaramuzza: Online Weight-adaptive Nonlinear Model Predictive Control https://arxiv.org/abs/2008.02532 https://arxiv.org/pdf/2008.02532
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02532
+url: https://twitter.com/user/status/1291631555341717504
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631581468082177
+text: Nonlinear Model Predictive Control (NMPC) is a powerful and widely used technique for nonlinear dynamic process control under constraints. In NMPC, the state and control weights of the corresponding state and control costs are [1/6 of https://arxiv.org/abs/2008.02532v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02532
+url: https://twitter.com/user/status/1291631581468082177
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631607715991553
+text: commonly selected based on human-expert knowledge, which usually reflects the acceptable stability in practice. Although broadly used, this approach might not be optimal for the execution of a trajectory with the lowest positional [2/6 of https://arxiv.org/abs/2008.02532v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02532
+url: https://twitter.com/user/status/1291631607715991553
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631634010140672
+text: error and sufficiently "smooth" changes in the predicted controls. Furthermore, NMPC with an online weight update strategy for fast, agile, and precise unmanned aerial vehicle navigation, has not been studied extensively. To this [3/6 of https://arxiv.org/abs/2008.02532v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02532
+url: https://twitter.com/user/status/1291631634010140672
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631660132216832
+text: end, we propose a novel control problem formulation that allows online updates of the state and control weights. As a solution, we present an algorithm that consists of two alternating stages: (i) state and command variable [4/6 of https://arxiv.org/abs/2008.02532v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02532
+url: https://twitter.com/user/status/1291631660132216832
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631686212452352
+text: prediction and (ii) weights update. We present a numerical evaluation with a comparison and analysis of different trade-offs for the problem of quadrotor navigation. Our computer simulation results show improvements of up to 70% in [5/6 of https://arxiv.org/abs/2008.02532v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02532
+url: https://twitter.com/user/status/1291631686212452352
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631712573648902
+text: the accuracy of the executed trajectory compared to the standard solution of NMPC with fixed weights. [6/6 of https://arxiv.org/abs/2008.02532v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02588
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291631738653831168
+text: Shiva Shankar: The Canonical Controller for Distributed Systems https://arxiv.org/abs/2008.02588 https://arxiv.org/pdf/2008.02588
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02588
+url: https://twitter.com/user/status/1291631738653831168
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631764801118208
+text: This paper generalises results of Willems-Trentelman, and van der Schaft, on achievable behaviours, to the case of linear distributed systems defined by partial differential or difference equations. It shows that the `minimal' [1/3 of https://arxiv.org/abs/2008.02588v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02588
+url: https://twitter.com/user/status/1291631764801118208
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631791011328000
+text: controller which achieves a particular subsystem is the canonical controller of van der Schaft, thereby answering the `open problem' of \cite{sc} in the setting of infinite dimensional and $n-D$ systems. This result is used to [2/3 of https://arxiv.org/abs/2008.02588v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02588
+url: https://twitter.com/user/status/1291631791011328000
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631817242447872
+text: describe the collection of all linear subsystems of the electro-magnetic field, containing the vacuum solutions, that can be achieved by suitable choices of electric charge and current density. [3/3 of https://arxiv.org/abs/2008.02588v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02594
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291631843486208006
+text: Weijun Meng, Jingtao Shi: Linear Quadratic Optimal Control Problems of Delayed Backward Stochastic Differential Equations https://arxiv.org/abs/2008.02594 https://arxiv.org/pdf/2008.02594
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02594
+url: https://twitter.com/user/status/1291631843486208006
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631869671350272
+text: This paper is concerned with a linear quadratic optimal control problem of delayed backward stochastic differential equations. An explicit representation is derived for the optimal control, which is a linear feedback of the entire [1/3 of https://arxiv.org/abs/2008.02594v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02594
+url: https://twitter.com/user/status/1291631869671350272
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631895940194304
+text: past history and the future state trajectory in a short period of time. This is one of the major distinctive features of the delayed backward stochastic linear quadratic optimal control problem. To obtain the optimal feedback, a new [2/3 of https://arxiv.org/abs/2008.02594v1]
+
+
+thread arXiv category: math.OC
+arXiv id: 2008.02594
+url: https://twitter.com/user/status/1291631895940194304
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291631922137853953
+text: class of delayed Riccati equations is introduced and the unique solvability of their solutions are discussed in detail. [3/3 of https://arxiv.org/abs/2008.02594v1]
+
+
+*crosslist process started at 2020-08-07 07:07:08 (UTC) 
+*time from the start: 0:05:01
+start a crosslist thread of math.OA
+waiting for a next crosslist thread
+start a crosslist thread of math.OC
+joining crosslist threads
+math.OC   2008.02399   cs.RO
+not in logfiles: cs.RO
+math.OC   2008.02710   math.NA
+**retweet error for arXiv categorymath.OC, arXiv id: 2008.02710, text: , tw_id_str: 1291613341153030145
+math.OC   2008.02740   physics.comp-ph
+not in logfiles: physics.comp-ph
+
+*replacement process started at 2020-08-07 07:08:08 (UTC)
+*time from the start: 0:06:01
+*time from the cross-list start: 0:01:00
+start a replacement thread of math.OA
+math.OA   2001.10185   math.GR
+waiting for a next replacement thread
+
+thread arXiv category: math.OA
+arXiv id: 2001.10185
+url: https://twitter.com/user/status/1222340263864987650
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1222340263864987650
+text: 
+
+start a replacement thread of math.OC
+math.OC   1702.05702   math.OC
+joining replacement threads
+
+thread arXiv category: math.OC
+arXiv id: 1702.05702
+url: https://twitter.com/user/status/833860455231676417
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/833860455231676417
+text: 
+
+
+thread arXiv category: math.OA
+arXiv id: 2001.10185
+url: https://twitter.com/user/status/1222340263864987650
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291632237981716482
+text: 
+
+
+thread arXiv category: math.OC
+arXiv id: 1702.05702
+url: https://twitter.com/user/status/833860455231676417
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291632251453632513
+text: 
+
+math.OA   2007.14349   math.FA
+
+thread arXiv category: math.OA
+arXiv id: 2007.14349
+url: https://twitter.com/user/status/1288281215422750721
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1288281215422750721
+text: 
+
+math.OC   1812.03526   math.PR
+
+thread arXiv category: math.OC
+arXiv id: 1812.03526
+url: https://twitter.com/user/status/1072315718576812032
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1072315718576812032
+text: 
+
+
+thread arXiv category: math.OA
+arXiv id: 2007.14349
+url: https://twitter.com/user/status/1288281215422750721
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291632297268006912
+text: 
+
+
+thread arXiv category: math.OC
+arXiv id: 1812.03526
+url: https://twitter.com/user/status/1072315718576812032
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291632310576545794
+text: 
+
+math.OC   1901.03254   cs.DS
+not in logfiles: cs.DS
+math.OC   1905.00775   math.OC
+
+thread arXiv category: math.OC
+arXiv id: 1905.00775
+url: https://twitter.com/user/status/1124123695906058240
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1124123695906058240
+text: 
+
+
+thread arXiv category: math.OC
+arXiv id: 1905.00775
+url: https://twitter.com/user/status/1124123695906058240
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291632367392546816
+text: 
+
+math.OC   1905.04585   eess.SY
+not in logfiles: eess.SY
+math.OC   1905.12347   math.ST
+
+thread arXiv category: math.OC
+arXiv id: 1905.12347
+url: https://twitter.com/user/status/1133911076393766912
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1133911076393766912
+text: 
+
+
+thread arXiv category: math.OC
+arXiv id: 1905.12347
+url: https://twitter.com/user/status/1133911076393766912
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291632422312792065
+text: 
+
+math.OC   1909.05047   math.PR
+
+thread arXiv category: math.OC
+arXiv id: 1909.05047
+url: https://twitter.com/user/status/1171959906166956034
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1171959906166956034
+text: 
+
+
+thread arXiv category: math.OC
+arXiv id: 1909.05047
+url: https://twitter.com/user/status/1171959906166956034
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291632479036510208
+text: 
+Traceback (most recent call last):
+  File "/home/okada/misc/prog/twXiv/twXiv_post.py", line 196, in update
+    result = api.retweet(tw_id_str)
+  File "/home/okada/.local/lib/python3.8/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/okada/.local/lib/python3.8/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 328, 'message': 'Retweet is not permissible for this status.'}]
+
+math.OC   1910.00115   math.OC
+
+thread arXiv category: math.OC
+arXiv id: 1910.00115
+url: https://twitter.com/user/status/1179207222754078720
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1179207222754078720
+text: 
+
+
+thread arXiv category: math.OC
+arXiv id: 1910.00115
+url: https://twitter.com/user/status/1179207222754078720
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291632535185702912
+text: 
+
+math.OC   2002.07259   cs.LG
+not in logfiles: cs.LG
+math.OC   2003.09147   math.OC
+
+thread arXiv category: math.OC
+arXiv id: 2003.09147
+url: https://twitter.com/user/status/1241884948761436161
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1241884948761436161
+text: 
+
+
+thread arXiv category: math.OC
+arXiv id: 2003.09147
+url: https://twitter.com/user/status/1241884948761436161
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291632592047837185
+text: 
+
+math.OC   2004.14346   math.PR
+
+thread arXiv category: math.OC
+arXiv id: 2004.14346
+url: https://twitter.com/user/status/1255671501983846400
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1255671501983846400
+text: 
+
+
+thread arXiv category: math.OC
+arXiv id: 2004.14346
+url: https://twitter.com/user/status/1255671501983846400
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291632649249763328
+text: 
+
+math.OC   2005.12506   cs.SI
+not in logfiles: cs.SI
+math.OC   2006.08183   eess.SP
+not in logfiles: eess.SP
+math.OC   2006.09486   cs.LG
+not in logfiles: cs.LG
+math.OC   2007.06680   cs.LG
+not in logfiles: cs.LG
+math.OC   2008.01296   math.OC
+
+*process ended at 2020-08-07 07:10:02 (UTC)
+*time from the start: 0:07:55
+*time from the cross-list start: 0:02:54
+*time from the replacement start: 0:01:54

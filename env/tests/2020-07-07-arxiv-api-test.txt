@@ -1,0 +1,2876 @@
+ 1/1: notebook()
+ 2/1: notebook()
+ 3/1: notebook()
+ 4/1: notebook()
+ 5/1: notebook()
+ 6/1: notebook()
+ 8/1: notebook()
+ 8/2: notebook()
+ 9/1: notebook()
+10/1: notebook()
+11/1: notebook()
+12/1: notebook()
+13/1: notebook()
+13/2: notebook()
+16/1: notebook()
+17/1: notebook()
+19/1: notebook()
+20/1: notebook()
+21/1: 3+3
+26/1: ls
+27/1: ?
+27/2: exec(open('arxiv_tweeter.py').read())
+27/3: ?
+28/1: exec(open('arxiv_tweeter.py').read())
+28/2: cat="hep-th"
+28/3: exec(open('arxiv_tweeter.py').read())
+28/4: check_labels(rlist)
+29/1: exec(open('arxiv_tweeter.py').read())
+29/2: cat="hep-th"
+29/3: exec(open('arxiv_tweeter.py').read())
+29/4: check_labels(rlist)
+29/5: check_titles(rlist,105)
+29/6: exec(open('arxiv_tweeter.py').read())
+29/7: check_titles(rlist,105)
+29/8: check_titles(rlist,95)
+29/9: check_titles(rlist,78)
+29/10: rlist
+29/11: rlist[79]['title']
+29/12: rlist[39]['title']
+29/13: rlist[19]['title']
+29/14: len(rlist[19]['title'])
+29/15: check_titles(rlist,60)
+29/16: check_titles(rlist,105)
+29/17: len(rlist[19]['title'])
+29/18: rlist[19]['title']
+29/19: len('\times')
+29/20: len('\times $ADS$')
+29/21: len("                                               ")
+29/22: len("eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee")
+29/23: check_titles(rlist,105)
+29/24: check_authors(rlist,105)
+29/25: check_authors(rlist,80)
+29/26: cat='hep-ex'
+29/27: exec(open('arxiv_tweeter.py').read())
+29/28: check_authors(rlist,80)
+29/29: check_titles(rlist,105)
+29/30: check_labels(rlist,105)
+29/31: check_labels(rlist)
+29/32: cat="hep-th"
+29/33: exec(open('arxiv_tweeter.py').read())
+29/34: check_labels(rlist)
+29/35: cat="math.AG"
+29/36: exec(open('arxiv_tweeter.py').read())
+29/37: check_labels(rlist)
+29/38: rlist[16]['title']
+29/39: cat
+29/40: rlist[16]['authors']
+29/41: rlist[0]['title']
+29/42: rlist[1]['title']
+29/43: rlist[15]['title']
+29/44: rlist[8]['title']
+29/45: check_titles(rlist,105)
+29/46: rlist[15]['title']
+29/47: rlist[15]['label']
+29/48: rlist[16]['label']
+29/49: rlist[17]['label']
+29/50: len(rlist)
+29/51: rlist[17]['authors']
+29/52: rlist[15]['authors']
+29/53: rlist[16]['authors']
+29/54: rlist[16]['idnum']
+29/55: len(en)
+29/56: en[0]
+29/57: en[0]['title']
+29/58:
+for x in range(len(en)):
+    print(x)
+    en[x]['title']
+29/59:
+for x in range(len(en)):
+    print(x)
+    en[x]['title']
+29/60:
+for x in range(len(en)):
+    print(x)
+    en[x]['title']
+29/61:
+for x in range(len(en)):
+    en[x]['title']
+29/62:
+for x in range(len(en)):
+    print(en[x]['title'])
+29/63:
+for x in range(len(en)):
+    print(x)
+    print(en[x]['title'])
+29/64: time
+29/65: date
+29/66: en[31]['title']
+29/67: en[0]['author']
+29/68: en[16]['author']
+29/69: en[39]['author']
+29/70: en[3]['author']
+29/71: en[1]['author']
+29/72: en=feedparser.parse(f'http://export.arxiv.org/rss/math.AG')['entries']
+30/1: import feedparser
+30/2: en=feedparser.parse(f'http://export.arxiv.org/rss/math.AG')['entries']
+30/3: en[1]['author']
+30/4: en[32]['author']
+30/5: en[31]['title']
+30/6: cat
+30/7: cat='math.AG'
+30/8: exec(open('arxiv_tweeter.py').read())
+30/9: rlist[16]['title']
+30/10: check_labels(rlist)
+30/11: check_labels(rlist)
+30/12: check_title(rlist)
+30/13: check_titles(rlist,105)
+30/14: cat="math.OC"
+30/15: exec(open('arxiv_tweeter.py').read())
+30/16: check_titles(rlist,105)
+30/17: check_authors(rlist,80)
+30/18: check_labels(rlist)
+30/19: len(rlist)
+30/20: rlist[27]['title']
+30/21: rlist[28]['title']
+30/22: check_titles(rlist,105)
+30/23: rlist[19]['title']
+30/24: rlist[19]['label']
+30/25: rlist[19]['idnum']
+30/26: cat="math.KT"
+30/27: exec(open('arxiv_tweeter.py').read())
+30/28: check_titles(rlist,105)
+30/29: check_authors(rlist,80)
+30/30: check_labels(rlist)
+30/31: cat="math.GM"
+30/32: d=feedparser.parse(f'http://export.arxiv.org/rss/math.GM')
+30/33: d
+30/34: en=d['entries']
+30/35: en
+30/36: len(en)
+30/37: en[0]['authors']
+30/38: en[0]['title']
+30/39: mlist
+30/40: mlist=modify_list(en,cat)
+30/41: mlist
+30/42: rlist=reorder_list(mlist,cat)
+30/43: rlist
+30/44: exec(open('arxiv_tweeter.py').read())
+34/1: cat="math.GM"
+34/2: cat
+34/3: exec(open('arxiv_tweeter.py').read())
+34/4: rlist=reorder_list(mlist,cat)
+34/5: mlist
+34/6: mlist=modify_list(en,cat)
+34/7: cat='math.AG'
+34/8: exec(open('arxiv_tweeter.py').read())
+34/9: cat="math.GM"
+34/10: exec(open('arxiv_tweeter.py').read())
+34/11:
+d=feedparser.parse(f'http://export.arxiv.org/rss/{cat}')
+en=d['entries']
+print(en[1]['title'])
+max_len=280
+34/12: exec(open('arxiv_tweeter.py').read())
+34/13: mlist
+34/14: rlist
+34/15: check_labels(rlist)
+34/16: check_titles(rlist,105)
+34/17: check_authors(rlist,80)
+34/18: cat='hep-th'
+34/19: exec(open('arxiv_tweeter.py').read())
+34/20: adjust_entries(rlist)
+34/21: alist=adjust_entries(rlist)
+34/22: exec(open('arxiv_tweeter.py').read())
+34/23: alist
+34/24: alist[0]
+34/25:
+for x in range(len(rlist)):
+    print(x)
+    print(rlist[x])
+    print(alist[x])
+34/26: exec(open('arxiv_tweeter.py').read())
+34/27: check_alist(rlist,alist)
+34/28: exec(open('arxiv_tweeter.py').read())
+34/29: check_alist_len(alist)
+34/30: exec(open('arxiv_tweeter.py').read())
+34/31: check_alist_len(alist)
+34/32: exec(open('arxiv_tweeter.py').read())
+34/33: exec(open('arxiv_tweeter.py').read())
+34/34: check_alist_len(alist)
+34/35: exec(open('arxiv_tweeter.py').read())
+34/36: check_alist_len(alist)
+34/37: check_alist_len(alist)
+34/38: exec(open('arxiv_tweeter.py').read())
+34/39: check_alist_len_entry(alist)
+34/40: cat='hep-ex'
+34/41: exec(open('arxiv_tweeter.py').read())
+34/42: check_alist(rlist,alist)
+34/43: exec(open('arxiv_tweeter.py').read())
+34/44: check_alist(rlist,alist)
+34/45: check_alist_len_entry(alist)
+34/46: exec(open('arxiv_tweeter.py').read())
+34/47: exec(open('arxiv_tweeter.py').read())
+34/48: exec(open('arxiv_tweeter.py').read())
+34/49: check_alist(rlist,alist)
+34/50: exec(open('arxiv_tweeter.py').read())
+34/51: check_alist(rlist,alist)
+34/52: rlist[14]['authors']
+34/53: exec(open('arxiv_tweeter.py').read())
+34/54: check_alist(rlist,alist)
+35/1: cat='hep-ex'
+35/2: exec(open('arxiv_tweeter.py').read())
+35/3: check_alist(rlist,alist)
+35/4: rlist[14]['authors']
+35/5: exec(open('arxiv_tweeter.py').read())
+35/6: check_alist(rlist,alist)
+36/1: cat='hep-ex'
+36/2: exec(open('arxiv_tweeter.py').read())
+36/3: check_alist(rlist,alist)
+36/4: rlist[14]['authors']
+37/1: cat='hep-ex'
+37/2: exec(open('arxiv_tweeter.py').read())
+37/3: rlist[14]['authors']
+37/4: mlist
+37/5: rlist[14]['title']
+37/6: mlist[14]['authors']
+37/7: en[14]['author']
+37/8: mlist=modify_list(en,cat)
+37/9: mlist[14]['authors']
+37/10: rlist=reorder_list(mlist,cat)
+37/11: mlist[14]['authors']
+37/12: alist[14]['authors']
+37/13: rlist[14]['authors']
+37/14: check_alist(rlist,alist)
+37/15: alist=adjust_entries(rlist)
+37/16: check_alist(rlist,alist)
+37/17: adjust_entries(rlist)
+37/18: exec(open('arxiv_tweeter.py').read())
+37/19: exec(open('arxiv_tweeter.py').read())
+37/20: rlist[14]['authors']
+38/1: cat='hep-ex'
+38/2: exec(open('arxiv_tweeter.py').read())
+38/3: check_alist(rlist,alist)
+38/4: alst
+38/5: alist
+38/6: rlist
+38/7: mlist
+39/1: cat='hep-ex'
+39/2: exec(open('arxiv_tweeter.py').read())
+39/3: rlist[14]
+39/4: alist[14]
+39/5: check_alist(rlist,alist)
+39/6: cat='hep-th'
+39/7: exec(open('arxiv_tweeter.py').read())
+39/8: check_alist(rlist,alist)
+39/9: exec(open('arxiv_tweeter.py').read())
+39/10: check_alist(rlist,alist)
+39/11: exec(open('arxiv_tweeter.py').read())
+39/12: check_alist(rlist,alist)
+39/13: check_alist_len_entry(alist)
+39/14: check_alist_len_entry(alist)
+39/15: check_alist(rlist,alist)
+39/16: exec(open('arxiv_tweeter.py').read())
+39/17: check_alist(rlist,alist)
+39/18: cat='hep-ex'
+39/19: exec(open('arxiv_tweeter.py').read())
+39/20: check_alist(rlist,alist)
+39/21: check_alist_len_entry(alist)
+39/22: check_labels(rlist)
+39/23: check_alist(rlist,alist)
+39/24: check_alist_len_entry(alist)
+39/25: check_labels(rlist)
+39/26: cat
+39/27: exec(open('arxiv_tweeter.py').read())
+39/28: check_labels(rlist)
+39/29: exec(open('arxiv_tweeter.py').read())
+39/30: check_labels(rlist)
+39/31: exec(open('arxiv_tweeter.py').read())
+39/32: check_labels(rlist)
+39/33: exec(open('arxiv_tweeter.py').read())
+39/34: check_labels(rlist)
+39/35: exec(open('arxiv_tweeter.py').read())
+39/36: exec(open('arxiv_tweeter.py').read())
+39/37: exec(open('arxiv_tweeter.py').read())
+39/38: check_labels(rlist)
+39/39: cat
+39/40: exec(open('arxiv_tweeter.py').read())
+39/41: check_labels(prlist)
+39/42: cat
+39/43: check_labels(rlist)
+39/44: rlist[9]['title']
+39/45: prlist[3]['title']
+39/46: check_titles(prlist,105)
+39/47: check_titles(rlist,105)
+39/48: len(rlist)
+39/49: len(prlist)
+39/50: check_labels(rlist)
+39/51: exec(open('arxiv_tweeter.py').read())
+39/52: check_labels(rlist)
+39/53: exec(open('arxiv_tweeter.py').read())
+39/54: check_labels(rlist)
+39/55: check_titles(rlist,105)
+39/56: cat='math.AG'
+39/57: exec(open('arxiv_tweeter.py').read())
+39/58: check_titles(rlist,105)
+39/59: cat='math.AC'
+39/60: exec(open('arxiv_tweeter.py').read())
+39/61: check_titles(rlist,105)
+39/62: cat='math.KT'
+39/63: exec(open('arxiv_tweeter.py').read())
+39/64: check_titles(rlist,105)
+39/65: cat='math.CO'
+39/66: exec(open('arxiv_tweeter.py').read())
+39/67: check_titles(rlist,105)
+39/68: cat='math.NT'
+39/69: exec(open('arxiv_tweeter.py').read())
+39/70: check_titles(rlist,105)
+39/71: cat='math.GM'
+39/72: check_titles(rlist,105)
+39/73: exec(open('arxiv_tweeter.py').read())
+39/74: check_titles(rlist,105)
+39/75: cat='math.AT'
+39/76: exec(open('arxiv_tweeter.py').read())
+39/77: check_titles(rlist,105)
+39/78: len('(replaced)')
+39/79: 80+2+105+1+10+1+50
+39/80: 80+2+110+1+10+1+50
+39/81: 80+2+120+1+10+1+50
+39/82: 90+2+120+1+10+1+50
+39/83: 90+2+120+1+10+1+50+6
+39/84: 90+2+115+1+10+1+50+11
+39/85: alist
+39/86: exec(open('arxiv_tweeter.py').read())
+39/87: cat
+39/88: check_alist(rlist,alist)
+39/89: cat='hep-ex'
+39/90: exec(open('arxiv_tweeter.py').read())
+39/91: check_alist(rlist,alist)
+39/92: 90+115+10+50+3
+39/93: 90+115+10+50+3+10
+39/94: 90+115+50+3+10
+39/95: 90+125+50+3+10
+39/96: 90+127+50+3+10
+39/97: 90+130+50+3+10
+39/98: 90+130+50+3+7
+39/99: 90+127+50+3+10
+39/100: 2^8
+39/101: 2**8
+39/102: 2**7
+39/103: 90+128+50+3+9
+39/104: 90+130+50+3+10
+39/105: 90+130+50+3+7
+39/106: 90+129+50+3+9
+39/107: 90+128+50+3+9
+39/108: mlist
+39/109: { one for one in mlist if one['label']==''}
+39/110: mlist[0]['label']
+39/111: [ one for one in mlist if one['label']=='']
+39/112: exec(open('arxiv_tweeter.py').read())
+39/113: exec(open('arxiv_tweeter.py').read())
+39/114: rlist
+39/115: cat
+39/116: exec(open('arxiv_tweeter.py').read())
+39/117: rlist
+39/118: exec(open('arxiv_tweeter.py').read())
+39/119: rlist
+39/120: mlist
+40/1: cat='hep-ex'
+40/2: exec(open('arxiv_tweeter.py').read())
+40/3: rlist
+40/4: mlist
+40/5: exec(open('arxiv_tweeter.py').read())
+40/6: rlist
+40/7: mlist
+40/8: exec(open('arxiv_tweeter.py').read())
+40/9: rlist
+40/10: mlist
+40/11: exec(open('arxiv_tweeter.py').read())
+40/12: mlist
+40/13: cat
+40/14: exec(open('arxiv_tweeter.py').read())
+40/15: nlist
+40/16: cat='hep-th'
+40/17: exec(open('arxiv_tweeter.py').read())
+40/18: nlist
+40/19: len(nlist)
+40/20: 3*60
+41/1: cat='hep-th'
+41/2: exec(open('arxiv_tweeter.py').read())
+41/3: exec(open('tweeXiv.py').read())
+41/4: exec(open('tweeXiv.py').read())
+41/5: api.update_status("Look")
+41/6: api.update_status("Look")
+41/7: exec(open('tweeXiv.py').read())
+41/8: exec(open('tweeXiv.py').read())
+41/9: cat='math.KT'
+41/10: exec(open('tweeXiv.py').read())
+41/11: check_alist(alist)
+41/12: check_alist(nlist,alist)
+41/13: tweet_test(alist)
+41/14:
+for each in alist:
+       each['title']
+41/15:
+for each in alist:
+       print(each['title'])
+41/16: exec(open('tweeXiv.py').read())
+41/17: tweet_test(alist)
+41/18: exec(open('tweeXiv.py').read())
+41/19: tweet_test(alist)
+41/20: exec(open('tweeXiv.py').read())
+41/21: tweet_test(alist)
+41/22: cat='math.AG'
+41/23: exec(open('tweeXiv.py').read())
+41/24: tweet_test(alist)
+41/25: rlist
+41/26: nlist
+41/27: en[0]
+41/28: en[0]['summary']
+41/29: en[]['summary']
+41/30: en[1]['summary']
+41/31: en[2]['summary']
+41/32: re.sub(r'^<p>','',en[2]['summary'])
+41/33: re.sub(r'[^<p>|</p>$]','',en[2]['summary'])
+41/34: re.sub(r'[^\<p\>|\</p\>$]','',en[2]['summary'])
+41/35: re.sub(r'[^<p>|<\/p>$]','',en[2]['summary'])
+41/36: re.sub(r'[^<p>]','',en[2]['summary'])
+41/37: re.sub(r'^<p>','',en[2]['summary'])
+41/38: re.sub(r'^<p>|</p>$','',en[2]['summary'])
+41/39: re.sub(r'^<p>|\n</p>$','',en[2]['summary'])
+41/40: exec(open('tweeXiv.py').read())
+41/41: rlist
+41/42: nlist
+41/43: nlist[0]
+41/44: nlist[1]
+41/45: nlist.pop('label',none)
+41/46: nlist[0].pop('label',none)
+41/47: nlist[0].pop('label',None)
+41/48: nlist[0]
+41/49: exec(open('tweeXiv.py').read())
+41/50: nlist
+41/51: nlist[0]
+41/52: nlist[1]
+41/53: nlist[2]
+41/54: ls
+41/55: len('(from )')
+41/56: len('(from )')+25
+41/57: exec(open('tweeXiv.py').read())
+41/58: exec(open('tweeXiv.py').read())
+41/59: nlist[0]['abstract']
+41/60: nlist[0]['idnum']
+41/61: adjust_abst(nlist[0]['abstract'],nlist[0]['idnum'],100)
+41/62: exec(open('tweeXiv.py').read())
+41/63: adjust_abst(nlist[0]['abstract'],nlist[0]['idnum'],100)
+41/64: exec(open('tweeXiv.py').read())
+41/65: nlist
+41/66: alist
+41/67: alist[0]
+41/68: alist[1]
+41/69: alist[2]
+41/70: alist[3]
+41/71: alist[4]
+41/72: alist[5]
+41/73: alist[5]
+41/74: alist[6]
+41/75: alist[7]
+41/76: alist[8]
+41/77: alist[9]
+41/78: alist[10]
+41/79: test=api.update_status("Look at this")
+41/80: test
+41/81: test.keys()
+41/82: test.keys()
+41/83: test.key()
+41/84: test
+41/85: test.id
+41/86: exec(open('tweeXiv.py').read())
+41/87: exec(open('tweeXiv.py').read())
+41/88: exec(open('tweeXiv.py').read())
+41/89: exec(open('tweeXiv.py').read())
+41/90: cat='math.CO'
+41/91: exec(open('tweeXiv.py').read())
+41/92: nlist
+41/93: alist
+41/94: tweet_with_abst(alist)
+41/95: exec(open('tweeXiv.py').read())
+41/96: tweet_with_abst(alist)
+41/97: test.id
+41/98: 'test'+test.id
+41/99: 'test'+'test.id'
+41/100: 'test'+'$test.id'
+41/101: exec(open('tweeXiv.py').read())
+41/102: tweet_with_abst(alist)
+41/103: exec(open('tweeXiv.py').read())
+41/104: tweet_with_abst(alist)
+41/105: exec(open('tweeXiv.py').read())
+41/106: tweet_with_abst(alist)
+41/107: ls
+41/108: alist
+41/109: exec(open('tweeXiv.py').read())
+41/110: cat='math.AC'
+41/111: exec(open('tweeXiv.py').read())
+41/112: tweet_with_abst(alist)
+41/113: alist
+41/114: exec(open('tweeXiv.py').read())
+41/115: alist[0]
+41/116: exec(open('tweeXiv.py').read())
+41/117: alist[0]
+41/118: exec(open('tweeXiv.py').read())
+41/119: exec(open('tweeXiv.py').read())
+41/120: exec(open('tweeXiv.py').read())
+41/121: alist
+41/122: exec(open('tweeXiv.py').read())
+41/123: alist
+41/124: alist[1]
+41/125: alist[1]['abstract']
+41/126: re.sub(r'\n','',alist[1]['abstract'])
+41/127: re.sub(r'\n','',alist[0]['abstract'])
+41/128: len(alist)
+41/129: re.sub(r'\n','',alist[3]['abstract'])
+41/130: re.sub(r'\n','',alist[2]['abstract'])
+41/131: re.sub(r'\n',' ',alist[3]['abstract'])
+41/132: re.sub(r'\n',' ',alist[2]['abstract'])
+41/133: re.sub(r'\n',' ',alist[2]['abstract'])
+41/134: alist[2]
+41/135: exec(open('tweeXiv.py').read())
+41/136: alist[2]
+41/137: cat='math.KT'
+41/138: exec(open('tweeXiv.py').read())
+41/139: tweet_with_abst(alist)
+41/140: en[0]
+41/141: len(en)
+41/142: en[7]
+41/143: cat='hep-th'
+41/144: exec(open('tweeXiv.py').read())
+41/145: len(en)
+41/146: en[70]
+41/147: en[2]
+41/148: api.update_status("my update", in_reply_to_status_id=1272872494588768257)
+41/149: cat='math.CO'
+41/150: exec(open('tweeXiv.py').read())
+41/151: tweet_with_abst(alist)
+41/152: exec(open('tweeXiv.py').read())
+41/153: tweet_with_abst(alist)
+41/154: cat='math.AC'
+41/155: exec(open('tweeXiv.py').read())
+41/156: tweet_with_abst(alist)
+41/157: cat='math.CO'
+41/158: exec(open('tweeXiv.py').read())
+41/159: tweet_with_abst(alist)
+41/160: cat='math.AC'
+41/161: exec(open('tweeXiv.py').read())
+41/162: tweet_with_abst(alist)
+41/163: cat='math.CO'
+41/164: exec(open('tweeXiv.py').read())
+41/165: tweet_with_abst(alist)
+41/166: tweet_with_abst(alist)
+41/167: cat='math.AC'
+41/168: exec(open('tweeXiv.py').read())
+41/169: tweet_with_abst(alist)
+41/170: cat='math.KT'
+41/171: exec(open('tweeXiv.py').read())
+41/172: tweet_with_abst(alist)
+41/173: exec(open('tweeXiv.py').read())
+41/174: datetime.utcnow()
+41/175: datetime.utcnow()
+41/176: tea=datetime.utcnow()
+41/177: tea.day
+41/178: tea.yeat
+41/179: tea.year
+41/180: tea.month
+41/181: cat="math.GM"
+41/182: exec(open('tweeXiv.py').read())
+41/183: tweet_with_abst(alist)
+41/184: exec(open('tweeXiv.py').read())
+41/185: tweet_with_abst(alist)
+41/186: str(10)
+41/187: tea
+41/188: tea.date
+41/189: tea.day
+41/190: str(tea.day)
+41/191: exec(open('tweeXiv.py').read())
+41/192: tweet_with_abst(alist)
+41/193: str(tea.month)
+41/194: str(tea.year)
+41/195: exec(open('tweeXiv.py').read())
+41/196: tweet_with_abst(alist)
+41/197: cat="math.AT"
+41/198: exec(open('tweeXiv.py').read())
+41/199: tweet_with_abst(alist)
+41/200: tweet_with_abst(alist,cat)
+41/201: exec(open('tweeXiv.py').read())
+41/202: cat='math.HO'
+41/203: exec(open('tweeXiv.py').read())
+41/204: cat='math.SG'
+41/205: exec(open('tweeXiv.py').read())
+41/206: tweet_with_abst(alist,cat)
+41/207: exec(open('tweeXiv.py').read())
+41/208: tweet_with_abst(alist,cat)
+41/209: exec(open('tweeXiv.py').read())
+41/210: tweet_with_abst(alist,cat)
+41/211: exec(open('tweeXiv.py').read())
+41/212: exec(open('tweeXiv.py').read())
+41/213: tweet_with_abst(alist,cat)
+41/214: exec(open('tweeXiv.py').read())
+41/215: tweet_with_abst(alist,cat)
+41/216: exec(open('tweeXiv.py').read())
+41/217: tweet_with_abst(alist,cat)
+41/218: tweet_with_abst(alist,cat)
+41/219: cat='math.GR'
+41/220: exec(open('tweeXiv.py').read())
+41/221: tweet_with_abst(alist,cat)
+41/222: exec(open('tweeXiv.py').read())
+41/223: d
+41/224: en
+41/225: mlist
+41/226: alist
+41/227: en.keys
+41/228: en.keys()
+41/229: d.keys()
+41/230: d.etag
+41/231: x = datetime.datetime(2020, 5, 17)
+41/232: x = datetime.datetime(2020, 5, 17)
+41/233: import datetime
+41/234: x = datetime.datetime(2020, 5, 17)
+41/235: x
+41/236: x.hour
+41/237: d
+41/238: d['updated_parsed']
+41/239: ti=d['updated_parsed']
+41/240: ti
+41/241: ti.tm_hour
+41/242: ti.tm_year
+41/243: ti.tm_mon
+41/244: ti.tm_mday
+41/245: datetime.utcnow()
+41/246: import time
+41/247: datetime.utcnow()
+41/248: te=datetime.utcnow()
+41/249: te=datetime.utcnow
+41/250: datetime.utcnow()
+41/251: duct=datetime.utcnow()
+41/252: datetime.time()
+41/253: time
+42/1: cat='math.AG'
+42/2: exec(open('tweeXiv.py').read())
+42/3: check_alist(alist)
+42/4: check_alist(nlist,alist)
+42/5: ls
+42/6: tweet_with_abst(alist)
+42/7: tweet_with_abst(alist,cat)
+42/8: cat='math.AP'
+42/9: exec(open('tweeXiv.py').read())
+42/10: tweet_with_abst(alist,cat)
+42/11: cat='math.AG'
+42/12: exec(open('tweeXiv.py').read())
+42/13: tweet_with_abst(alist,cat)
+42/14: cat='math.IT'
+42/15: exec(open('tweeXiv.py').read())
+42/16: tweet_with_abst(alist,cat)
+42/17: cat='math.KO'
+42/18: exec(open('tweeXiv.py').read())
+42/19: cat='math.CA'
+42/20: exec(open('tweeXiv.py').read())
+42/21: tweet_with_abst(alist,cat)
+42/22: ls
+42/23: ls
+42/24: ps
+42/25: ps -ax
+42/26: ls
+42/27: ?
+42/28: ls
+42/29: cd
+42/30: ls
+42/31: cd misc/prog/
+42/32: ls
+42/33: cd tweeXiv/
+42/34: ls
+42/35: scp
+42/36: ls
+42/37: top
+42/38: rm
+42/39: ls
+42/40: datetime.date()
+42/41: tea=datetime.date()
+42/42: tea=datetime.datetime
+42/43: datetime
+42/44: tea=datetime
+42/45: tea.date
+42/46: tea.date()
+42/47: tea.day
+42/48: datetime.now
+42/49: datetime.now()
+42/50: tea=datetime.now()
+42/51: tea.date
+42/52: tea.year
+42/53: tea.month
+42/54: tea.day
+42/55: x = datetime.datetime.now()
+42/56: tea=datetime.now()
+42/57: tea
+42/58: en
+42/59: en['etag']
+42/60: d['etag']
+42/61: d.keys
+42/62: d.key
+42/63: d.key()
+42/64: d.keys()
+42/65: d.updated()
+42/66: d['updated']
+42/67: d['updated_parsed']
+42/68: tt=d['updated_parsed']
+42/69: tt.tm_year
+42/70: tt.tm_mont
+42/71: tt.tm_month
+42/72: tt.tm_mon
+42/73: tt.tm_yday
+42/74: tt.tm_year
+42/75: tt.tm_mon
+42/76: tt.tm_mday
+42/77: tt.tm__zone
+42/78: tt.tm_zone
+42/79: tt.count
+42/80: d['updated']
+42/81: d['updated_parsed']
+42/82: cat='hep-th'
+42/83: exec(open('tweeXiv.py').read())
+42/84: d['updated']
+42/85: d['updated_parsed']
+42/86: d
+42/87: d|more
+42/88: tea
+42/89: tea=datetime.utcnow()
+42/90: tea
+42/91: ddate=d['updated_parsed']
+42/92: tea.year
+42/93: ddate.tm_year
+42/94: ddate.tm_mon
+42/95: tea.mon
+42/96: tea.month
+42/97: d
+42/98: exec(open('tweeXiv.py').read())
+42/99: cat
+42/100: exec(open('tweeXiv.py').read())
+42/101: check_date(d)
+42/102: d['entries']
+42/103: d.keys()
+42/104: exec(open('tweeXiv.py').read())
+42/105: exec(open('tweeXiv.py').read())
+42/106: get_date_entries(cat)
+42/107: cat
+42/108: exec(open('tweeXiv.py').read())
+42/109: get_date_entries(cat)
+42/110: get_date_entries(cat)
+42/111: exec(open('tweeXiv.py').read())
+42/112: get_date_entries(cat)
+42/113: exec(open('tweeXiv.py').read())
+42/114: get_date_entries(cat)
+42/115: exec(open('tweeXiv.py').read())
+42/116: get_date_entries(cat)
+42/117: exec(open('tweeXiv.py').read())
+42/118: testt=get_date_entries(cat)
+42/119: testt['author']
+42/120: testt[0]
+42/121: exec(open('tweeXiv.py').read())
+42/122: testt=get_date_entries(cat)
+42/123: testt[0]
+42/124: exec(open('tweeXiv.py').read())
+42/125: get_feed(cat)
+42/126: get_feed_entries(get_feed(cat))
+42/127: feedparser.parse(f'http://expor.arxiv.org/rss/{cat}')
+42/128:
+if not feedparser.parse(f'http://expor.arxiv.org/rss/{cat}'):
+    print(0)
+42/129: d=feedparser.parse(f'http://expot.arxiv.org/rss/{cat}')
+42/130: d.bozo
+42/131: d=feedparser.parse(f'http://export.arxiv.org/rss/{cat}')
+42/132: d.bozo
+42/133: trial=0
+42/134: num=0
+42/135: mnum=10
+42/136:
+while trial<=mnum:
+    trial=trial+1
+    print(trial)
+42/137:
+while trial<mnum:
+    trial=trial+1
+    print(trial)
+42/138:
+while trial<mnum:
+    trial=trial+1
+    print(trial)
+42/139:
+while trial<mnum:
+    trial=trial+1
+    print(trial)
+42/140: trial=0
+42/141:
+while trial<mnum:
+    trial=trial+1
+    print(trial)
+42/142: exec(open('tweeXiv.py').read())
+42/143: exec(open('tweeXiv.py').read())
+42/144: exec(open('tweeXiv.py').read())
+42/145: get_daily_entries(cat,1,10)
+42/146: exec(open('tweeXiv.py').read())
+42/147: get_daily_entries(cat,1,10)
+42/148: exec(open('tweeXiv.py').read())
+42/149: get_daily_entries(cat,1,10)
+42/150: exec(open('tweeXiv.py').read())
+42/151: get_daily_entries(cat,1,10)
+42/152: get_daily_entries(cat,2,10)
+42/153: d=feedparser.parse(f'http://export.arxiv.org/rss/{cat}')
+42/154:
+if d:
+    print(d.bozo)
+42/155: exec(open('tweeXiv.py').read())
+42/156: cat
+42/157: cat='math.AC'
+42/158: exec(open('tweeXiv.py').read())
+42/159: tweet_with_abst(alist,cat,logf)
+42/160: tweet_with_abst(alist,cat,'logf')
+42/161: alist
+42/162: en
+42/163: nlist
+42/164: datetime.utcnow()
+42/165: exec(open('tweeXiv.py').read())
+42/166: tweet_with_abst(alist,cat,'logf')
+42/167: exec(open('tweeXiv.py').read())
+42/168: tweet_with_abst(alist,cat,'logf')
+42/169: exec(open('tweeXiv.py').read())
+42/170: tweet_with_abst(alist,cat,'logf')
+42/171: cat='math.AT'
+42/172: exec(open('tweeXiv.py').read())
+42/173: tweet_with_abst(alist,cat,'logf')
+42/174: exec(open('tweeXiv.py').read())
+42/175: cat='math.AG'
+42/176: exec(open('tweeXiv.py').read())
+42/177: exec(open('tweeXiv.py').read())
+42/178: tweet_with_abst(alist,cat,'logf')
+42/179: exec(open('tweeXiv.py').read())
+42/180: cat='math.KT'
+42/181: exec(open('tweeXiv.py').read())
+42/182: tweet_with_abst(alist,cat,'logf')
+42/183: cat='math.IT'
+42/184: exec(open('tweeXiv.py').read())
+42/185: tweet_with_abst(alist,cat,'logf')
+42/186: cat='math.CO'
+42/187: exec(open('tweeXiv.py').read())
+42/188: tweet_with_abst(alist,cat,'logf')
+42/189: import logging
+42/190: logging.basicConfig(filename='tet')
+42/191: logging.info('test')
+43/1: cat='math.GM'
+43/2: exec(open('tweeXiv.py').read())
+43/3: import logging
+43/4: logging.info('test')
+44/1: import logging
+44/2: logging.info('test')
+44/3:
+import logging
+logging.basicConfig(filename='example.log',level=logging.DEBUG)
+logging.debug('This message should go to the log file')
+logging.info('So should this')
+logging.warning('And this, too')
+44/4: logging.info('test')
+44/5: logging.warning('test')
+44/6: logging.debug('test')
+44/7: logging.root.setLevel(logging.NOTSET)
+44/8: logging.info('test')
+44/9: logger.info("this will get printed")
+44/10: logging.info("this will get printed")
+44/11: logging.basicConfig(level = logging.INFO)
+44/12: logging.basicConfig(filename='example.log')
+44/13: logging.basicConfig(level = logging.INFO)
+44/14: logging.info("this will get printed")
+44/15: logging.basicConfig(filename='output.log', level=logging.INFO)
+44/16: logging.info("this will get printed")
+44/17: logging.info("this will get printed")
+44/18:
+for handler in logging.root.handlers[:]:
+    logging.root.removeHandler(handler)
+44/19: logging.basicConfig(filename='output.log', level=logging.INFO)
+44/20: logging.info("this will get printed")
+43/5: cat='math.GM'
+43/6: cat='math.GR'
+43/7: exec(open('tweeXiv.py').read())
+43/8: tweet_with_abst
+43/9: tweet_with_abst(alist,cat,'test')
+43/10: cat='math.DS'
+43/11: exec(open('tweeXiv.py').read())
+43/12: tweet_with_abst(alist,cat,'test')
+43/13: cat='math.ST'
+43/14: tweet_with_abst(alist,cat,'test')
+43/15: exec(open('tweeXiv.py').read())
+43/16: tweet_with_abst(alist,cat,'test')
+43/17: cat='math.AP'
+43/18: exec(open('tweeXiv.py').read())
+43/19: tweet_with_abst(alist,cat,'test')
+43/20: cat='math.CT'
+43/21: exec(open('tweeXiv.py').read())
+43/22: tweet_with_abst(alist,cat,'test')
+43/23: exec(open('tweeXiv.py').read())
+43/24: tweet_with_abst(alist,cat,'test')
+43/25: datetime.utcnow().month
+43/26: exec(open('tweeXiv.py').read())
+43/27: tweet_with_abst(alist,cat,'test')
+43/28: cat='math.GT'
+43/29: exec(open('tweeXiv.py').read())
+43/30: tweet_with_abst(alist,cat,'test')
+44/21: cat='hep-th'
+44/22: exec(open('tweeXiv.py').read())
+44/23: tweet_with_abst(alist,cat,'log.log')
+44/24: alist
+44/25: tweet_with_abst(alist,cat,'log.log')
+44/26: cat='math.AG'
+44/27: exec(open('tweeXiv.py').read())
+44/28: tweet_with_abst(alist,cat,'log.log')
+44/29: exec(open('tweeXiv.py').read())
+44/30: tweet_with_abst(alist,cat,'log.log')
+44/31: api.update_status('test')
+43/31: exec(open('tweeXiv.py').read())
+43/32: tweet_with_abst(alist,cat,'test')
+43/33: cat='hep-th'
+43/34: exec(open('tweeXiv.py').read())
+43/35: alist
+43/36: len(alist)
+43/37: exec(open('tweeXiv.py').read())
+43/38: tweet_with_abst(alist,cat,'test')
+43/39: cat='math.CV'
+43/40: exec(open('tweeXiv.py').read())
+43/41: tweet_with_abst(alist,cat,'testlog.log')
+43/42: exec(open('tweeXiv.py').read())
+43/43: cat
+43/44: check_log(cat,'testlog.log')
+43/45: exec(open('tweeXiv.py').read())
+43/46: check_log(cat,'testlog.log')
+43/47: "test"=="test"
+43/48: "test"=="test" & "t"=="T"
+43/49: "test"=="test" AND "t"=="T"
+43/50: "test"=="test" && "t"=="T"
+43/51: "test"=="test"
+43/52: "test"=="testt"
+43/53: exec(open('tweeXiv.py').read())
+43/54: check_log(cat,'testlog.log')
+43/55: cat
+43/56: exec(open('tweeXiv.py').read())
+43/57: check_log(cat,'testlog.log')
+43/58: cat
+43/59: exec(open('tweeXiv.py').read())
+43/60: check_log(cat,'testlog.log')
+43/61: check_log(cat,'testlog.log')
+43/62: exec(open('tweeXiv.py').read())
+43/63: check_log(cat,'testlog.log')
+43/64: exec(open('tweeXiv.py').read())
+43/65: check_log(cat,'testlog.log')
+43/66: logg=[]
+43/67: logg.append([1,2])
+43/68: logg
+43/69: exec(open('tweeXiv.py').read())
+43/70: exec(open('tweeXiv.py').read())
+43/71: cat='math.GN'
+43/72: exec(open('tweeXiv.py').read())
+43/73: tweet_with_abst(alist,cat,'testlog.log')
+43/74: exec(open('tweeXiv.py').read())
+43/75: tweet_with_abst(alist,cat,'testlog.log')
+43/76: cat='math.MP'
+43/77: exec(open('tweeXiv.py').read())
+43/78: tweet_with_abst(alist,cat,'testlog.log')
+43/79: alist
+43/80: cat='math.NT'
+43/81: exec(open('tweeXiv.py').read())
+43/82: alist
+43/83: tweet_with_abst(alist,cat,'testlog.log')
+43/84: cat='math.NA'
+43/85: exec(open('tweeXiv.py').read())
+43/86: tweet_with_abst(alist,cat,'testlog.log')
+43/87: cat='math.PR'
+43/88: exec(open('tweeXiv.py').read())
+43/89: tweet_with_abst(alist,cat,'testlog.log')
+43/90: exec(open('tweeXiv.py').read())
+43/91: check_date(cat,'testlog.log')
+43/92: check_log(cat,'testlog.log')
+43/93: check_log('m','testlog.log')
+45/1: cat='math.AG'
+45/2: exec(open('tweeXiv.py').read())
+45/3: tweet_with_abst(alist,cat,'testlog.log')
+45/4: import json
+45/5:
+with open('credentials.json') as json_file:
+    data = json.load(json_file)
+45/6: data
+45/7: data['credentials']
+45/8:
+with open('credentials.json') as json_file:
+    data = json.load(json_file)
+45/9: data
+45/10: data['credentials']
+45/11: data['credentials'][0]
+45/12: data['credentials'][1]
+45/13: data['credentials'][1]['category']
+45/14: cat=data['credentials'][1]['category']
+45/15: cat
+45/16: import tweeXiv_shaping
+45/17: import tweeXiv_feed
+45/18: import tweeXiv_feed
+46/1: import tweeXiv_feed
+46/2: import tweeXiv_feed
+47/1: import tweeXiv_feed
+47/2: cat='math.NT'
+47/3: import tweeXiv_feed
+47/4: get_feed(cat)
+47/5: tweeXiv_feed.get_feed(cat)
+47/6: import feedparser
+47/7: tweeXiv_feed.get_feed(cat)
+47/8: tweeXiv_feed.get_feed(cat)
+47/9: import feedparser
+47/10: tweeXiv_feed.get_feed(cat)
+48/1: import feedparser
+48/2: import feedparser
+48/3: import tweeXiv_feed
+48/4: tweeXiv_feed.get_feed(cat)
+48/5: cat='math.NT'
+48/6: tweeXiv_feed.get_feed(cat)
+48/7: tweeXiv_feed.check_date(cat)
+48/8: import feedparser
+48/9: feedparser.parse(f'http://export.arxiv.org/rss/{cat}')
+48/10: tweeXiv_feed.check_date(cat)
+48/11: tweeXiv_feed.get_feed(cat)
+49/1: cat='math.NT'
+49/2: import tweeXiv_feed
+49/3: tweeXiv_feed.get_feed(cat)
+49/4: feed=tweeXiv_feed.get_feed(cat)
+49/5: tweeXiv_feed.check_date(feed)
+50/1: cat='math.NT'
+50/2: import tweeXiv_feed
+50/3: feed=tweeXiv_feed.get_feed(cat)
+50/4: tweeXiv_feed.check_date(feed)
+50/5: import date
+50/6: import time
+50/7: datetime.utcnow()
+50/8: import datetime
+50/9: datetime.utcnow()
+50/10:
+import time
+from datetime import datetime, timedelta
+50/11: datetime.utcnow
+50/12: datetime.utcnow()
+51/1: cat='math.NT'
+51/2: import tweeXiv_feed
+51/3: feed=tweeXiv_feed.get_feed(cat)
+51/4: tweeXiv_feed.check_date(feed)
+51/5: feed['updated_parsed']
+51/6: date
+51/7:
+import time
+from datetime import datetime, timedelta
+51/8: datetime.utcnow
+51/9: datetime.utcnow()
+51/10: tweeXiv_feed.check_date(feed)
+51/11: dtea=feed['updated_parsed']
+51/12: dtea.tm_year
+51/13: dtea.tm_mon
+51/14: tea=datetime.utcnow()
+51/15: tea.year
+51/16: dtea.tm_year==tea.year
+51/17: dtea.tm_mon==tea.year
+51/18: dtea.tm_mon==tea.mon
+51/19: dtea.tm_mon==tea.month
+51/20: dtea.tm_day==tea.day
+51/21: dtea.tm_yday
+51/22: dtea.tm_mday
+52/1: cat='math.NT'
+52/2:
+import time
+from datetime import datetime, timedelta
+52/3: import tweeXiv_feed
+52/4: feed=tweeXiv_feed.get_feed(cat)
+52/5: tweeXiv_feed.check_date(feed)
+52/6: dtea=feed['updated_parsed']
+52/7: tea=datetime.utcnow()
+52/8: dtea.tm_year
+52/9: dtea.tm_mon
+52/10: dtea.tm_mday
+52/11: tea.year
+52/12: tea.month
+52/13: tea.day
+52/14: dtea.tm_year=tea.year
+52/15: dtea.tm_year==tea.year
+52/16: dtea.tm_mon==tea.month
+52/17: dtea.tm_mday==tea.day
+52/18: dtea.tm_year==tea.year & dtea.tm_mon== tea.month
+52/19: dtea.tm_year==tea.year
+52/20: dtea.tm_mon== tea.month
+52/21: dtea.tm_year==tea.year && dtea.tm_mon== tea.month
+52/22: dtea.tm_year==tea.year & dtea.tm_mon== tea.month
+52/23: True & True
+52/24: dtea.tm_year==tea.year & dtea.tm_mon== tea.month
+52/25: dtea.tm_mon== tea.month
+52/26: dtea.tm_year==tea.year
+52/27: dtea.tm_year==tea.year AND dtea.tm_mon== tea.month
+52/28: dtea.tm_year==tea.year || dtea.tm_mon== tea.month
+52/29: dtea.tm_year==tea.year | dtea.tm_mon== tea.month
+52/30: dtea.tm_year==tea.year
+52/31: dtea.tm_mon== tea.month
+52/32: dtea.tm_year==tea.year & dtea.tm_mon== tea.month
+52/33: dtea.tm_year==tea.year && dtea.tm_mon== tea.month
+52/34: dtea.tm_year==tea.year & dtea.tm_mon== tea.month
+52/35: dtea.tm_year==tea.year AND dtea.tm_mon== tea.month
+52/36: dtea.tm_year==tea.year
+52/37: dtea.tm_year==tea.year and dtea.tm_mon== tea.month
+53/1: cat='math.NT'
+53/2:
+import time
+from datetime import datetime, timedelta
+53/3: import tweeXiv_feed
+53/4: feed=tweeXiv_feed.get_feed(cat)
+53/5: tweeXiv_feed.check_date(feed)
+53/6: entries=tweeXiv_feed.get_feed_entries(feed)
+53/7: entries
+54/1: cat='math.NT'
+54/2:
+import time
+from datetime import datetime, timedelta
+55/1: cat='math.NT'
+55/2: exec(open('preambles.py').read())
+55/3: datetime.utcnow()
+55/4: import tweeXiv_feed
+55/5: tweeXiv_feed.get_daily_entries(cat,1,1)
+55/6: feed=tweeXiv_feed.get_feed(cat)
+55/7: feed.bozo
+55/8: True==0
+55/9: True==1
+55/10: not 0
+55/11: import tweeXiv_feed
+55/12: tweeXiv_feed.get_daily_entries(cat,1,1)
+55/13: from importlib import reload
+55/14: reload(tweeXiv_feed)
+55/15: tweeXiv_feed.get_daily_entries(cat,1,1)
+56/1: cat='math.NT'
+56/2: exec(open('preambles.py').read())
+56/3: datetime.utcnow()
+56/4: ddate=datetime.utcnow()
+56/5: ddate.weekday
+56/6: ddate.weekday()
+56/7: ddate.weekday() in range(3)
+56/8: ddate.weekday() in range(4)
+56/9: ddate.weekday() in [5,6]
+56/10: 2+ddate.weekday() in [5,6]
+56/11: range(4)
+56/12: 4 in range(4)
+56/13: 4 in range(5)
+56/14: 5 in range(5)
+56/15: 0 or 1
+56/16: 1 and 0 or 1
+56/17: 1 and 1 and 0 or 1
+56/18: 0 and 1 and 0 or 1
+56/19: 1 and 1 and 0 or 1
+56/20: 0 and 1 and 0 or 1
+56/21: (0 and 1) and 0 or 1
+56/22: (0 and 1) and (0 or 1)
+56/23: 0 and 1 and (0 or 1)
+56/24: 1 and 1 and (0 or 1)
+56/25: datetime.utcnow().weekday
+56/26: datetime.utcnow().weekday()
+56/27: import tweeXiv_feed
+56/28: import tweeXiv_feed
+56/29: import tweeXiv_feed
+56/30: import tweeXiv_feed
+56/31: tweeXiv_feed.check_date()
+56/32:
+if not tweeXiv_feed.check_date():
+    print(1)
+56/33: feed={}
+56/34:
+if not tweeXiv_feed.check_date():
+    print(1)
+56/35:
+if not tweeXiv_feed.check_date(feed):
+    print(1)
+56/36:
+if 0 and not tweeXiv_feed.check_date(feed):
+    print(1)
+56/37:
+if 0:
+    print(0)
+elif 1:
+    print(1)
+else:
+    print(3)
+56/38:
+if 0:
+    print(0)
+elif 0:
+    print(1)
+else:
+    print(3)
+56/39: feed.bozo
+56/40: exec(open('preambles.py').read())
+57/1: cat='math.NT'
+57/2: exec(open('preambles.py').read())
+57/3: import tweeXiv_feed
+57/4: import tweeXiv_shaping
+57/5: ls
+58/1: cat='math.NT'
+58/2: exec(open('preambles.py').read())
+58/3: import tweeXiv_shaping as tXs
+58/4: import tweeXiv_feed as tXf
+58/5: en=tXf.get_daily_entries(cat,1,3)
+58/6: en
+58/7: len(en)
+58/8: reload(tweeXiv_shaping)
+58/9: reload(tXs)
+58/10: tXs.shaping_list(en,cat)
+58/11: exec(open('preambles.py').read())
+58/12: tXs.shaping_list(en,cat)
+58/13: from variables import *
+58/14: url_len
+58/15: tXs.shaping_list(en,cat)
+58/16: tXs.shaping_list(en,cat)
+58/17: tXs.shaping_list(en,cat)
+58/18: tXs.shaping_list(en,cat)
+58/19: url_len
+58/20: reload(tXs)
+58/21: url_len
+58/22: tXs.shaping_list(en,cat)
+59/1: cat='math.NT'
+59/2: exec(open('preambles.py').read())
+59/3: from variables import *
+59/4: import tweeXiv_shaping as tXs
+59/5: import tweeXiv_feed as tXf
+59/6: en=tXf.get_daily_entries(cat,1,3)
+59/7: tXs.shaping_list(en,cat)
+59/8: url_len
+59/9: url_len=50
+59/10: tXs.shaping_list(en,cat)
+59/11: tXs.modify_list(en,cat)
+59/12: mlist=tXs.modify_list(en,cat)
+59/13: nlist=tXs.new_list(mlist,cat)
+59/14: alist=tXs.adjust_entries(nlist)
+59/15: reload(tXs)
+59/16: alist=tXs.adjust_entries(nlist)
+59/17: reload(tXs)
+59/18: alist=tXs.adjust_entries(nlist)
+59/19: url_len
+60/1: cat='math.NT'
+60/2: exec(open('preambles.py').read())
+60/3: import tweeXiv_feed as tXf
+60/4: import tweeXiv_shaping as tXs
+60/5: en=tXf.get_daily_entries(cat,1,3)
+60/6: alist=tXs.adjust_entries(nlist)
+60/7: mlist=tXs.modify_list(en,cat)
+60/8: nlist=tXs.new_list(mlist,cat)
+60/9: alist=tXs.adjust_entries(nlist)
+60/10: url_len
+61/1: cat='math.NT'
+61/2: exec(open('preambles.py').read())
+61/3: import tweeXiv_shaping as tXs
+61/4: import tweeXiv_feed as tXf
+61/5: en=tXf.get_daily_entries(cat,1,3)
+61/6: url_len
+61/7: mlist=tXs.modify_list(en,cat)
+61/8: nlist=tXs.new_list(mlist,cat)
+61/9: alist=tXs.adjust_entries(nlist)
+61/10: alist
+61/11: reload(tXs)
+61/12: alist=tXs.adjust_entries(nlist)
+61/13: alist=tXs.adjust_entries(nlist)
+61/14: reload(tXs)
+61/15: alist=tXs.adjust_entries(nlist)
+61/16: tXs.shaping_list(en,cat)
+61/17: alist=tXs.shaping_list(en,cat)
+61/18: alist
+61/19: mlist=tXs.modify_list(en,cat)
+61/20: en
+61/21: en[0]
+61/22: feed=tXf.get_feed(cat)
+61/23: feed
+61/24: feed['updated_parsed']
+61/25: feed['updated_parsed']
+61/26: feed['entries']
+61/27: feed['updated_parsed']+feed['entries']
+61/28: {feed['updated_parsed'],feed['entries']}
+61/29: [feed['updated_parsed'],feed['entries']]
+61/30: [feed['updated_parsed'],feed['entries']][0]
+61/31: [feed['updated_parsed'],feed['entries']][1]
+61/32: [1,0]
+61/33: {1,0}
+61/34: {feed['updated_parsed'],feed['entries']}
+61/35: reload(tXf)
+61/36: en=tXf.get_daily_entries(cat,1,3)
+61/37: en[0]
+61/38: en[0][1]
+61/39: en[0]
+61/40: en[1]
+61/41: en[1]
+61/42: en[0]
+61/43: tXs.split_title(en[0])
+61/44: nnn=en[1:]
+61/45: en[0]
+61/46: nnn=en[2:]
+61/47: nnn=en[1:]
+61/48: nnn[0]
+61/49: en[1]
+61/50: len(en[1])
+61/51: len(en)
+61/52: en[0]
+61/53: reload(tXs)
+61/54: mlist=tXs.modify_list(en,cat)
+61/55: reload(tXs)
+61/56: mlist=tXs.modify_list(en,cat)
+61/57: reload(tXs)
+61/58: mlist=tXs.modify_list(en,cat)
+61/59: mlist
+61/60: reload(tXs)
+61/61: mlist=tXs.modify_list(en,cat)
+61/62: mlist
+61/63: mlist[0]
+61/64: mlist[0]['updated_parsed']
+61/65: mlist[0]['updated_parsed']
+61/66: tea=mlist[0]['updated_parsed']
+61/67: tea.tm_year
+61/68: alist=tXs.shaping_list(en,cat)
+61/69: alist
+61/70: nlist=tXs.new_list(mlist,cat)
+61/71: nlist
+61/72: alist=tXs.shaping_list(en,cat)
+61/73: alist
+61/74: "tea"=="tea"
+61/75: "tea"=="tea" and "1"=="2"
+61/76: "tea"=="tea" and "1"=="1"
+61/77: en[0]
+61/78: yesterday = datetime.date.today() - datetime.timedelta(1)
+61/79:  datetime.date.today() - datetime.timedelta(1)
+61/80: import datetime
+61/81:  datetime.date.today() - datetime.timedelta(1)
+61/82: yest=datetime.date.today() - datetime.timedelta(1)
+61/83: yest
+61/84: en[0]
+61/85: strtime=en[0]
+61/86: datetime.datetime(*strtime[:6])
+61/87: datetime.datetime(*strtime[:6]).weekday
+61/88: datetime.datetime(*strtime[:6]).weekday()
+61/89: *strtime
+61/90: datetime.datetime(*strtime[:6]).weekday()
+61/91: dtime=datetime.datetime(*strtime[:6])
+61/92: dtime
+61/93: dtime.day
+61/94: dtime.year
+61/95: dtime.month
+61/96: dtime.day
+61/97: tea=datetime.utcnow()
+61/98: exec(open('preambles.py').read())
+61/99: tea=datetime.utcnow()
+61/100: tea
+61/101: dtea
+61/102: dtime
+61/103: dtime==tea
+61/104: tea[:6]
+61/105: tea[:6]
+61/106: tea.astimezone()
+61/107: [dtime.year,dtime.month]
+61/108: [dtime.year,dtime.month]==[tea.year,tea.month]
+61/109: yesterday = datetime.date.today() - datetime.timedelta(1)
+61/110: yesterday = datetime.date.today()-datetime.timedelta(1)
+61/111: datetime.date.today()-datetime.timedelta(1)
+61/112: datetime.timedelta(1)
+61/113: dtime.timedelta(1)
+61/114: yest=datetime.date.today() - datetime.timedelta(1)
+61/115: yest= - datetime.timedelta(1)
+61/116: yest=dtime - datetime.timedelta(1)
+61/117: yest=datetime.utcnow() - datetime.timedelta(1)
+61/118: from datetime import datetime, timedelta
+61/119: yest=datetime.utcnow() - datetime.timedelta(1)
+61/120: import datetime
+61/121: yest=datetime.utcnow() - datetime.timedelta(1)
+61/122: yest=datetime.today - datetime.timedelta(1)
+61/123: yest=datetime.date.today() - datetime.timedelta(1)
+61/124: dtime
+61/125: yest=dtime - datetime.timedelta(1)
+61/126: yest
+61/127: yest=dtime - datetime.timedelta(2)
+61/128: yest=dtime - datetime.timedelta(2)
+61/129: yest
+61/130: yest=dtime - datetime.timedelta(30)
+61/131: yest
+61/132: datetime.utcnow()
+61/133: exec(open('preambles.py').read())
+61/134: datetime.utcnow()
+61/135: exec(open('preambles.py').read())
+61/136: datetime.utcnow()
+61/137: yest=dtime - datetime.timedelta(30)
+61/138: yest=datetime.utcnow() - datetime.timedelta(1)
+61/139:  datetime.timedelta(1)
+61/140: datetime.timedelta(1)
+61/141: datetime.timedelta(1)
+61/142: from datetime import datetime, timedelta
+61/143: datetime.timedelta(1)
+61/144: import datetime
+61/145: datetime.timedelta(1)
+61/146: import time
+61/147: import datetime
+61/148: exec(open('preambles.py').read())
+61/149: from datetime import datetime, timedelta
+61/150: exec(open('preambles.py').read())
+61/151: datetime.utcnow()
+61/152: import datetime
+61/153: exec(open('preambles.py').read())
+61/154: datetime.utccnow()
+61/155: datetime.utcnow()
+61/156: datetime.timedelta(1)
+61/157: timedelta(1)
+61/158: datetime.utcnow()
+61/159: datetime.utcnow()+timedelta(1)
+61/160: datetime.utcnow()+timedelta(-30)
+62/1: cat='math.NT'
+62/2: exec(open('preambles.py').read())
+62/3: import tweeXiv_feed as tXf
+62/4: import tweeXiv_shaping as tXs
+62/5: datetime.utcnow()
+62/6: exec(open('preambles.py').read())
+62/7: datetime.utcnow()
+62/8: exec(open('preambles.py').read())
+62/9: reload(tXs)
+62/10: reload(tXf)
+62/11: en=tXf.get_daily_entries(cat,1,3)
+62/12: en[0]
+62/13: datetime.datetime
+62/14: dtime=datetime.datetime(*strtime[:6])
+62/15: import datetime
+62/16: dtime=datetime.datetime(*strtime[:6])
+62/17: reload(tXf)
+62/18: en=tXf.get_daily_entries(cat,1,3)
+62/19: from datetime import datetime, timedelta
+62/20: import datetime
+62/21: reload(tXf)
+62/22: en=tXf.get_daily_entries(cat,1,3)
+62/23: reload(tXf)
+62/24: en=tXf.get_daily_entries(cat,1,3)
+63/1: cat='math.NT'
+63/2: exec(open('preambles.py').read())
+63/3: import tweeXiv_shaping as tXs
+63/4: import tweeXiv_feed as tXf
+63/5: en=tXf.get_daily_entries(cat,1,3)
+63/6: datetime.utcnow()
+63/7: dtea=datetime.utcnow()
+63/8: dtea.year
+63/9: dtea.day
+63/10: reload(tXf)
+63/11: en=tXf.get_daily_entries(cat,1,3)
+63/12: reload(tXf)
+63/13: en=tXf.get_daily_entries(cat,1,3)
+63/14: en[0]
+63/15: alist=tXs.shaping_list(en,cat)
+63/16: alist
+64/1: cat='math.NT'
+64/2: exec(open('preambles.py').read())
+64/3: import tweeXiv_feed as tXf
+64/4: import tweeXiv_shaping tXs
+64/5: ls
+64/6: import tweeXiv_shaping tXs
+64/7: import tweeXiv_shaping as tXs
+64/8: ls
+64/9: dutc=datetime.utcnow()
+64/10: en=tXf.get_daily_entries(cat,1,1)
+64/11: fe=tXf.get_feed(cat)
+64/12: fe['updated_parsed']
+64/13: dtea=fe['updated_parsed']
+64/14: dtea
+64/15: dtea=datetime(*dtea[:6])
+64/16: dtea
+64/17: dtea.weekday()
+64/18: dtea-timedelta(1)
+64/19: dutc.weekday()
+64/20: dutc
+64/21: dutc-timedelta(1)
+64/22: reload(tXf)
+64/23: entries=tweeXiv_feed.get_feed_entries(feed)
+64/24: entries=tXf.get_feed_entries(feed)
+64/25: entries=tXf.get_daily_entries(cat,1,1)
+64/26: reload(tXf)
+64/27: en=tXf.get_daily_entries(cat,1,1)
+64/28: dutc
+64/29: wtea=dutc.weekday()
+64/30: wtea
+64/31: wtea==5
+64/32: exec(open('preambles.py').read())
+64/33: reload(tXf)
+64/34: en=tXf.get_daily_entries(cat,1,1)
+64/35: reload(tXf)
+64/36: en=tXf.get_daily_entries(cat,1,1)
+64/37: en
+64/38: en
+64/39: en[1]
+64/40: en[0]
+64/41: reload(tXf)
+64/42: dtea
+64/43: dutc
+64/44: tXf.check_dates(dtea,dutc)
+64/45: reload(tXf)
+64/46: tXf.check_dates(dtea,dutc)
+65/1: cat='math.NT'
+65/2: exec(open('preambles.py').read())
+65/3: import tweeXiv_shaping as tXs
+65/4: import tweeXiv_feed as tXf
+65/5: tXf.check_dates(dtea,dutc)
+65/6: dtea
+65/7: reload(tXf)
+65/8: tXf.check_dates(dtea,dutc)
+65/9: tXf.chack_dates(dutc,d)
+65/10: fe=tXf.get_feed(cat)
+65/11: dtea=datetime(*dtea[:6])
+65/12: dtea=fe['updated_parsed']
+65/13: dtea=datetime(*dtea[:6])
+65/14: dutc=datetime.utcnow()
+65/15: tXf.chack_dates(dtea,dutc)
+65/16: dutc
+65/17: fe['updated_parsed'][:6]
+65/18: *fe['updated_parsed'][:6]
+65/19: fe['updated_parsed'][:6]
+65/20: datetime(*fe['updated_parsed'][:6])
+65/21: reload(tXf)
+65/22: tXf.get_daily_entries(cat,1,1)
+65/23: reload(tXf)
+65/24: tXf.get_daily_entries(cat,1,1)
+67/1: cat='math.NT'
+67/2: import tweeXiv_feed as tXf
+67/3: import tweeXiv_shaping as tXs
+67/4: tXf.get_daily_entries(cat,1,1)
+67/5: reload(tXf)
+67/6: exec(open('preambles.py').read())
+67/7: reload(tXf)
+67/8: en=tXf.get_daily_entries(cat,1,1)
+67/9: en
+67/10: tXf.get_daily_entries(cat,0,1)
+67/11: fe=tXf.get_feed(cat)
+67/12: dtea=fe['updated_parsed']
+67/13: dtea=datetime(*dtea[:6])
+67/14: dutc=datetime.utcnow()
+67/15: dtea
+67/16: dtea[:3]
+67/17: dtea.date()
+67/18: dutc.date()
+67/19: dutc.date()==dutc.date()
+67/20: reload(tXf)
+67/21: en=tXf.get_daily_entries(cat,1,1)
+67/22: tXf.check_dates(dtea,dutc)
+67/23: reload(tXf)
+67/24: tXf.check_dates(dtea,dutc)
+67/25: reload(tXf)
+67/26: logcsv=pd.read_csv('testlog.log')
+67/27: logcsv
+67/28: logcsv[0]
+67/29: logcsv=logcsv.values.tolist()
+67/30: logcsv
+67/31: logcsv[0]
+67/32: logcsv[0][1]
+67/33: logcsv[0][1]
+67/34: logcsv[0][0]
+67/35: datetime.date.fromisoformat(logcsv[0][0])
+67/36: import date
+67/37: from datetime import date
+67/38: datetime.date.fromisoformat(logcsv[0][0])
+67/39: date.fromisoformat(logcsv[0][0])
+67/40: date.fromisoformat('2020-06-24')
+67/41: dutc.date()
+67/42: dutc.date().isoformat()
+67/43: dutc.date().isoformat()
+67/44: en=tXf.get_daily_entries(cat,1,1)
+67/45: en[0]
+67/46: mlist=tXs.modify_list(en,cat)
+67/47: alist=tXs.shaping_list(en,cat)
+67/48: alist[0]
+67/49: alist[0]['updated_parsed']
+67/50: gdate=alist[0]['updated_parsed']
+67/51: gdate
+67/52: gday=gdate.day().isofromat()
+67/53: gday=gdate.day().isoformat()
+67/54: gdate.day()
+67/55: tdate=datetime.utcnow()
+67/56: tdate.day()
+67/57: gdate.date().isoformat()
+67/58: gday=gdate.date().isoformat()
+67/59: import tweeXiv_tweet
+67/60: import tweeXiv_tweet as tXt
+67/61: ls
+67/62: alist
+67/63: en
+67/64: tXt.tweet_cat(en,cat,'tlog.log','tlog.log.tmp')
+67/65: reload(tXt)
+67/66: tXt.tweet_cat(en,cat,'tlog.log','tlog.log.tmp')
+67/67: reload(tXt)
+67/68: tXt.tweet_cat(en,cat,'tlog.log','tlog.log.tmp')
+67/69: tXt.tweet_cat(en,cat,'tlog.log','tlog.log.tmp')
+67/70: gdate
+67/71: gdate.date()
+67/72: gdate.date().isoformat()
+67/73: reload(tXt)
+67/74: gdate.date().isoformat()
+67/75: tXt.tweet_cat(en,cat,'tlog.log','tlog.log.tmp')
+67/76:
+for each in en:
+    text=each['authors']
+    print(text)
+67/77: en[0]
+67/78: en[1]
+67/79: tXt.tweet_cat(alist,cat,'tlog.log','tlog.log.tmp')
+67/80: reload(tXt)
+67/81: tXt.tweet_cat(alist,cat,'tlog.log','tlog.log.tmp')
+67/82: cat='math.KT'
+67/83: en=tXf.get_daily_entries(cat,1,1)
+67/84: mlist=tXs.modify_list(en,cat)
+67/85: alist=tXs.shaping_list(en,cat)
+67/86: tXt.tweet_cat(alist,cat,'tlog.log','tlog.log.tmp')
+67/87: cat='math.AC'
+67/88: en=tXf.get_daily_entries(cat,1,1)
+67/89: mlist=tXs.modify_list(en,cat)
+67/90: alist=tXs.shaping_list(en,cat)
+67/91: tXt.tweet_cat(alist,cat,'tlog.log','tlog.log.tmp')
+67/92: reload(tXt)
+67/93: cat='math.CO'
+67/94: en=tXf.get_daily_entries(cat,1,1)
+67/95: mlist=tXs.modify_list(en,cat)
+67/96: alist=tXs.shaping_list(en,cat)
+67/97: tXt.tweet_cat(alist,cat,'tlog.log','tlog.log.tmp')
+67/98: tdate=datetime.utcnow()
+67/99: tdate+'test'
+67/100: str(tdate)+'test'
+67/101: tdate.fromisoformat
+67/102: tdate.date()
+67/103: tdate.date()+'test'
+67/104: str(tdate.date())+'test'
+67/105: tdate.strftime()
+67/106: str(tdate)
+67/107: reload(tXt)
+67/108: tXt.tweet_cat(alist,cat,'tlog.log','tlog.log.tmp')
+67/109: reload(tXt)
+67/110: tXt.tweet_cat(alist,cat,'tlog.log','tlog.log.tmp')
+67/111: tdate
+67/112: tdate.isoformat
+67/113: tdate.isoformat()
+67/114: tdate.isoformat(' ','seconds')
+67/115: tdate.isoformat(' ','seconds')+'test'
+67/116: cat='math.CA'
+67/117: en=tXf.get_daily_entries(cat,1,1)
+67/118: mlist=tXs.modify_list(en,cat)
+67/119: alist=tXs.shaping_list(en,cat)
+67/120: tXt.tweet_cat(alist,cat,'tlog.log','tlog.log.tmp')
+67/121: reload(tXt)
+67/122: cat='math.GM'
+67/123: en=tXf.get_daily_entries(cat,1,1)
+67/124: alist=tXs.shaping_list(en,cat)
+67/125: tXt.tweet_cat(alist,cat,'tlog.log','tlog.log.tmp')
+67/126: cat='math.GT'
+67/127: en=tXf.get_daily_entries(cat,1,1)
+67/128: alist=tXs.shaping_list(en,cat)
+67/129: tXt.tweet_cat(alist,cat,'tlog.log','tlog.log.tmp')
+67/130: tdate.date().isoformat()
+67/131: s=tdate.date().isoformat()
+67/132: datetime.date.fromisoformat(s)
+67/133: date.fromisoformat(s)
+67/134: tXf.check_dates
+67/135: import tweeXiv_tweet as tXt
+67/136: import tweeXiv_feed as tXf
+67/137: tdate
+67/138: gdate
+67/139: tXf.check_dates(gdate,tdate)
+67/140: reload(tXf)
+67/141: tXf.check_dates(gdate,tdate)
+67/142: reload(tXt)
+67/143: reload(tXt)
+67/144: tXt.check_log_dates(cat,'tlog.log.tmp')
+67/145: pd.read_csv('tlog.log.tmp')
+67/146: ls
+67/147: import pandas as pd
+67/148: pd.read_csv('tlog.log.tmp')
+67/149: more tlog.log.tmp
+67/150: pd.read_csv('tlog.log.tmp')
+67/151: pd.read_csv('tlog.log.tmp')
+67/152: tXt.check_log_dates(cat,'tlog.log.tmp')
+67/153: reload(tXt)
+67/154: tXt.check_log_dates(cat,'tlog.log.tmp')
+67/155: gdate.date()
+67/156: reload(tXt)
+67/157: tXt.check_log_dates(cat,'tlog.log.tmp')
+67/158: reload(tXt)
+67/159: tXt.check_log_dates(cat,'tlog.log.tmp')
+67/160: dd=date.fromisoformat('2020-06-28')
+67/161: dd
+67/162: dd.date
+67/163: dd.date()
+67/164: dd
+67/165: dd
+67/166: tdate=datetime.utcnow()
+67/167: tdate
+67/168: tdate.date
+67/169: tdate.date()
+67/170: datetime.fromisoformat(s)
+67/171: reload(tXt)
+67/172: tXt.check_log_dates(cat,'tlog.log.tmp')
+67/173: reload(tXt)
+67/174: tXt.check_log_dates(cat,'tlog.log.tmp')
+67/175: tdate
+67/176: tdate+timedelta(1)
+67/177: reload(tXt)
+67/178: tXt.check_log_dates(cat,'tlog.log.tmp')
+67/179: ls
+67/180: json.loads('access.json')
+67/181: json.loads('access.json')
+67/182: more 'access.json'
+67/183: json.load('access.json')
+67/184: f=open('access.json')
+67/185: cred=json.load(f)
+67/186: cred
+67/187: f.close()
+67/188: cred
+67/189: cred[0]
+67/190: cred
+67/191: cred['credentials']
+67/192: cred['credentials']
+67/193: cred=cred['credentials']
+67/194: cred
+67/195: cred[0]
+67/196: cred[1]
+67/197: cred[1]['twitter_username']
+67/198: en=tXf.get_daily_entries(cat,1,1)
+67/199: en[0]
+67/200: en[0][1]
+67/201: en[1]
+67/202: tXs.adjust_entries(en)
+67/203: tXs.shaping_list(en,cat)
+67/204: alist=tXs.shaping_list(en,cat)
+67/205: tXt.check_log_dates(cat,'test')
+67/206: try pd.read_csv('test')
+67/207:
+try pd.read_csv('test'):
+    return(0)
+67/208:
+try:
+    pd.read_csv('test')
+    return(0)
+except:
+    return(1)
+67/209:
+try:
+    pd.read_csv('test')
+except:
+    print(0)
+67/210:
+try:
+    pd.read_csv('test')
+except:
+    return False
+67/211: reload(tXt)
+67/212: tXt.check_log_dates(cat,'test')
+67/213: tXt.tweet_categories('access.json','tlog.log','tlog.log.tmp')
+67/214: reload(tXt)
+67/215: tXt.tweet_categories('access.json','tlog.log','tlog.log.tmp')
+67/216: reload(tXt)
+67/217: tXt.tweet_categories('access.json','tlog.log','tlog.log.tmp')
+67/218: tXt.tweet_categories('access.json','tlog.log','tlog.log.tmp')
+67/219: reload(tXt)
+67/220: tXt.tweet_categories('access.json','tlog.log','tlog.log.tmp')
+67/221: tXt.tweet_categories('access.json','tlog.log','tlog.log.tmp')
+67/222: tXt.tweet_categories('access.json','tlog.log','tlog.log.tmp')
+67/223: tXt.tweet_categories('access.json','tlog.log','tlog.log.tmp')
+67/224: reload(tXt)
+67/225: tXt.tweet_categories('access.json','tlog.log','tlog.log.tmp')
+67/226: tXt.tweet_categories('access.json','tlog.log','tlog.log.tmp')
+67/227: tXt.tweet_categories('access.json','tlog.log','tlog.log.tmp')
+67/228: tXt.tweet_categories('access.json','tlog.log','tlog.log.tmp')
+67/229: reload(tXf)
+67/230: tXt.tweet_categories('access.json','tlog.log','tlog.log.tmp')
+67/231: tXt.tweet_categories('access.json','tlog.log','tlog.log.tmp')
+67/232: tXt.tweet_categories('access.json','tlog.log','tlog.log.tmp')
+67/233: reload(tXf)
+67/234: reload(tXf)
+67/235: tXt.tweet_categories('access.json','tlog.log','tlog.log.tmp')
+67/236: tXt.tweet_categories('access.json','tlog.log','tlog.log.tmp')
+67/237:
+if 1:
+    print(1)
+67/238: rm 'tlog.log.tmp'
+67/239: tXt.tweet_categories('access.json','tlog.log','tlog.log.tmp')
+67/240: tXt.tweet_categories('access.json','tlog.log','tlog.log.tmp')
+67/241: reload(tXt)
+67/242: tXt.tweet_categories('access.json','tlog.log','tlog.log.tmp')
+67/243: reload(tXt)
+67/244: tXt.tweet_categories('access.json','tlog.log','tlog.log.tmp')
+67/245: reload(tXt)
+67/246: tXt.tweet_categories('access.json','tlog.log','tlog.log.tmp')
+67/247: tXt.api.search(q="mice")
+67/248: tXt.api.search(q="mice")|more
+67/249: tXt.api.search(q="arxiv.org/pdf/2006.14034")
+67/250: tXt.api.search(q="arxiv.org/pdf/2006.14034 from:arXivtestcarrot")
+67/251: tXt.api.search("arxiv.org/pdf/2006.14034 from:arXivtestcarrot")
+67/252: tXt.api.search("arxiv.org/pdf/2006.14539 from:arXivtestcarrot")
+67/253: tXt.api.search("arxiv.org/pdf/2006.14539 from:arXivtestcarrot")
+67/254: tXt.api.search("2006.14539 from:arXivtestcarrot")
+67/255: tXt.api.search("pdf/2006.14539")
+67/256: res=tXt.api.search("pdf/2006.14539")
+67/257: res[0]
+67/258: res[1]
+67/259: res[0].keys()
+67/260: res.keys()
+67/261: res
+67/262: res=tXt.api.search("pdf/2006.14539 from:arXivtesttaro")
+67/263: res=tXt.api.search("pdf/2006.14539 from:arXivtestcarrot")
+67/264: res=tXt.api.search("recife from:vela")
+67/265: res=tXt.api.search("小山 from:vela")
+67/266: res=tXt.api.search("小山")
+67/267: res=tXt.api.search(q="小山")
+67/268: res=tXt.api.search(q="ymama")
+67/269: res=tXt.api.search("recife from:vela")
+67/270: res
+67/271: res=tXt.api.search("小山 from:vela")
+67/272: res
+67/273: cat
+67/274: cat+test=2
+67/275: 'cat'+test=2
+67/276: testt=cat+"test"
+67/277: testt
+67/278: testt=2
+67/279: testt
+67/280: math.GTtest
+67/281: tapii=[]
+67/282: tapii['math.AG']="2"
+67/283: tapii={}
+67/284: tapii['math.AG']="2"
+67/285: ls
+67/286: tapii
+67/287: reload(tXt)
+67/288: tXt.tweet_categories('access.json','tlog.log','tlog.log.tmp')
+67/289: en
+67/290: en[0]
+67/291: mlist=tXs.modify_list(en,cat)
+67/292: mlist
+67/293: 'cross' in 'cross listed'
+67/294: 'cross l' in 'cross listed'
+67/295: 'cross l' in '(cross listed)'
+67/296: reload(tXf)
+67/297: en
+67/298: cat
+67/299: reload(tXs)
+67/300: tXs.shaping_crosslist(en,cat)
+67/301: reload(tXs)
+67/302: tXs.shaping_crosslist(en,cat)
+67/303: reload(tXs)
+67/304: tXs.shaping_crosslist(en,cat)
+67/305: reload(tXs)
+67/306: tXs.shaping_crosslist(en,cat)
+67/307: crl=tXs.get_crosslists(en,cat)
+67/308: crl
+67/309: crl
+67/310: crl['idnum']
+67/311: crl[0]['idnum']
+67/312:
+try:
+    print()
+except:
+    print(1)
+67/313: reload(tXs)
+67/314: reload(tXf)
+67/315: reload(tXt)
+67/316: reload(tXt)
+67/317: tXt.tweet_categories('access.json','tlog.log')
+67/318: reload(tXt)
+67/319: tXt.tweet_categories('access.json','tlog.log')
+67/320: tcat='hep-lat'
+67/321: en=tXf.get_daily_entries(tcat,1,1)
+67/322: crl=tXs.get_crosslists(en,tcat)
+67/323: crl
+67/324: crl[0]
+67/325: tXt.crosslist_retweet(api,tcat,crl,'tlog.log.tmp')
+67/326: api
+67/327: tXt.crosslist_retweet(tXt.api,tcat,crl,'tlog.log.tmp')
+67/328: reload(tXt)
+67/329: tXt.crosslist_retweet(tXt.api,tcat,crl,'tlog.log.tmp')
+67/330: logcsv=pd.read_csv('tlog.log.tmp')
+67/331: logcsv=logcsv.values.tolist()
+67/332: logcsv
+67/333: crl[0]['idnum']
+67/334: idnum='2006.14075'
+67/335:
+for row in logcsv:
+    print(row[1])
+67/336: tXt.tweet_categories('access.json','tlog.log.tmp')
+67/337: tXt.crosslist_retweet(tXt.api,tcat,crl,'tlog.log')
+67/338: reload(tXt)
+67/339: tXt.crosslist_retweet(tXt.api,tcat,crl,'tlog.log')
+67/340: logcsv=pd.read_csv('tlog.log')
+67/341: logcsv=logcsv.values.tolist()
+67/342:
+for each in logcsv:
+    each[1]
+67/343:
+for each in logcsv:
+    print(each[1])
+67/344: tcat
+67/345:
+for each in logcsv:
+    print(each[1]!=tcat)
+67/346:
+for each in logcsv:
+    print(each[2]!=idnumm)
+67/347: idnum
+67/348:
+for each in logcsv:
+    print(each[2]==idnum)
+67/349:
+for each in logcsv:
+    print(each[2])
+67/350:
+for each in logcsv:
+    print(each[2])
+67/351: logcsv
+67/352: logcsv=pd.read_csv('tlog.log',sep=',')
+67/353: logcsv=logcsv.values.tolist()
+67/354: logcsv
+67/355: logcsv=pd.read_csv('tlog.log',sep=',')
+67/356: logcsv
+67/357: logcsv.all
+67/358: logcsv.all[0]
+67/359: pd.read_csv('tlog.log.tmp')
+67/360: logcsv.keys
+67/361: logcsv.keys()
+67/362: logcsv['hep-lat']
+67/363: logcsv=pd.read_csv('tlog.log',sep=',',header=none)
+67/364: logcsv=pd.read_csv('tlog.log',sep=',',header=None)
+67/365: logcsv
+67/366: logcsvv=logcsv.values.tolist()
+67/367: logcsvv
+67/368: logcsv=pd.read_csv('tlog.log',dtype=object,header=None)
+67/369: logcsvv=logcsv.values.tolist()
+67/370: logcsvv
+67/371: reload(tXt)
+67/372: tXt.crosslist_retweet(tXt.api,tcat,crl,'tlog.log')
+67/373: tXt.api.retweet(1277233306837254144)
+67/374: tXt.api.retweet('1277233306837254144')
+67/375: tXt.api.retweets(1277233306837254144)
+67/376: tXt.api.retweet(1277233353821794305)
+67/377: tXt.api.update("test")
+67/378: tXt.api.update_status("test")
+67/379: tXt.api.retweet(1277233353821794305)
+67/380: reload(tXt)
+67/381: reload(tXf)
+67/382: en=tXf.get_daily_entries('test',1,1)
+67/383: reload(tXf)
+67/384: en=tXf.get_daily_entries('test',1,1)
+67/385: reload(tXf)
+67/386: en=tXf.daily_entries(tcat,1,1)
+67/387: en
+67/388: reload(tXt)
+67/389: import tweeXiv.py as tX
+67/390: import tweeXiv as tX
+67/391: c=0
+67/392: c+=1
+67/393: c
+67/394: time
+67/395: import time
+67/396: time.sleep(10)
+67/397: 10 %2
+67/398: 10 %3
+67/399: 10 %3=0
+67/400: 10 %3==0
+67/401: 10 %3==1
+67/402: 10 %5==1
+67/403: 10 %5
+67/404: reload(tweeXiv)
+67/405: reload(tX)
+67/406: reload(tX)
+67/407: !~/bin/rmback
+67/408: !~/bin/rmback.sh
+67/409: y
+67/410: ls
+67/411: reload(tX)
+68/1: import tweeXiv as tX
+69/1: f=open('access.json')
+69/2: cre=json.load(f)
+69/3: import preambles
+69/4: import preambles
+70/1: exec(open('preambles.py').read())
+70/2: cre=json.load(f)
+70/3: f=open('access.json')
+70/4: cre=json.load(f)
+70/5: cre
+70/6: apitaro=tXt.tweet_api(cre['credentials'][0])
+70/7: apitaro
+70/8: apitaro.update_status('test test')
+70/9: stat=apitaro.rate_limit_status()
+70/10: stat
+70/11: exec(open('preambles.py').read())
+70/12: tXt.twitter_rates(tapi)
+70/13: tXt.twitter_rates()
+70/14: exec(open('preambles.py').read())
+70/15: exec(open('preambles.py').read())
+70/16: import twXiv_tweet as tXtt
+70/17: tXtt.twitter_rates()
+70/18: tXtt.twitter_rates(tapi)
+70/19: tXtt.twitter_rates(apitar)
+70/20: tXtt.twitter_rates(apitar0)
+70/21: tXtt.twitter_rates(apitaro)
+71/1: exec(open('preambles.py').read())
+71/2: f=open('access.json')
+71/3: cre=json.load(f)
+71/4: apitaro=tXt.tweet_api(cre['credentials'][0])
+71/5: tXt.twitter_rate(apitaro)
+71/6: apitaro.update_status('test test')
+71/7: apitaro.update_status('test test tt')
+71/8: apitaro.update_status('test test')
+71/9: tXt.twitter_rate(apitaro)
+71/10: apitaro.update_status('test test ttt')
+71/11: tXt.twitter_rate(apitaro)
+71/12: ra=apitaro.rate_limit_status()
+71/13: ra.keys()
+71/14: ra['rate_limit_context']
+71/15: ra['resources']
+71/16: ra['resources'].keys()
+71/17: ra['resources']['application']
+71/18: ra['resources']['application']
+71/19: apitaro.update_status('test test ttt   k')
+71/20: ra['resources']['application']
+71/21: apitaro.update_status('test test ttt  89 k')
+71/22: ra['resources']['application']
+71/23: apitaro.update_status('test test ttt   k')
+71/24: tXt.twitter_rate(apitaro)
+71/25: tXt.twitter_rate(apitaro)
+71/26: ra['resources']['application']
+71/27: ra['resources']
+72/1: exec(open('preambles.py').read())
+72/2: ls
+72/3: !more preambles.py
+72/4: !more preambles.py
+72/5: !more twXiv.py
+73/1: exec(open('preambles.py').read())
+73/2: tXt.log_linedelete('tlog.log',10)
+73/3: ls
+73/4: exec(open('preambles.py').read())
+73/5: tXt.log_linedelete('tlog.log',10)
+73/6: reload(tXt)
+73/7: tXt.log_linedelete('tlog.log',10)
+73/8: !more tlog.log
+73/9: reload(tXt)
+73/10: tXt.log_linedelete('tlog.log',10)
+73/11: reload(tXt)
+73/12: tXt.log_linedelete('tlog.log',10)
+73/13: reload(tXt)
+73/14: tXt.log_linedelete('tlog.log',10)
+74/1: import fileinput
+75/1: import fileinput
+75/2:
+for line in fileinput(files='tlog.log'):
+    print(line)
+75/3:
+for line in fileinput.input(files='tlog.log'):
+    print(line)
+75/4: !more tlog.log
+73/15: tXt.log_linedelete('tlog.log',10)
+75/5:
+for line in fileinput.input(files='tlog.log'):
+    print(line)
+75/6: line="2020-07-02,hep-ex,2007.00528,1278589550441361408,2020-07-02 07:21:18"
+75/7: line
+75/8: re.match(r'.*,',line)
+75/9: import re
+75/10: re.match(r'.*,',line)
+75/11: re.match(r'[0-9|-]+,',line)
+75/12: re.match(r'[0-9|-]+',line)
+75/13: date=re.match(r'[0-9|-]+',line)
+75/14: date
+75/15: date=re.match(r'[0-9|-]+',line).group()
+75/16: date
+75/17: import datetime
+75/18: datetime.datetime.fromisoformat(date)
+75/19: reload(tXt)
+75/20: import reload
+75/21: exec(open('preambles.py').read())
+75/22: reload(tXt)
+75/23: line
+75/24: tXt.front_date(line)
+75/25: tdate=datetime.utcnow()
+75/26: tdate
+75/27: odate=tXt.front_date(line)
+75/28: odate-tdate
+75/29: odate-tdate.day
+75/30: odate-tdate.day()
+75/31: odate-tdate.days()
+75/32: (odate-tdate).day
+75/33: ddate=odate-tdate
+75/34: ddate
+75/35: ddate.days
+75/36: reload(tXt)
+75/37: tXt.log_linedelete('tlog.log',2)
+75/38: reload(tXt)
+75/39: tXt.log_linedelete('tlog.log',2)
+75/40: ddate=odate-tdate
+75/41: ddate
+75/42: ddate
+75/43: ddate
+75/44: odate
+75/45: tdate
+75/46: print('2')
+76/1: exec(open('preambles.py').read())
+76/2: tdate=datetime.utcnow()
+76/3: line="2020-07-02,hep-ex,2007.00528,1278589550441361408,2020-07-02 07:21:18"
+76/4: odate=tXt.front_date(line)
+76/5: odate
+76/6: ddate=odate-tdate
+76/7: ddate
+76/8: tdate
+76/9: ddate=tdate-odate
+76/10: ddate
+76/11: ddate.days
+76/12: tdate
+76/13: odate
+76/14: oodate=odate-timedelta(1)
+76/15: oodate
+76/16: dddate=tdate-oodate
+76/17: dddate
+76/18: dddate.days
+76/19: reload(tXt)
+76/20: tXt.log_linedelete('tlog.log',10)
+76/21: !more tlog.log
+76/22: reload(tXt)
+76/23: tXt.log_linedelete('tlog.log',10)
+76/24: !more tlog.log
+76/25: tXt.log_linedelete('tlog.log',1)
+76/26: !more tlog.log
+76/27: tXt.log_linedelete('tlog.log',1)
+76/28: !more tlog.log
+76/29: tXt.log_linedelete('tlog.log',0)
+76/30: !more tlog.log
+76/31: ddate.days
+76/32: dddate.days
+76/33: dddate=tdate-oodate
+76/34: dddate
+76/35: tdate
+76/36: tdate=datetime.utcnow()
+76/37: odate=tXt.front_date(line)
+76/38: tdate
+76/39: tdate
+77/1: exec(open('preambles.py').read())
+77/2: line="2020-07-02,hep-ex,2007.00528,1278589550441361408,2020-07-02 07:21:18"
+77/3: tdate=datetime.utcnow()
+77/4: odate=tXt.front_date(line)
+77/5: tdate
+77/6: odate=tdate-timedelta(2)
+77/7: odate
+77/8: ddate=tdate-odate
+77/9: ddate
+77/10: ddate.days
+77/11: ddate.days<10
+77/12: ddate.days<10
+77/13: ddate.days>10
+77/14: reload(tXt)
+77/15: tXt.log_linedelete('tlog.log',2)
+77/16: reload(tXt)
+77/17: tXt.log_linedelete('tlog.log',2)
+78/1: exec(open('preambles.py').read())
+78/2: tXt.log_linedelete('tlog.log',2)
+78/3: reload(tXt)
+78/4: tXt.log_linedelete('tlog.log',2)
+78/5: import fileinput
+78/6:
+for line in fileinput.input('tlog.log'):
+    print(line)
+78/7: reload(tXt)
+78/8: filein=fileinput.input('tlog.log')
+78/9: filein=fileinput.input('tlog.log')
+79/1: exec(open('preambles.py').read())
+79/2: tXt.log_linedelete('tlog.log',2)
+79/3: datetime.fromisoformat('2020-07-02')
+79/4: reload(tXt)
+79/5: datetime.fromisoformat('2020-07-02')
+79/6: tXt.log_linedelete('tlog.log',2)
+80/1: exec(open('preambles.py').read())
+80/2: tXt.log_linedelete('tlog.log',2)
+80/3: reload(tXt)
+80/4: tXt.log_linedelete('tlog.log',2)
+81/1: exec(open('preambles.py').read())
+81/2: tXt.log_linedelete('tlog.log',2)
+82/1: exec(open('preambles.py').read())
+82/2: exec(open('preambles.py').read())
+82/3: tXt.log_linedelete('tlog.log',2)
+83/1: exec(open('preambles.py').read())
+83/2: tXt.log_linedelete('tlog.log',2)
+84/1: exec(open('preambles.py').read())
+84/2: tXt.log_linedelete('tlog.log',2)
+85/1: exec(open('preambles.py').read())
+85/2: tXt.log_linedelete('tlog.log',10)
+85/3: tXt.log_linedelete('tlog.log',10)
+85/4: print('ett',end='')
+85/5: print('ett')
+86/1: print('ett',end='')
+86/2: print('ett')
+86/3: !more tlog.log
+86/4: tXt.log_linedelete('tlog.log',10)
+86/5: reload(tXt)
+86/6: exec(open('preambles.py').read())
+86/7: tXt.log_linedelete('tlog.log',10)
+87/1: exec(open('preambles.py').read())
+87/2: tXt.log_linedelete('tlog.log',10)
+88/1: exec(open('preambles.py').read())
+88/2: tXt.log_linedelete('tlog.log',10)
+89/1: exec(open('preambles.py').read())
+89/2: tXt.log_linedelete('tlog.log',10)
+89/3: tXt.log_linedelete('tlog.log',2)
+89/4: tXt.log_linedelete('tlog.log',1)
+90/1: exec(open('preambles.py').read())
+90/2: f=open('access.json')
+90/3: cre=json.load(f)
+90/4: cre['credentials'][0]
+90/5: apicaro=tXt.tweet_api(cre['credentials'][0])
+90/6: import mybot_users
+90/7: import mybot_users
+90/8: import mybot_users as botu
+90/9: botu.allbotusers(apicaro,'data/2020-07-01_my_arxiv_bots.json','mybotsusers.log')
+90/10: g=open('data/2020-07-01_my_arxiv_bots.json')
+90/11: bots=json.load(g)
+90/12: bots['bots'][0].keys()
+90/13: botu.allbotusers(apicaro,bots,'mybotsusers.log')
+90/14: reload(botu)
+90/15: botu.allbotusers(apicaro,bots,'mybotsusers.log')
+90/16: 2*2000
+90/17: 2*2000/60
+90/18: 2*3000/60
+90/19: 60*60
+90/20: 5*3000/60
+90/21: reload(botu)
+90/22: botu.allbotusers(apicaro,bots,'mybotsusers.log')
+90/23: reload(botu)
+90/24: botu.allbotusers(apicaro,bots,'mybotsusers.log')
+91/1: exec(open('preambles.py').read())
+91/2: f=open('access.json')
+91/3: cre=json.load(f)
+91/4: cre['credentials'][1]
+91/5: apitaro=tXt.tweet_api(cre['credentials'][1])
+91/6: !more twXiv_tweet.py
+91/7: tXt.twitter_rate(apitaro)
+91/8: tXt.twitter_rate(apitaro)
+91/9: apitaro.udpate_status('test')
+91/10: apitaro.update_status('test 1')
+91/11: tXt.twitter_rate(apitaro)
+91/12: apitaro.update_status('test 1')
+91/13: apitaro.update_status('test 2')
+91/14: apitaro.update_status('test 3')
+91/15: apitaro.update_status('test 4')
+91/16: tXt.twitter_rate(apitaro)
+91/17: apitaro.rate_limit_status()
+91/18: rl=apitaro.rate_limit_status()
+91/19: rl.keys()
+91/20: rlrr=rl['resources']
+91/21: rlrr.keys()
+91/22: rlrr['application']
+91/23: rl.keys()
+91/24: rl['rate_limit_context']
+91/25: rl['resources']
+91/26: rl['resources'].keys()
+91/27: rl['resources']['tweets']
+91/28: apitaro.rate_limit_status()
+91/29: apitaro.rate_limit_status()|!more
+91/30: apitaro.rate_limit_status()
+91/31: rl
+92/1: exec(open('preambles.py').read())
+92/2: tXt.create_friendship(uo)
+92/3: tXt.create_friendship('uo')
+92/4: reload(tXt)
+92/5: tXt.create_friendship('uo')
+92/6: reload(tXt)
+92/7: reload(tXt)
+92/8: reload(tXt)
+92/9: apitaro
+92/10: exec(open('preambles.py').read())
+92/11: f=open('access.json')
+92/12: cre=json.load(f)
+92/13: apitaro=tXt.tweet_api(cre['credentials'][1])
+92/14: tXt.update_status(apitaro,"test 000")
+92/15: reload(tXt)
+92/16: tXt.update_status(apitaro,"test 000")
+92/17: tXt.update_status(apitaro,"test 000")
+92/18: tXt.update_status(apitaro,"test 001")
+92/19: tXt.update_status(apitaro,"test 002")
+92/20: tXt.update_status(apitaro,"test 032")
+92/21: tXt.update_status(apitaro,"test 034")
+92/22: tXt.update_status(apitaro,"test 036")
+92/23: tXt.update_status(apitaro,"test 031")
+92/24: tXt.update_status(apitaro,"test 0031")
+92/25: tXt.update_status(apitaro,"test 00301")
+92/26: tXt.update_status(apitaro,"test 003001")
+92/27: tXt.update_status(apitaro,"test 0030001")
+92/28: tXt.update_status(apitaro,"test 00300001")
+92/29: tXt.update_status(apitaro,"test 003000001")
+92/30: tXt.update_status(apitaro,"test 003000001").wait_on_rate_limit
+92/31: tXt.update_status(apitaro,"test 003000001")
+92/32: tXt.update_status(apitaro,"test 0030000001")
+92/33: tXt.update_status(apitaro,"test 00300000001")
+92/34: tXt.update_status(apitaro,"test 003000000001")
+92/35: tXt.update_status(apitaro,"test 0030000000001")
+92/36: tXt.update_status(apitaro,"test 00300000000001")
+92/37: reload(tXt)
+92/38: tXt.update_status(apitaro,"test 00300000000001")
+92/39: tXt.update_status(apitaro,"test 003000000000001")
+92/40: reload(tXt)
+92/41: reload(tXt)
+92/42: tXt.update_status(apitaro,"test 00300000000001")
+92/43: tXt.update_status(apitaro,"test 0030001")
+93/1: exec(open('preambles.py').read())
+93/2: f=open('access.json')
+93/3: f=open('access.json')
+93/4: cre=json.load(f)
+93/5: apitaro=tXt.tweet_api(cre['credentials'][1])
+93/6: tXt.update_status(apitaro,"test 003001010")
+93/7: tXt.update_status(apitaro,"test 0030010100")
+93/8: apitaro.update_status("test reply to none",in_reply_to_status_id='')
+93/9: apitaro.update_status("second test reply to none",in_reply_to_status_id='1278598583772573696')
+93/10: apitaro.update_status("tsecond test reply to none",in_reply_to_status_id=1278598583772573696)
+93/11: apitaro.update_status("ttsecond test reply to none",in_reply_to_status_id=1278679078699020289)
+93/12: apitaro.update_status("ttsecond test reply to none",in_reply_to_status_id=)
+93/13: apitaro.update_status("tttsecond test reply to none",in_reply_to_status_id=)
+93/14: apitaro.update_status("tttsecond test reply to none",in_reply_to_status_id='')
+93/15: apitaro.update_status("00ttsecond test reply to none",in_reply_to_status_id='1278679078699020289')
+93/16: twww=tXt.update_status(apitaro,'test 0123')
+93/17: twww.id
+93/18: reload(tXt)
+93/19: exec(open('preambles.py').read())
+93/20: reload(tXt)
+94/1: exec(open('preambles.py').read())
+95/1: exec(open('preambles.py').read())
+96/1: exec(open('preambles.py').read())
+96/2: cre
+96/3: cre['credentials'][1]
+96/4: apitaro
+97/1: exec(open('preambles.py').read())
+97/2: apitaro
+97/3: tXt.update_status(apitaro,'test 01231',)
+97/4: tXt.update_status(apitaro,'test 01231','')
+97/5: testt=tXt.update_status(apitaro,'test 012310','')
+97/6: testt=tXt.update_status(apitaro,'test 012310 rep',testt.id)
+90/25: botu.allbotusers(apicaro,bots,'mybotsusers.log')
+98/1: exec(open('preambles.py').read())
+98/2: bf=pd.read_csv('botusers.log')
+98/3: bf=bf.values.tolist()
+98/4: bf
+98/5: bf3=[w[2] for w in bf]
+98/6: bf3
+98/7: len(bf3)
+98/8: bfset=set(bf3)
+98/9: bfset
+98/10: len(bfset)
+98/11: bf3
+98/12: bf3set
+98/13: bfset
+98/14: len(bfset)
+99/1: exec(open('preambles.py').read())
+99/2: cat='hep-th'
+99/3: en=tXf.daily_entries(cat,1,1)
+100/1: cat='hep-th'
+100/2: exec(open('preambles.py').read())
+100/3: en=tXf.daily_entries(cat,1,1)
+100/4: mlist=tXs.modify_list(en,cat)
+100/5: clist=tXs.crosslists(en,cat)
+100/6: clist
+101/1: import twXiv_feed as tXf
+101/2: exec(open('preambles.py').read())
+101/3: import time
+101/4: time.sleep(0.5)
+101/5: ls
+102/1: exec(open('preambles.py').read())
+102/2: cat='hep-th'
+102/3: en=tXf.daily_entries(cat)
+102/4: exec(open('preambles.py').read())
+102/5: en=tXf.daily_entries(cat)
+103/1: exec(open('preambles.py').read())
+103/2: cat='hep-th'
+103/3: en=tXf.daily_entries(cat)
+103/4: en
+103/5: en=tXf.daily_entries('hep')
+103/6: feed=tXf.cat_feed('hep')
+103/7: feed.bozo
+103/8: feed
+90/26: try tXf.cat_feed('hep')
+90/27:
+try tXf.cat_feed('hep'):
+    print(0)
+105/1: from dateutil.parser import parse
+105/2: dt=parse('7/4/2020, 3:08:47 PM')
+105/3: dt
+105/4: dt=parse('2020/6/8 8:52:18')
+105/5: dt
+101/6: import re
+101/7: re.sub('\s+$','test  ')
+101/8: re.sub('\s+$','','test  ')
+101/9: import pandas as pd
+106/1: from dateutil.parser import parse
+106/2: import re
+106/3: import pandas as  pd
+106/4: fulln=pd.read_csv('data/20200608-names.csv')
+106/5: fulln
+106/6: fulln.any
+106/7: fulln.all()
+106/8: fulln.all
+106/9: fulln.agg()
+106/10: fulln.agg
+106/11: fullna=fulln.values.tolist()
+106/12: fullna
+106/13:
+for each in fullna:
+    print(each)
+106/14:
+for each in fullna:
+    print(each[0])
+106/15: import pprint
+106/16: pprint(fulln)
+106/17: pprint(fullna)
+106/18: pprint fullna
+106/19: pprint fulln
+106/20: print(full)
+106/21: print(fulln)
+106/22: att=pd.read_csv('data/20200608-names.csv')
+106/23: att=att.values.tolist()
+106/24: print(att)
+106/25: att=pd.read_csv('data/20200608-att-sample.csv')
+106/26: att=att.values.tolist()
+106/27: print(att)
+106/28: import pprint
+106/29: pprint.att
+106/30: pp = pprint.PrettyPrinter(indent=4)
+106/31: pp.print(att)
+106/32: pp.pprint(att)
+106/33: att[0]
+106/34: att=pd.read_csv('data/20200608-att-sample.csv',separator=\t)
+106/35: att=pd.read_csv('data/20200608-att-sample.csv',separator='\t')
+106/36: att=pd.read_csv('data/20200608-att-sample.csv',sep='\t')
+106/37: att=att.values.tolist()
+106/38: pp.pprint(att)
+106/39: att
+106/40: [each for each in att]
+106/41: [[each[0],each[1]] for each in att]
+106/42: [[each[0],each[1],each[2]] for each in att]
+106/43: from dateutil.parser import parse
+106/44: [[each[0],each[1],parse(each[2])] for each in att]
+106/45: [[each[0],each[1],parse(each[2])] for each in att]
+106/46: import pandas as pd
+106/47: att
+106/48: pp.pprint(att)
+106/49: noshawlist=[]
+106/50: noshawlist.append('hia t')
+106/51: noshawlist
+106/52: tbefore=parse('2020-06-08 9:00')
+106/53: tbefore
+106/54: att
+106/55: att=[[each[0],each[1],parse(each[2])] for each in att]
+106/56: att
+106/57: att[0]
+106/58: att[0][1]
+106/59: att[0][2]
+106/60: entry[0][2]
+106/61: att[0][2]
+106/62: atdate=att[0][2]
+106/63: tbefore
+106/64: atdate>tbefore
+106/65: atdate<=tbefore
+106/66: att
+106/67: len_a=len(att)
+106/68: len_a
+106/69: att[23]
+106/70: range(3)
+106/71: range(3)[0]
+106/72: range(3)[1]
+106/73: range(3)[2]
+106/74: att
+106/75: att[22:]
+106/76: att[21:]
+106/77: att[:21]
+106/78: att[:0]
+106/79: att[:1]
+106/80: len(att)
+106/81: att[23:]
+106/82: att[22:]
+106/83: att
+106/84: entry=att[10]
+106/85: entry
+106/86: att
+106/87: entry
+106/88: att[10:]
+106/89: att[11:]
+106/90: att[12:]
+106/91: att[22:]
+106/92: att[23:]
+106/93: list
+106/94: testlist=[]
+106/95: testlist2=[12,12]
+106/96: testlist.append(testlist2)
+106/97: testlist
+106/98: import noshow
+106/99: import noshow_commands nosc
+106/100: import noshow_commands as nosc
+106/101: att
+106/102: fulln
+106/103: full
+106/104: fullnames
+106/105: fullnames=pd.read_csv('data/20200608-names.csv')
+106/106: fullnames=fullnames.values.tolist()
+106/107: fullnames=[re.sub(r'\s+$','',name[0]) for name in fullnames]
+106/108: fullnames
+106/109: nosc.noshow_atall(fullnames,att)
+106/110: nosc.noshow_before(fullnames,att,'2020-06-08 9:00')
+106/111: nosc.noshow_before(fullnames,att,'2020-06-08 8:00')
+106/112: nosc.noshow_before(fullnames,att,'2020-06-08 8:51')
+106/113: nosc.noshow_before(fullnames,att,'2020-06-08 8:53')
+106/114: nosc.noshow_before(fullnames,att,'2020-06-08 8:54')
+106/115: nosc.noshow_before(fullnames,att,'2020-06-08 8:53')
+106/116: nosc.noshow_after(fullnames,att,'2020-06-08 8:53')
+106/117: nosc.noshow_after(fullnames,att,'2020-06-08 8:53')
+106/118: nosc.noshow_after(fullnames,att,'2020-06-08 9:44')
+106/119: nosc.noshow_after(fullnames,att,'2020-06-08 9:44')
+106/120: reload(nosc)
+106/121: from importlib import reload
+106/122: reload(nosc)
+106/123: nosc.noshow_after(fullnames,att,'2020-06-08 9:44')
+106/124: reload(nosc)
+106/125: nosc.noshow_after(fullnames,att,'2020-06-08 9:44')
+106/126: reload(nosc)
+106/127: nosc.noshow_after(fullnames,att,'2020-06-08 9:44')
+106/128: reload(nosc)
+106/129: nosc.noshow_after(fullnames,att,'2020-06-08 9:44')
+106/130: reload(nosc)
+106/131: nosc.noshow_after(fullnames,att,'2020-06-08 9:44')
+106/132: reload(nosc)
+106/133: nosc.noshow_after(fullnames,att,'2020-06-08 9:44')
+106/134: reload(nosc)
+106/135: nosc.noshow_after(fullnames,att,'2020-06-08 9:44')
+106/136: att[20]
+106/137: more data/20200608-att-sample.csv
+106/138: att[20]
+106/139: att[20:]
+106/140: att[21:]
+106/141: nosc.noshow_atall(fullnames,att[21:])
+106/142: 'Moma Newyork' in nosc.noshow_atall(fullnames,att[21:])
+106/143: not 'Moma Newyork' in nosc.noshow_atall(fullnames,att[21:])
+106/144: 'Moma Newyork' in nosc.noshow_atall(fullnames,att[21:])
+106/145: 'Moma Newyork' in nosc.noshow_atall(fullnames,att[20:])
+106/146: att[20:]
+106/147: 'Moma Newyork' in nosc.noshow_atall(fullnames,att[20:])
+106/148: reload(nosc)
+106/149: nosc.noshow_after(fullnames,att,'2020-06-08 9:44')
+106/150: more data/20200608-att-sample.csv
+106/151: nosc.noshow_after(fullnames,att,'2020-06-08 9:45')
+106/152: more data/20200608-att-sample.csv
+106/153: att[15:]
+106/154: nosc.noshow_atall(fullnames, att[15:])
+106/155: att[15:]
+106/156: att=pd.read_csv('data/20200608-att-sample.csv')
+106/157: att=att.values.tolist()
+106/158: att
+106/159: att=pd.read_csv('data/20200608-att-sample.csv',sep='\t')
+106/160: att=att.values.tolist()
+106/161: reload(nosc)
+106/162: att=nosc.attendence_list('data/20200608-att-sample.csv')
+106/163: att
+106/164: fullnames=nosc.fullnames('data/20200608-names.csv')
+106/165: fullnames
+106/166: nosc.noshow_after(fullnames,att,'2020-06-08 9:45')
+106/167: att[15:]
+106/168: nosc.noshow_atall(fullnames,att[15:])
+106/169: nosc.noshow_atall(fullnames,att[15:])
+106/170: fullnames=nosc.fullnames('data/20200608-names.csv')
+106/171: fullnames
+106/172: nosc.noshow_atall(fullnames,att[15:])
+106/173: att[15:]
+106/174: nosc.noshow_atall(fullnames,att[16:])
+106/175: reload(nosc)
+106/176: nosc.noshow_atall(fullnames,att[16:])
+106/177: nosc.noshow_after(fullnames,att,'2020-06-08 9:45')
+106/178: att=nosc.attendence_list('data/20200608-att-sample.csv')
+106/179: nosc.noshow_after(fullnames,att,'2020-06-08 9:35')
+106/180: nosc.noshow_after(fullnames,att,'2020-06-08 8:57')
+106/181: nosc.noshow_after(fullnames,att,'2020-06-08 8:58')
+106/182: time_d='2020/6/8 9:15 to 2020/6/8 9:30'
+106/183: time_d.split('to')
+106/184: time_d.split('to')
+106/185: reload(nosc)
+106/186: nosc.noshow_after(fullnames,att,'2020-06-08 8:58')
+106/187: att=nosc.attendence_list('data/20200608-att-sample.csv')
+106/188: fullnames=nosc.fullnames('data/20200608-names.csv')
+106/189: nosc.noshow_after(fullnames,att,'2020-06-08 8:58')
+106/190: nosc.noshow_after(fullnames,att,'2020-06-08 9:44')
+106/191: nosc.noshow_after(fullnames,att,'2020/6/8 9:44')
+106/192: nosc.noshow_after(fullnames,att,'2020/6/10 9:44')
+106/193: nosc.noshow_after(fullnames,att,'2020/6/10 9:44')
+106/194: nosc.noshow_atall(fullnames,att)
+106/195: nosc.noshow_after(fullnames,att,'2020/6/7 9:44')
+106/196: nosc.noshow_after(fullnames,att,'2020/6/8 9:44')
+106/197: nosc.noshow_after(fullnames,att,'2020/6/10 9:44')
+106/198: nosc.noshow_after(fullnames,att,'2020/6/10 9:44')
+106/199: nosc.noshow_after(fullnames,att,'2020/6/8 9:44')
+107/1: att=nosc.attendence_list('data/20200608-att-sample.csv')
+107/2: import noshow as nosc
+107/3: import noshow_commands as nosc
+107/4: att=nosc.attendence_list('data/20200608-att-sample.csv')
+107/5: fullnames=nosc.fullnames('data/20200608-names.csv')
+107/6: nosc.noshow_after(fullnames,att,'2020/6/8 9:44')
+107/7: nosc.noshow_after(fullnames,att,'2020/6/10 9:44')
+107/8: nosc.noshow_after(fullnames,att,'2020/6/10 9:44')
+107/9: nosc.noshow_after(fullnames,att,'2020/6/10 9:44')
+107/10: reload(nosc)
+107/11: from importlib import reload
+107/12: reload(nosc)
+107/13: ls
+107/14: nosc.noshow_before(fullnames,att,'2020/6/8 8:53')
+107/15: reload(nosc)
+107/16: nosc.noshow_before(fullnames,att,'2020/6/8 8:53')
+107/17: nosc.noshow_before(fullnames,att,'2020/6/8 8:52')
+107/18: reload(nosc)
+107/19: fullnames=nosc.fullnames('data/20200608-names.csv')
+107/20: fullnames
+108/1: from importlib import reload
+108/2: import noshow_commands as nosc
+108/3: fullnames=nosc.fullnames('data/20200608-names.csv')
+108/4: att=nosc.attendence_list('data/20200608-att-sample.csv')
+108/5: fullnames
+108/6: att
+108/7: reload(nosc)
+108/8: nosc.noshow_during(fullnames,att_list,'2020/6/8 9:12:01 to 2020/6/8 9:12:02')
+108/9: nosc.noshow_during(fullnames,att,'2020/6/8 9:12:01 to 2020/6/8 9:12:02')
+108/10: nosc.noshow_during(fullnames,att,'2020/6/8 9:12:01 to 2020/6/8 9:12:02')
+108/11: nosc.noshow_during(fullnames,att,'2020/6/8 9:12:01 to 2020/6/8 9:12:02')
+108/12: reload(nosc)
+108/13: nosc.noshow_during(fullnames,att,'2020/6/8 9:12:01 to 2020/6/8 9:12:02')
+108/14: reload(nosc)
+108/15: nosc.noshow_during(fullnames,att,'2020/6/8 9:12:01 to 2020/6/8 9:12:02')
+108/16: nosc.noshow_during(fullnames,att,'2020/6/8 9:12:02 to 2020/6/8 9:12:05')
+108/17: reload(nosc)
+108/18: nosc.noshow_during(fullnames,att,'2020/6/8 9:12:02 to 2020/6/8 9:12:05')
+108/19: nosc.noshow_before(fullnames,att,'2020/6/8 9:12:02')
+108/20: nosc.noshow_after(fullnames,att,'2020/6/8 9:12:02')
+108/21: reload(nosc)
+108/22: nosc.noshow_during(fullnames,att,'2020/6/8 9:12:02 to 2020/6/8 9:12:05')
+108/23: reload(nosc)
+108/24: nosc.noshow_during(fullnames,att,'2020/6/8 9:12:02 to 2020/6/8 9:12:05')
+108/25: ['2020/6/8 9:12:02', '2020/6/8 9:12:05']
+108/26: times=['2020/6/8 9:12:02', '2020/6/8 9:12:05']
+108/27: times[0]
+108/28: from dateutil.parser import parse
+108/29: parse(times[0])
+108/30: reload(nosc)
+108/31: nosc.noshow_during(fullnames,att,'2020/6/8 9:12:02 to 2020/6/8 9:12:05')
+108/32: nosc.noshow_during(fullnames,att,'2020/6/8 9:12:02 to 2020/6/8 9:12:05')
+108/33: reload(nosc)
+108/34: nosc.noshow_during(fullnames,att,'2020/6/8 9:12:02 to 2020/6/8 9:12:05')
+108/35: nosc.noshow_during(fullnames,att,'2020/6/8 8:58:49 to 2020/6/8 8:59:10')
+108/36: nosc.noshow_before(fullnames,att,'2020/6/8 8:53:00')
+108/37: reload(nosc)
+108/38: nosc.noshow_during(fullnames,att,'2020/6/8 9:12:02 to 2020/6/8 9:12:05')
+108/39: att=nosc.attendence_list('data/20200608-att-sample.csv')
+108/40: att=nosc.attendence_list('data/att-sample.csv')
+108/41: fullnames=nosc.fullnames('data/names-sample.csv')
+108/42: nosc.noshow_during(fullnames,att,'2020/6/8 9:12:02 to 2020/6/8 9:12:05')
+108/43: nosc.noshow_during(fullnames,att,'2020-07-04 9:12:02 to 2020-07-04 9:12:05')
+108/44: time_1=parse('2020-07-04 9:12:00')
+108/45: time_2=parse('2020-07-04 9:13:11')
+108/46: time_2-time_1
+108/47: dtime=time_2-time_1
+108/48: dtime.min
+108/49: dtime.total_seconds
+108/50: dtime.total_seconds()
+108/51: timespent={}
+108/52: timespet['paul']=10
+108/53: timespent['paul']=10
+108/54: timespent
+108/55: reload(nosc)
+108/56: nosc.noshow_min(fullnames,att,'00:00:05 until 2020-07-04 11:30')
+108/57: nosc.noshow_min(fullnames,att,'00:00:05 until 2020-07-04 11:30')
+108/58: reload(nosc)
+108/59: nosc.noshow_min(fullnames,att,'00:00:05 until 2020-07-04 11:30')
+108/60: nosc.noshow_min(fullnames,att,'00:00:05 until 2020-07-04 11:30')
+108/61: reload(nosc)
+108/62: nosc.noshow_min(fullnames,att,'00:00:05 until 2020-07-04 11:30')
+108/63: person='So'
+108/64: timespent[person]=10
+108/65: timespent
+108/66: nosc.noshow_min(fullnames,att,'00:00:05 until 2020-07-04 11:30')
+108/67: ddate=tdate-odate
+108/68: dtime
+108/69: datetime.timedelta(0)
+108/70: att
+108/71: reload(nosc)
+108/72: datetime.timedelta(0)
+108/73: import datetime
+108/74: datetime.timedelta(0)
+108/75: reload(nosc)
+108/76: nosc.noshow_min(fullnames,att,'00:00:05 until 2020-07-04 11:30')
+108/77: reload(nosc)
+108/78: nosc.noshow_min(fullnames,att,'00:00:05 until 2020-07-04 11:30')
+108/79: nosc.noshow_min(fullnames,att,'00:00:05 until 2020-07-04 11:30')
+108/80: reload(nosc)
+108/81: nosc.noshow_min(fullnames,att,'00:00:05 until 2020-07-04 11:30')
+108/82: reload(nosc)
+108/83: nosc.noshow_min(fullnames,att,'00:00:05 until 2020-07-04 11:30')
+108/84: reload(nosc)
+108/85: nosc.noshow_min(fullnames,att,'00:00:05 until 2020-07-04 11:30')
+108/86: reload(nosc)
+108/87: nosc.noshow_min(fullnames,att,'00:00:05 until 2020-07-04 11:30')
+108/88: difftime=parse(00:00:05)
+108/89: difftime=parse('00:00:05')
+108/90: difftime
+108/91: datetime.timedelta(seconds=9380).total_seconds
+108/92: datetime.timedelta(seconds=9380).total_seconds()
+108/93: datetime.timedelta(seconds=9380)> difftime
+108/94: reload(nosc)
+108/95: nosc.noshow_min(fullnames,att,'00:00:05 until 2020-07-04 11:30')
+108/96: datetime.timedelta(seconds=9380)
+108/97: difftime=parse('00:15')
+108/98: difftime
+108/99: difftime=parse('00:15')-parse('00:00')
+108/100: difftime
+108/101: datetime.timedelta(seconds=9380)-difftime
+108/102: (datetime.timedelta(seconds=9380)-difftime).total_seconds
+108/103: (datetime.timedelta(seconds=9380)-difftime).total_seconds()>0
+108/104: timespent.keys()
+108/105: dict(timespent.keys())
+108/106: dict_keys(timespent.keys())
+108/107:
+for key in timespent:
+    print(key)
+108/108: reload(nosc)
+108/109: nosc.noshow_min(fullnames,att,'00:00:05 until 2020-07-04 11:30')
+108/110: nosc.noshow_min(fullnames,att,'00:06:05 until 2020-07-04 11:30')
+108/111: nosc.noshow_min(fullnames,att,'00:06:05 until 2020-07-04 10:52:19')
+108/112: nosc.noshow_min(fullnames,att,'00:59:05 until 2020-07-04 10:52:19')
+108/113: nosc.noshow_min(fullnames,att,'00:40:05 until 2020-07-04 10:52:19')
+108/114: nosc.noshow_min(fullnames,att,'00:43:05 until 2020-07-04 10:52:19')
+108/115: nosc.noshow_min(fullnames,att,'00:50:05 until 2020-07-04 10:52:19')
+108/116: nosc.noshow_min(fullnames,att,'00:51:05 until 2020-07-04 10:52:19')
+108/117: nosc.noshow_min(fullnames,att,'00:53:05 until 2020-07-04 10:52:19')
+108/118: nosc.noshow_min(fullnames,att,'00:53 until 2020-07-04 10:52:19')
+108/119: nosc.noshow_min(fullnames,att,'00:50 until 2020-07-04 10:52:19')
+108/120: nosc.noshow_min(fullnames,att,'00:50 until 2020-07-04 10:52:19')
+108/121: reload(nosc)
+108/122: reload(nosc)
+108/123: nosc.noshow_min(fullnames,att,'00:50 until 2020-07-04 10:52:19')
+108/124: fullnames=nosc.fullnames('data/names-sample.csv')
+108/125: att=nosc.attendence_list('data/att-sample.csv')
+108/126: nosc.noshow_min(fullnames,att,'00:50 until 2020-07-04 10:52:19')
+108/127: nosc.noshow_min(fullnames,att,'00:51 until 2020-07-04 10:52:19')
+108/128: nosc.noshow_min(fullnames,att,'00:50 until 2020-07-04 10:52:19')
+108/129: list=nosc.noshow_min(fullnames,att,'00:50 until 2020-07-04 10:52:19')
+108/130: list.sort
+108/131: list.sort()
+108/132: list.sort()
+108/133: sort(list)
+108/134: list
+108/135: list.sort()
+108/136: list.sort()
+108/137: list
+108/138: list=nosc.noshow_atall(fullnames,att)
+108/139: [row[0] for row in att]
+108/140: reload(nosc)
+108/141: list=nosc.noshow_atall(fullnames,att)
+108/142: list=nosc.noshow_atall(fullnames,att)
+108/143: list=nosc.noshow_atall(fullnames,att)
+108/144: att
+108/145: nosc.noshow_atall(fullnames,att)
+108/146: nosc.noshow_atall(fullnames,att)
+108/147: att
+108/148: nosc.noshow_atall(fullnames,att)
+108/149: reload(nosc)
+108/150: nosc.noshow_atall(fullnames,att)
+108/151: nosc.noshow_before(fullnames,att,'2020/6/8 8:53:00')
+108/152: nosc.noshow_before(fullnames,att,'2020/6/8 9:53:00')
+108/153: nosc.noshow_before(fullnames,att,'2020/6/8 9:54:00')
+108/154: nosc.noshow_before(fullnames,att,'2020/7/4 9:54:00')
+108/155: nosc.noshow_before(fullnames,att,'2020/7/4 9:53:00')
+108/156: nosc.noshow_after(fullnames,att,'2020/6/8 9:12:02')
+108/157: nosc.noshow_after(fullnames,att,'2020/7/4 9:12:02')
+108/158: nosc.noshow_after(fullnames,att,'2020/7/4 10:12:02')
+108/159: nosc.noshow_during(fullnames,att,'2020-07-04 9:12:02 to 2020-07-04 9:12:05')
+108/160: nosc.noshow_during(fullnames,att,'2020-07-04 10:12:02 to 2020-07-04 10:12:05')
+108/161: list=nosc.noshow_min(fullnames,att,'00:50 until 2020-07-04 10:52:19')
+108/162: nosc.noshow_min(fullnames,att,'00:50 until 2020-07-04 10:52:19')
+110/1: import arxiv
+110/2: import pandas as pd
+110/3: ls
+   1: import arxiv
+   2: exec(open('preambles.py').read())
+   3: l=arxiv.query(query="au:'So Okada'")
+   4: l=arxiv.query(query='au"So Okada"')
+   5: l=arxiv.query(query='au:"So Okada"')
+   6: l
+   7: len(l)
+   8: l[0]
+   9: l[1]
+  10: cat:math.CT%29+AND+submittedDate:[20091014200000+TO+20091015200000]
+  11: l=arxiv.query(query='cat:math.CT and submittedDate:[20200705200000+TO+20200707200000]')
+  12: l
+  13: l=arxiv.query(query='cat:math.CT and submittedDate:[20200705+TO+20200707]')
+  14: l
+  15: l=arxiv.query(query='cat:math.AT and submittedDate:[20200705+TO+20200707]')
+  16: l
+  17: l=arxiv.query(query='cat:math.AT AND submittedDate:[20200705+TO+20200707]')
+  18: l=arxiv.query(query='cat:math.NT AND au:Mellit]')
+  19: l
+  20: l=arxiv.query(query='cat:math.NT AND au:Mellit')
+  21: l
+  22: l=arxiv.query(query='cat:math.NT AND submittedDate:20200704 to 20200707')
+  23: l
+  24: l=arxiv.query(query='cat:math.NT AND submittedDate:[20200704 to 20200707]')
+  25: l
+  26: l=arxiv.query(query='cat:math.NT AND submittedDate:[20200703 to 20200707]')
+  27: l
+  28: l=arxiv.query(query='cat:math.NT AND submittedDate:[20200703 to 20200705]')
+  29: l
+  30: l=arxiv.query(query='cat:math.NT AND submittedDate:[202005 to 202006]')
+  31: l
+  32: l=arxiv.query(query='cat:math.NT AND submittedDate:[2019 to 2020]')
+  33: l
+  34: l=arxiv.query(query='submittedDate:[2019 to 2020]')
+  35: l
+  36: l=arxiv.query(query=submittedDate:[200901130630+TO+200901131645])
+  37: l=arxiv.query(query='submittedDate:[200901130630+TO+200901131645]')
+  38: l
+  39: l=arxiv.query(query='submittedDate:[200901130630 TO 200901131645]')
+  40: l
+  41: l=arxiv.query(query='submittedDate:[202007000630 TO 202007071645]')
+  42: len(l)
+  43: l=arxiv.query(query='cat:math.AG AND submittedDate:[202007000630 TO 202007071645]')
+  44: len(l)
+  45: l
+  46: l[0]
+  47: l=arxiv.query(query='cat:math.AG AND submittedDate:[202007032000 TO 202007062000]')
+  48: l
+  49: len(l)
+  50: l[0]
+  51: l[0]['title']
+  52: l[1]['title']
+  53: l[2]['title']
+  54: l[3]['title']
+  55: l=arxiv.query(query='cat:math.AG AND submittedDate:[202007031400 TO 202007061400]')
+  56: len(l)
+  57: l[0]
+  58: l[0]['title']
+  59: l=arxiv.query(query='cat:math.AG AND submittedDate:[202007031900 TO 202007061900]')
+  60: len(l)
+  61: l[0]
+  62: l[0]['title']
+  63: l[18]['title']
+  64: len(l)
+  65:
+for each in l:
+    print(each['title'])
+  66:  l[2]
+  67:  l[3]
+  68:  l[4]
+  69:  l[5]
+  70:  l[6]
+  71:  l[7]
+  72:  l[8]
+  73:  l[9]
+  74:  l[10]
+  75:  l[11]
+  76:  l[12]
+  77:  l[13]
+  78:  l[13]
+  79: %history -g -f filename

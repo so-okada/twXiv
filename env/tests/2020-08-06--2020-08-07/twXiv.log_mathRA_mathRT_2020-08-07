@@ -1,0 +1,339 @@
+*process started at 2020-08-07 08:30:03 (UTC)
+starting a thread of retrieval/new submissions/abstracts for math.RA
+getting daily entries for math.RA
+waiting for a next thread of retrieval/new submissions/abstracts
+new submissions for math.RA
+log file does not exists: var/logfiles/mathRAb_tweet_summaries.csv
+
+thread arXiv category: math.RA
+arXiv id: 
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291652820165201920
+text: [2020-08-07 (UTC), 2 new articles found for mathRA]
+
+starting a thread of retrieval/new submissions/abstracts for math.RT
+getting daily entries for math.RT
+joining threads of retrieval/new submissions/abstracts
+new submissions for math.RT
+log file does not exists: var/logfiles/mathRTb_tweet_summaries.csv
+
+thread arXiv category: math.RT
+arXiv id: 
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291652841841385472
+text: [2020-08-07 (UTC), 4 new articles found for mathRT]
+
+
+thread arXiv category: math.RA
+arXiv id: 2008.02635
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291652854516576258
+text: Fernando Montaner: On von Neumann regularity of algebras of quotients of Jordan algebras https://arxiv.org/abs/2008.02635 https://arxiv.org/pdf/2008.02635
+
+
+thread arXiv category: math.RT
+arXiv id: 2008.02345
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291652867812548609
+text: Magnus Bakke Botnan, Vadim Lebovici, Steve Oudot: Local characterizations for decomposability of 2-parameter persistence modules https://arxiv.org/abs/2008.02345 https://arxiv.org/pdf/2008.02345
+
+
+thread arXiv category: math.RA
+arXiv id: 2008.02635
+url: https://twitter.com/user/status/1291652854516576258
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291652880563236864
+text: We address a Jordan version of Johnson theorem on (associative) algebras of quotients, namely whether a strongly nonsingular (the Jordan version of nonsingularity) has a von Neumann regular algebra of quotients. Although the answer [1/2 of https://arxiv.org/abs/2008.02635v1]
+
+
+thread arXiv category: math.RT
+arXiv id: 2008.02345
+url: https://twitter.com/user/status/1291652867812548609
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291652893905309696
+text: We investigate the existence of sufficient local conditions under which representations of a given poset will be guaranteed to decompose as direct sums of indecomposables from a given class. Our indecomposables of interest belong to [1/4 of https://arxiv.org/abs/2008.02345v1]
+
+
+thread arXiv category: math.RA
+arXiv id: 2008.02635
+url: https://twitter.com/user/status/1291652880563236864
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291652906806984704
+text: is negative in general, we prove that the result holds in the important case of algebras satisfying a polynomial identity. [2/2 of https://arxiv.org/abs/2008.02635v1]
+
+
+thread arXiv category: math.RT
+arXiv id: 2008.02345
+url: https://twitter.com/user/status/1291652893905309696
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291652920149073920
+text: the so-called interval modules, which by definition are indicator representations of intervals in the poset. In contexts where the poset is the product of two totally ordered sets (which corresponds to the setting of 2-parameter [2/4 of https://arxiv.org/abs/2008.02345v1]
+
+
+thread arXiv category: math.RA
+arXiv id: 2008.02700
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291652932979453952
+text: Tom De Medts, Jeroen Meulewaeter: Inner ideals and structurable algebras: Moufang sets, triangles and hexagons https://arxiv.org/abs/2008.02700 https://arxiv.org/pdf/2008.02700
+
+
+thread arXiv category: math.RT
+arXiv id: 2008.02345
+url: https://twitter.com/user/status/1291652920149073920
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291652946254393344
+text: persistence in topological data analysis), we show that the whole class of interval modules itself does not admit such a local characterization, even when locality is understood in a broad sense. By contrast, we show that the [3/4 of https://arxiv.org/abs/2008.02345v1]
+
+
+thread arXiv category: math.RA
+arXiv id: 2008.02700
+url: https://twitter.com/user/status/1291652932979453952
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291652959084847104
+text: We construct Moufang sets, Moufang triangles and Moufang hexagons using inner ideals of Lie algebras obtained from structurable algebras via the Tits--Kantor--Koecher construction. The three different types of structurable algebras [1/3 of https://arxiv.org/abs/2008.02700v1]
+
+
+thread arXiv category: math.RT
+arXiv id: 2008.02345
+url: https://twitter.com/user/status/1291652946254393344
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291652972418461704
+text: subclass of rectangle modules does admit such a local characterization, and furthermore that it is, in some precise sense, the largest subclass to do so. [4/4 of https://arxiv.org/abs/2008.02345v1]
+
+
+thread arXiv category: math.RA
+arXiv id: 2008.02700
+url: https://twitter.com/user/status/1291652959084847104
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291652985336950785
+text: we use are, respectively:  (1) structurable division algebras, (2) algebras $D \oplus D$ for some alternative division algebra $D$, equipped with the exchange involution, (3) matrix structurable algebras $M(J,1)$ for some cubic [2/3 of https://arxiv.org/abs/2008.02700v1]
+
+
+thread arXiv category: math.RT
+arXiv id: 2008.02462
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291652998519615489
+text: David Ginzburg, David Soudry: Double Descent in Classical Groups https://arxiv.org/abs/2008.02462 https://arxiv.org/pdf/2008.02462
+
+
+thread arXiv category: math.RA
+arXiv id: 2008.02700
+url: https://twitter.com/user/status/1291652985336950785
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291653011496767489
+text: Jordan division algebra $J$.  In each case, we also determine the root groups directly in terms of the structurable algebra. [3/3 of https://arxiv.org/abs/2008.02700v1]
+
+
+thread arXiv category: math.RT
+arXiv id: 2008.02462
+url: https://twitter.com/user/status/1291652998519615489
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291653024524283905
+text: Let ${\bf A}$ be the ring of adeles of a number field $F$. Given a self-dual irreducible, automorphic, cuspidal representation $\tau$ of $\GL_n(\BA)$, with trivial central characters, we construct its full inverse image under the [1/3 of https://arxiv.org/abs/2008.02462v1]
+
+
+thread arXiv category: math.RT
+arXiv id: 2008.02462
+url: https://twitter.com/user/status/1291653024524283905
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291653050772287488
+text: weak Langlands functorial lift from the appropriate split classical group $G$. We do this by a new automorphic descent method, namely the double descent. This method is derived from the recent generalized doubling integrals of Cai, [2/3 of https://arxiv.org/abs/2008.02462v1]
+
+
+thread arXiv category: math.RT
+arXiv id: 2008.02462
+url: https://twitter.com/user/status/1291653050772287488
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291653076932124672
+text: Friedberg, Ginzburg and Kaplan \cite{CFGK17}, which represent the standard $L$-functions for $G\times \GL_n$. Our results are valid also for double covers of symplectic groups. [3/3 of https://arxiv.org/abs/2008.02462v1]
+
+
+thread arXiv category: math.RT
+arXiv id: 2008.02632
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291653103104618497
+text: Rui Chen, Jialiang Zou: Local Langlands Correspondence for Even Orthogonal Groups via Theta Lifts https://arxiv.org/abs/2008.02632 https://arxiv.org/pdf/2008.02632
+Traceback (most recent call last):
+  File "/home/okada/misc/prog/twXiv/twXiv_post.py", line 196, in update
+    result = api.retweet(tw_id_str)
+  File "/home/okada/.local/lib/python3.8/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/okada/.local/lib/python3.8/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 328, 'message': 'Retweet is not permissible for this status.'}]
+
+
+thread arXiv category: math.RT
+arXiv id: 2008.02632
+url: https://twitter.com/user/status/1291653103104618497
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291653129327398913
+text: Using theta correspondence, we obtain a classification of the irreducible representations of an arbitrary even orthogonal group (i.e. the local Langlands correspondence) by deducing it from the local Langlands correspondence for [1/2 of https://arxiv.org/abs/2008.02632v1]
+
+
+thread arXiv category: math.RT
+arXiv id: 2008.02632
+url: https://twitter.com/user/status/1291653129327398913
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291653155629838337
+text: symplectic groups due to Arthur. Moreover,we show that our classifications coincide with the local Langlands correspondence established by Arthur and formulated precisely by Atobe-Gan for quasi-split even orthogonal groups. [2/2 of https://arxiv.org/abs/2008.02632v1]
+
+
+thread arXiv category: math.RT
+arXiv id: 2008.02727
+url: https://twitter.com/user/status/
+post method: tweet
+post mode: 1
+url: https://twitter.com/user/status/1291653181861064711
+text: Dave Benson, Srikanth B. Iyengar, Henning Krause, Julia Pevtsova: Rank varieties and $\pi$-points for elementary supergroup schemes https://arxiv.org/abs/2008.02727 https://arxiv.org/pdf/2008.02727
+
+
+thread arXiv category: math.RT
+arXiv id: 2008.02727
+url: https://twitter.com/user/status/1291653181861064711
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291653208067080194
+text: We develop a support theory for elementary supergroup schemes, over a field of positive characteristic $p\ge 3$, starting with a definition of a $\pi$-point generalising cyclic shifted subgroups of Carlson for elementary abelian [1/3 of https://arxiv.org/abs/2008.02727v1]
+
+
+thread arXiv category: math.RT
+arXiv id: 2008.02727
+url: https://twitter.com/user/status/1291653208067080194
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291653234361155584
+text: groups and $\pi$-points of Friedlander and Pevtsova for finite group schemes. These are defined in terms of maps from the graded algebra $k[t,\tau]/(t^p-\tau^2)$, where $t$ has even degree and $\tau$ has odd degree. The strength of [2/3 of https://arxiv.org/abs/2008.02727v1]
+
+
+thread arXiv category: math.RT
+arXiv id: 2008.02727
+url: https://twitter.com/user/status/1291653234361155584
+post method: reply
+post mode: 1
+url: https://twitter.com/user/status/1291653260500033537
+text: the theory is demonstrated by classifying the parity change invariant localising subcategories of the stable module category of an elementary supergroup scheme. [3/3 of https://arxiv.org/abs/2008.02727v1]
+
+
+*crosslist process started at 2020-08-07 08:31:55 (UTC) 
+*time from the start: 0:01:52
+start a crosslist thread of math.RA
+waiting for a next crosslist thread
+math.RA   2008.02308   math.AG
+start a crosslist thread of math.RT
+joining crosslist threads
+math.RT   2008.02525   math.NT
+
+thread arXiv category: math.RT
+arXiv id: 2008.02525
+url: https://twitter.com/user/status/1291613825733545984
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291653312291287042
+text: 
+
+math.RT   2008.02591   math.AG
+
+thread arXiv category: math.RT
+arXiv id: 2008.02591
+url: https://twitter.com/user/status/1291542510355922944
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291653342574198786
+text: 
+
+math.RT   2008.02621   math.NT
+
+thread arXiv category: math.RT
+arXiv id: 2008.02621
+url: https://twitter.com/user/status/1291614505873498112
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291653372714483713
+text: 
+
+math.RT   2008.02690   math.AC
+**retweet error for arXiv categorymath.RA, arXiv id: 2008.02308, text: , tw_id_str: 1291542353421856768
+
+*replacement process started at 2020-08-07 08:32:51 (UTC)
+*time from the start: 0:02:48
+*time from the cross-list start: 0:00:56
+start a replacement thread of math.RA
+math.RA   1804.11249   q-bio.PE
+not in logfiles: q-bio.PE
+waiting for a next replacement thread
+start a replacement thread of math.RT
+math.RT   1905.00035   hep-th
+not in logfiles: hep-th
+math.RT   2003.05892   math.GR
+joining replacement threads
+
+thread arXiv category: math.RT
+arXiv id: 2003.05892
+url: https://twitter.com/user/status/1238272858037444608
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1238272858037444608
+text: 
+
+
+thread arXiv category: math.RT
+arXiv id: 2003.05892
+url: https://twitter.com/user/status/1238272858037444608
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291653568160657408
+text: 
+
+math.RT   2007.11490   math.RT
+
+thread arXiv category: math.RT
+arXiv id: 2007.11490
+url: https://twitter.com/user/status/1286112775505207297
+post method: unretweet
+post mode: 1
+url: https://twitter.com/user/status/1286112775505207297
+text: 
+
+
+thread arXiv category: math.RT
+arXiv id: 2007.11490
+url: https://twitter.com/user/status/1286112775505207297
+post method: retweet
+post mode: 1
+url: https://twitter.com/user/status/1291653622212653061
+text: 
+
+
+*process ended at 2020-08-07 08:33:22 (UTC)
+*time from the start: 0:03:19
+*time from the cross-list start: 0:01:27
+*time from the replacement start: 0:00:31
