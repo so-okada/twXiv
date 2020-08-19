@@ -1,10 +1,11 @@
 # private setting
+.*
 *~
 \#*
-.\#*
 *html*
 **/
 
+!.gitignore
 !tests/
 
 # Byte-compiled / optimized / DLL files

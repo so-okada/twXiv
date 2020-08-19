@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # written by So Okada so.okada@gmail.com
-# a main command-line interface of twXiv
+# a main interface of twXiv
 # https://github.com/so-okada/twXiv/
 
 import json

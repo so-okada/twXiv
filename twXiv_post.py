@@ -179,8 +179,7 @@ def update(logfiles, cat, api, total, arxiv_id, text, tw_id_str, pt_method,
         update_print(cat, arxiv_id, text, tw_id_str, '', pt_method, pt_mode)
         return result
 
-    error_text =\
-        '\nthread arXiv category: ' + cat + \
+    error_text = '\nthread arXiv category: ' + cat + \
         '\narXiv id: ' + arxiv_id + \
         '\ntext: ' + text + \
         '\ntw_id_str: ' + tw_id_str + '\n'
@@ -191,8 +190,8 @@ def update(logfiles, cat, api, total, arxiv_id, text, tw_id_str, pt_method,
             update_print(cat, arxiv_id, text, tw_id_str, result.id_str,
                          pt_method, pt_mode)
         except Exception:
-            time_now = datetime.utcnow().isoformat(' ', 'seconds')
-            error_text = '\n*error to tweet*' + '\nutc: ' + time_now + \
+            time_now = datetime.utcnow().replace(microsecond=0)
+            error_text = '\n*error to tweet*' + '\nutc: ' + str(time_now) + \
                 error_text
             print(error_text)
             traceback.print_exc()
@@ -202,9 +201,8 @@ def update(logfiles, cat, api, total, arxiv_id, text, tw_id_str, pt_method,
             update_print(cat, arxiv_id, text, tw_id_str, result.id_str,
                          pt_method, pt_mode)
         except Exception:
-            time_now = datetime.utcnow().isoformat(' ', 'seconds')
-            time_now = datetime.utcnow().isoformat(' ', 'seconds')
-            error_text = '\n*error to retweet*' + '\nutc: ' + time_now + \
+            time_now = datetime.utcnow().replace(microsecond=0)
+            error_text = '\n*error to retweet*' + '\nutc: ' + str(time_now) + \
                 error_text
             print(error_text)
             traceback.print_exc()
@@ -214,9 +212,9 @@ def update(logfiles, cat, api, total, arxiv_id, text, tw_id_str, pt_method,
             update_print(cat, arxiv_id, text, tw_id_str, result.id_str,
                          pt_method, pt_mode)
         except Exception:
-            time_now = datetime.utcnow().isoformat(' ', 'seconds')
-            error_text = '\n*error to unretweet*' + '\nutc: ' + time_now + \
-                error_text
+            time_now = datetime.utcnow().replace(microsecond=0)
+            error_text = '\n*error to unretweet*' + \
+                '\nutc: ' + str(time_now) + error_text
             print(error_text)
             traceback.print_exc()
     elif pt_method == 'reply':
@@ -225,8 +223,8 @@ def update(logfiles, cat, api, total, arxiv_id, text, tw_id_str, pt_method,
             update_print(cat, arxiv_id, text, tw_id_str, result.id_str,
                          pt_method, pt_mode)
         except Exception:
-            time_now = datetime.utcnow().isoformat(' ', 'seconds')
-            error_text = '\n*error to reply*' + '\nutc: ' + time_now + \
+            time_now = datetime.utcnow().replace(microsecond=0)
+            error_text = '\n*error to reply*' + '\nutc: ' + str(time_now) + \
                 error_text
             print(error_text)
             traceback.print_exc()
@@ -238,9 +236,8 @@ def update(logfiles, cat, api, total, arxiv_id, text, tw_id_str, pt_method,
 # update stdout text format
 def update_print(cat, arxiv_id, text, tw_id_str, result_id_str, pt_method,
                  pt_mode):
-    time_now = datetime.utcnow().isoformat(' ', 'seconds')
-    ptext = \
-        '\nutc: ' + time_now + \
+    time_now = datetime.utcnow().replace(microsecond=0)
+    ptext = '\nutc: ' + str(time_now) + \
         '\nthread arXiv category: ' + cat +\
         '\narXiv id: ' + arxiv_id + \
         '\nurl: https://twitter.com/user/status/' + tw_id_str +\
@@ -256,7 +253,7 @@ def update_log(logfiles, cat, total, arxiv_id, posting, pt_method, pt_mode):
     if not posting or not pt_mode or not logfiles:
         return None
 
-    time_now = datetime.utcnow().isoformat(' ', 'seconds')
+    time_now = datetime.utcnow().replace(microsecond=0)
 
     if not arxiv_id and pt_method == 'tweet':
         filename = logfiles[cat]['tweet_summary_log']
@@ -304,12 +301,11 @@ def newentries(logfiles, aliases, cat, caption, api, update_limited,
             # daily entries retrieval failed and
             # no tweets for today have been made.
             print("check_log_dates returns False for " + cat)
-            time_now = datetime.utcnow()
+            time_now = datetime.utcnow().replace(microsecond=0)
             ptext = intro(time_now, 0, cat, caption)
             update_limited(logfiles, cat, api, '0', '', ptext, '', 'tweet',
                            pt_mode)
 
-    
     # new submissions and abstracts
     if newsubmission_mode:
         print("new submissions for " + cat)
@@ -349,7 +345,7 @@ def intro(given_time, num, cat, caption):
 # new submissions by tweets and abstracts by replies
 def newsubmissions(logfiles, cat, caption, api, update_limited, entries,
                    abstract_mode, pt_mode):
-    time_now = datetime.utcnow()
+    time_now = datetime.utcnow().replace(microsecond=0)
     ptext = intro(time_now, len(entries), cat, caption)
     update_limited(logfiles, cat, api, str(len(entries)), '', ptext, '',
                    'tweet', pt_mode)
@@ -397,19 +393,24 @@ def crosslists_replacements(logfiles, cat, api, update_limited, entries,
 
     # if-clause to avoid duplication errors for cross-lists,
     # when twXiv runs twice with the same categories in a day.
-    time_now = datetime.utcnow()
+
     filename = logfiles[cat]['retweet_log']
+    time_now = datetime.utcnow().replace(microsecond=0)
+    error_text = '\nutc: ' + str(time_now) + '\nfilename: ' + filename
     if not rep_mode and pt_mode and os.path.exists(filename):
         try:
             df = pd.read_csv(filename, dtype=object)
         except Exception:
+            error_text = '\n*error for pd.read_csv*' + error_text
+            print(error_text)
             traceback.print_exc()
             return False
         for index, row in df.iterrows():
             try:
                 log_time = row['utc']
             except Exception:
-                print(filename, cat)
+                error_text = "\n*error for row['utc']*" + error_text
+                print(error_text)
                 traceback.print_exc()
             log_time = datetime.fromisoformat(log_time)
             if check_dates(time_now, log_time):
@@ -436,9 +437,6 @@ def crosslists_replacements(logfiles, cat, api, update_limited, entries,
         # version check for replacements:
         # new submission web pages do not list
         # replacements of versions > 5.
-        # cross-lists have each['version'] == '' by arXiv html parser,
-        # or each['version'] == '1' by arXiv feed parser.
-        # Hence, this if-clause does nothing for cross-lists.
         if not each['version'] == '' and int(each['version']) > 5:
             print('version >5 for ' + arxiv_id)
             continue
@@ -447,10 +445,13 @@ def crosslists_replacements(logfiles, cat, api, update_limited, entries,
         if not os.path.exists(filename):
             print('no tweet log file for ' + subject)
             continue
-
         try:
             df = pd.read_csv(filename, dtype=object)
         except Exception:
+            time_now = datetime.utcnow().replace(microsecond=0)
+            error_text = '\nutc: ' + str(time_now) + '\nfilename: ' + filename
+            error_text = '\n*error for pd.read_csv*' + error_text
+            print(error_text)
             traceback.print_exc()
             return False
 
@@ -477,10 +478,13 @@ def check_log_dates(cat, logname, logfiles):
         print('log file does not exists: ' + filename)
         return False
 
-    time_now = datetime.utcnow()
+    time_now = datetime.utcnow().replace(microsecond=0)
     try:
         df = pd.read_csv(filename, dtype=object)
     except Exception:
+        error_text = '\nutc: ' + str(time_now) + '\nfilename: ' + filename
+        error_text = '\n*error for pd.read_csv*' + error_text
+        print(error_text)
         traceback.print_exc()
         return False
     for index, row in df.iterrows():
