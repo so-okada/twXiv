@@ -127,7 +127,7 @@ optional arguments:
 	post method: tweet
 	post mode: 1
 	url: https://twitter.com/user/status/xxxxxxxxxxxxxxxxxxxxxxxx
-	text: [2020-08-02 (UTC), 2 new articles found for mathAC]
+	text: [2020-08-02 Sun (UTC), 2 new articles found for mathAC]
 
 	starting a thread of retrieval/new submissions/abstracts for math.AG
 	getting daily entries for math.AG
@@ -166,7 +166,7 @@ optional arguments:
 	post method: tweet
 	post mode: 1
 	url: https://twitter.com/user/status/xxxxxxxxxxxxxxxxxxxxxxxxx
-	text: [2020-08-02 (UTC), 2 new articles found for mathAC Commutative Algebra]
+	text: [2020-08-02 Sun (UTC), 2 new articles found for mathAC Commutative Algebra]
 
 	starting a thread of retrieval/new submissions/abstracts for math.AG
 	getting daily entries for math.AG
@@ -189,7 +189,7 @@ optional arguments:
 	post method: tweet
 	post mode: 1
 	url: https://twitter.com/user/status/xxxxxxxxxxxxxxxxxxxxxxxxxxxx
-	text: [2020-08-02 (UTC), 4 new articles found for mathAG Algebraic Geometry]
+	text: [2020-08-02 Sun (UTC), 4 new articles found for mathAG Algebraic Geometry]
 
 	utc: 2020-08-02 xx:xx:xx
 	thread arXiv category: math.AC
@@ -246,13 +246,13 @@ optional arguments:
 * Without the option ```-c tests/captions.json```above, you get
 
 	```
-	text: [2020-08-02 (UTC), 4 new articles found for mathAG]
+	text: [2020-08-02 Sun (UTC), 4 new articles found for mathAG]
 	```
 
 	instead of
 
 	```
-	text: [2020-08-02 (UTC), 4 new articles found for mathAG Algebraic Geometry]
+	text: [2020-08-02 Sun (UTC), 4 new articles found for mathAG Algebraic Geometry]
 	```
 
 
