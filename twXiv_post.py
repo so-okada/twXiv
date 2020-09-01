@@ -17,10 +17,10 @@ from variables import *
 import twXiv_format as tXf
 import twXiv_daily_feed as tXd
 
-
+ 
 def main(switches, logfiles, captions, aliases, pt_mode):
     starting_time = datetime.utcnow().replace(microsecond=0)
-    print('*process started at ' + str(starting_time) + ' (UTC)')
+    print('**process started at ' + str(starting_time) + ' (UTC)')
 
     api_dict = {}
     update_dict = {}
@@ -78,8 +78,8 @@ def main(switches, logfiles, captions, aliases, pt_mode):
                 'twXiv needs logfiles for cross-lists and replacements ' +\
                 'by reweets and unretweets.'
             print(ptext)
-            ptext = '\n*process ended at ' + str(ending_time) + ' (UTC)' +\
-                '\n*elapsed time from the start: ' + \
+            ptext = '\n**process ended at ' + str(ending_time) + ' (UTC)' +\
+                '\n**elapsed time from the start: ' + \
                 str(ending_time - starting_time)
             print(ptext)
             return None
@@ -87,8 +87,8 @@ def main(switches, logfiles, captions, aliases, pt_mode):
     # cross lists
     crosslist_time = datetime.utcnow().replace(microsecond=0)
     ptext = \
-        '\n*crosslist process started at ' + str(crosslist_time) + \
-        ' (UTC)' + ' \n*elapsed time from the start: ' +\
+        '\n**crosslist process started at ' + str(crosslist_time) + \
+        ' (UTC)' + ' \n**elapsed time from the start: ' +\
         str(crosslist_time - starting_time)
     print(ptext)
 
@@ -114,11 +114,11 @@ def main(switches, logfiles, captions, aliases, pt_mode):
     # replacements
     replacement_time = datetime.utcnow().replace(microsecond=0)
     ptext = \
-        '\n*replacement process started at ' + \
+        '\n**replacement process started at ' + \
         str(replacement_time) + ' (UTC)' + \
-        '\n*elapsed time from the start: ' + \
+        '\n**elapsed time from the start: ' + \
         str(replacement_time - starting_time) + \
-        '\n*elapsed time from the cross-list start: ' + \
+        '\n**elapsed time from the cross-list start: ' + \
         str(replacement_time - crosslist_time)
     print(ptext)
 
@@ -142,12 +142,12 @@ def main(switches, logfiles, captions, aliases, pt_mode):
         [th.join() for th in threads]
 
     ending_time = datetime.utcnow().replace(microsecond=0)
-    ptext = '\n*process ended at ' + str(ending_time) + ' (UTC)' +\
-        '\n*elapsed time from the start: ' + \
+    ptext = '\n**process ended at ' + str(ending_time) + ' (UTC)' +\
+        '\n**elapsed time from the start: ' + \
         str(ending_time - starting_time) + \
-        '\n*elapsed time from the cross-list start: ' + \
+        '\n**elapsed time from the cross-list start: ' + \
         str(ending_time - crosslist_time) + \
-        '\n*elapsed time from the replacement start: ' + \
+        '\n**elapsed time from the replacement start: ' + \
         str(ending_time - replacement_time)
     print(ptext)
 
@@ -191,7 +191,7 @@ def update(logfiles, cat, api, total, arxiv_id, text, tw_id_str, pt_method,
                          pt_method, pt_mode)
         except Exception:
             time_now = datetime.utcnow().replace(microsecond=0)
-            error_text = '\n*error to tweet*' + '\nutc: ' + str(time_now) + \
+            error_text = '\n**error to tweet**' + '\nutc: ' + str(time_now) + \
                 error_text
             print(error_text)
             traceback.print_exc()
@@ -202,7 +202,7 @@ def update(logfiles, cat, api, total, arxiv_id, text, tw_id_str, pt_method,
                          pt_method, pt_mode)
         except Exception:
             time_now = datetime.utcnow().replace(microsecond=0)
-            error_text = '\n*error to retweet*' + '\nutc: ' + str(time_now) + \
+            error_text = '\n**error to retweet**' + '\nutc: ' + str(time_now) + \
                 error_text
             print(error_text)
             traceback.print_exc()
@@ -213,7 +213,7 @@ def update(logfiles, cat, api, total, arxiv_id, text, tw_id_str, pt_method,
                          pt_method, pt_mode)
         except Exception:
             time_now = datetime.utcnow().replace(microsecond=0)
-            error_text = '\n*error to unretweet*' + \
+            error_text = '\n**error to unretweet**' + \
                 '\nutc: ' + str(time_now) + error_text
             print(error_text)
             traceback.print_exc()
@@ -224,7 +224,7 @@ def update(logfiles, cat, api, total, arxiv_id, text, tw_id_str, pt_method,
                          pt_method, pt_mode)
         except Exception:
             time_now = datetime.utcnow().replace(microsecond=0)
-            error_text = '\n*error to reply*' + '\nutc: ' + str(time_now) + \
+            error_text = '\n**error to reply**' + '\nutc: ' + str(time_now) + \
                 error_text
             print(error_text)
             traceback.print_exc()
@@ -294,7 +294,7 @@ def newentries(logfiles, aliases, cat, caption, api, update_limited,
         entries_dict[cat] = tXd.daily_entries(cat, aliases)
     except Exception:
         entries_dict[cat] = {}
-        print("\n*error for retrieval*\nthread arXiv category:" + cat)
+        print("\n**error for retrieval**\nthread arXiv category:" + cat)
         traceback.print_exc()
         if not check_log_dates(cat, 'tweet_log', logfiles) and \
            not check_log_dates(cat, 'tweet_summary_log', logfiles):
@@ -401,7 +401,7 @@ def crosslists_replacements(logfiles, cat, api, update_limited, entries,
         try:
             df = pd.read_csv(filename, dtype=object)
         except Exception:
-            error_text = '\n*error for pd.read_csv*' + error_text
+            error_text = '\n**error for pd.read_csv**' + error_text
             print(error_text)
             traceback.print_exc()
             return False
@@ -409,7 +409,7 @@ def crosslists_replacements(logfiles, cat, api, update_limited, entries,
             try:
                 log_time = row['utc']
             except Exception:
-                error_text = "\n*error for row['utc']*" + error_text
+                error_text = "\n**error for row['utc']**" + error_text
                 print(error_text)
                 traceback.print_exc()
             log_time = datetime.fromisoformat(log_time)
@@ -450,7 +450,7 @@ def crosslists_replacements(logfiles, cat, api, update_limited, entries,
         except Exception:
             time_now = datetime.utcnow().replace(microsecond=0)
             error_text = '\nutc: ' + str(time_now) + '\nfilename: ' + filename
-            error_text = '\n*error for pd.read_csv*' + error_text
+            error_text = '\n**error for pd.read_csv**' + error_text
             print(error_text)
             traceback.print_exc()
             return False
@@ -483,7 +483,7 @@ def check_log_dates(cat, logname, logfiles):
         df = pd.read_csv(filename, dtype=object)
     except Exception:
         error_text = '\nutc: ' + str(time_now) + '\nfilename: ' + filename
-        error_text = '\n*error for pd.read_csv*' + error_text
+        error_text = '\n**error for pd.read_csv**' + error_text
         print(error_text)
         traceback.print_exc()
         return False

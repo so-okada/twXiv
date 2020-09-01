@@ -60,13 +60,15 @@ We use python3 scripts. twXiv is not affiliated with arXiv.
 ## Notes
 
 *  arXiv_feed_parser.py is a simple arXiv feed parser for twXiv. We
-	use this via twXiv_daily_feed.py to regularly obtain data.  Then,
-	output entries of twXiv can differ from those of arXiv new
-	submission web pages.  First, entries of arXiv rss feeds are not
-	necessarily the same as those of arXiv new submission web pages.
-	Second, under our current settings, arXiv_feed_parser of a
+	use this via twXiv_daily_feed.py to regularly obtain data.  
+	
+*	Output entries of twXiv can differ from those of arXiv new
+	submission web pages. 
+	First, under our current settings, arXiv_feed_parser of a
 	category C gives new submissions whose primary subjects are the
-	category C.
+	category C.	Second, entries of arXiv rss feeds are not
+	necessarily the same as those of arXiv new submission web pages.
+
 
 * 	On the use of metadata of arXiv articles, there is the web page of
    [Terms of Use for arXiv APIs](https://arxiv.org/help/api/tou). As
