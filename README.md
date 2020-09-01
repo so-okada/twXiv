@@ -114,7 +114,7 @@ optional arguments:
 
 	```
 	% ./twXiv.py -s tests/switches.json -m 1
-	*process started at 2020-08-02 xx:xx:xx (UTC)
+	**process started at 2020-08-02 xx:xx:xx (UTC)
 	starting a thread of retrieval/new submissions/abstracts for math.AC
 	getting daily entries for math.AC
 	waiting for a next thread of retrieval/new submissions/abstracts
@@ -146,8 +146,8 @@ optional arguments:
 
 	....
 
-	*process ended at 2020-08-02 xx:xx:xx (UTC)
-	*elapsed time from the start: xx:xx:xx
+	**process ended at 2020-08-02 xx:xx:xx (UTC)
+	**elapsed time from the start: xx:xx:xx
 	```
 
 * New submissions, abstracts, cross-lists and replacements (if any) 
@@ -155,7 +155,7 @@ optional arguments:
 
 	```
 	% ./twXiv.py -s tests/switches.json -l tests/logfiles.json -a tests/aliases.json -c tests/captions.json -m 1
-	*process started at 2020-08-02 xx:xx:xx (UTC)
+	**process started at 2020-08-02 xx:xx:xx (UTC)
 	starting a thread of retrieval/new submissions/abstracts for math.AC
 	getting daily entries for math.AC
 	waiting for a next thread of retrieval/new submissions/abstracts
@@ -204,16 +204,16 @@ optional arguments:
 
 	.....
 	
-	*crosslist process started at 2020-08-02 xx:xx:xx (UTC) 
-	*elapsed time from the start: xx:xx:xx
+	**crosslist process started at 2020-08-02 xx:xx:xx (UTC) 
+	**elapsed time from the start: xx:xx:xx
 	start a crosslist thread of math.AC
 	waiting for a next crosslist thread
 	start a crosslist thread of math.AG
 	joining crosslist threads
 
-	*replacement process started at 2020-08-02 xx:xx:xx (UTC)
-	*elapsed time from the start: xx:xx:xx
-	*elapsed time from the cross-list start: xx:xx:xx
+	**replacement process started at 2020-08-02 xx:xx:xx (UTC)
+	**elapsed time from the start: xx:xx:xx
+	**elapsed time from the cross-list start: xx:xx:xx
 	start a replacement thread of math.AC
 	waiting for a next replacement thread
 	start a replacement thread of math.AG
@@ -240,10 +240,10 @@ optional arguments:
 
 	.....
 
-	*process ended at 2020-08-02 xx:xx:xx (UTC)
-	*elapsed time from the start: xx:xx:xx
-	*elapsed time from the cross-list start: xx:xx:xx
-	*elapsed time from the replacement start: xx:xx:xx
+	**process ended at 2020-08-02 xx:xx:xx (UTC)
+	**elapsed time from the start: xx:xx:xx
+	**elapsed time from the cross-list start: xx:xx:xx
+	**elapsed time from the replacement start: xx:xx:xx
 	```
 * Without the option ```-c tests/captions.json```above, you get
 
