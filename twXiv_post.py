@@ -87,7 +87,7 @@ def main(switches, logfiles, captions, aliases, pt_mode):
     # cross lists
     crosslist_time = datetime.utcnow().replace(microsecond=0)
     ptext = \
-        '\n**crosslist process started at ' + str(crosslist_time) + \
+        '\n**cross-list process started at ' + str(crosslist_time) + \
         ' (UTC)' + ' \n**elapsed time from the start: ' +\
         str(crosslist_time - starting_time)
     print(ptext)
@@ -101,14 +101,14 @@ def main(switches, logfiles, captions, aliases, pt_mode):
                         args=(logfiles, cat, api_dict[cat], update_dict[cat],
                               crosslist_entries, pt_mode))
             threads.append(th)
-            print('start a crosslist thread of ' + th.name)
+            print('start a cross-list thread of ' + th.name)
             th.start()
             if i != len(switches) - 1:
-                print('waiting for a next crosslist thread')
+                print('waiting for a next cross-list thread')
                 time.sleep(main_thread_wait)
 
     if threads:
-        print('joining crosslist threads')
+        print('joining cross-list threads')
         [th.join() for th in threads]
 
     # replacements
