@@ -17,7 +17,7 @@ from variables import *
 import twXiv_format as tXf
 import twXiv_daily_feed as tXd
 
- 
+
 def main(switches, logfiles, captions, aliases, pt_mode):
     starting_time = datetime.utcnow().replace(microsecond=0)
     print('**process started at ' + str(starting_time) + ' (UTC)')
@@ -392,22 +392,23 @@ def crosslists_replacements(logfiles, cat, api, update_limited, entries,
                             rep_mode, pt_mode):
 
     # if-clause to avoid duplication errors for cross-lists,
-    # when twXiv runs twice with the same categories in a day.
+    # when twXiv runs twice with cross-lists in a day.
 
-    filename = logfiles[cat]['retweet_log']
+    retweet_filename = logfiles[cat]['retweet_log']
     time_now = datetime.utcnow().replace(microsecond=0)
-    error_text = '\nutc: ' + str(time_now) + '\nfilename: ' + filename
-    if not rep_mode and pt_mode and os.path.exists(filename):
+    error_text = '\nutc: ' + str(
+        time_now) + '\nretweet_filename: ' + retweet_filename
+    if not rep_mode and os.path.exists(retweet_filename):
         try:
-            df = pd.read_csv(filename, dtype=object)
+            dretweet_f = pd.read_csv(retweet_filename, dtype=object)
         except Exception:
             error_text = '\n**error for pd.read_csv**' + error_text
             print(error_text)
             traceback.print_exc()
             return False
-        for index, row in df.iterrows():
+        for retweet_index, retweet_row in dretweet_f.iterrows():
             try:
-                log_time = row['utc']
+                log_time = retweet_row['utc']
             except Exception:
                 error_text = "\n**error for row['utc']**" + error_text
                 print(error_text)
@@ -441,26 +442,31 @@ def crosslists_replacements(logfiles, cat, api, update_limited, entries,
             print('version >5 for ' + arxiv_id)
             continue
 
-        filename = logfiles[subject]['tweet_log']
-        if not os.path.exists(filename):
+        tweet_filename = logfiles[subject]['tweet_log']
+        # skip to another entry without tweet_log
+        if not os.path.exists(tweet_filename):
             print('no tweet log file for ' + subject)
             continue
+
+        # open tweet_log file
         try:
-            df = pd.read_csv(filename, dtype=object)
+            tweet_df = pd.read_csv(tweet_filename, dtype=object)
         except Exception:
             time_now = datetime.utcnow().replace(microsecond=0)
-            error_text = '\nutc: ' + str(time_now) + '\nfilename: ' + filename
+            error_text = '\nutc: ' + str(
+                time_now) + '\ntweet_filename: ' + tweet_filename
             error_text = '\n**error for pd.read_csv**' + error_text
             print(error_text)
             traceback.print_exc()
             return False
 
-        for index, row in df.iterrows():
-            if arxiv_id == row['arxiv_id']:
-                twitter_id = row['twitter_id']
-                if rep_mode:
-                    # unretweet anyway even if it has not been retweeted
-                    # this returns no errors 2020-07-19
+        time_now = datetime.utcnow().replace(microsecond=0)
+        for tweet_index, tweet_row in tweet_df.iterrows():
+            if arxiv_id == tweet_row['arxiv_id']:
+                twitter_id = tweet_row['twitter_id']
+                tweet_time = datetime.fromisoformat(tweet_row['utc'])
+                # if-clause to avoid duplicate retweetings
+                if not check_dates(time_now, tweet_time):
                     update_limited(logfiles, cat, api, '', arxiv_id, '',
                                    twitter_id, 'unretweet', pt_mode)
                 update_limited(logfiles, cat, api, '', arxiv_id, '',
