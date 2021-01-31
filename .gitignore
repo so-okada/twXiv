@@ -4,6 +4,7 @@
 \#*
 *html*
 **/
+ch_*
 
 !.gitignore
 !tests/

@@ -44,4 +44,4 @@ def daily_entries(cat, aliases):
             print('sleep and retry for ' + cat)
             time.sleep(arxiv_call_sleep)
         else:
-            raise Exception('retrieval failed fatally for ' + cat)
+            raise Exception('fatal parse error for ' + cat)

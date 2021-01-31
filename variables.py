@@ -19,6 +19,7 @@ margin = 9
 
 # abstract tag for a counter and url
 abst_tag = 38
+# 10+url_len+2+1
 
 # arXiv API rate limits  2020-06-16
 # no more than 1 request every 3 seconds, a single connection at a time.
@@ -45,3 +46,13 @@ twitter_sleep = 9
 overall_twitter_limit_call = 1
 overall_twitter_limit_period = 5
 
+# semanticscholar API rate limits  2020-12-30
+# The API is freely available, but enforces a rate limit and will respond
+# with HTTP status 429 'Too Many Requests' if the limit is exceeded
+# (100 requests per 5 minute window per IP address).
+# https://api.semanticscholar.org/
+sch_call_limit = 90
+sch_call_period = 5*60
+
+sch_max_trial = 6
+sch_call_sleep = 3

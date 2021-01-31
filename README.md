@@ -1,16 +1,17 @@
 # Application Info
 
 This application twXiv gives arXiv daily new submissions by tweets,
-abstracts by replies, and cross-lists and replacements by retweets.
-We use python3 scripts. twXiv is not affiliated with arXiv.
+abstracts by replies, cross-lists by retweets, and replacements by
+quotes and retweets.  We use python3 scripts. twXiv is not affiliated
+with arXiv.
 
 
 ## Setup
 
-* Install pandas, ratelimits, tweepy, nameparser, and beautifulsoup4. 
+* Install pandas, ratelimit, semanticscholar, tweepy, twitter-text-parser, nameparser, and beautifulsoup4. 
 
 	```
-	% pip3 install pandas ratelimits tweepy nameparser beautifulsoup4
+	% pip3 install pandas ratelimit semanticscholar tweepy twitter-text-parser nameparser beautifulsoup4
 	```
 
 * Let twXiv.py be executable.
@@ -25,6 +26,7 @@ We use python3 scripts. twXiv is not affiliated with arXiv.
 	- twXiv_post.py 	
 	- twXiv_format.py
 	- twXiv_daily_feed.py 	
+	- twXiv_semantic.py
 	- arXiv_feed_parser.py
 	- variables.py
 
@@ -38,10 +40,11 @@ We use python3 scripts. twXiv is not affiliated with arXiv.
     - logfiles.json indicates log file locations for tweet summaries,
 	tweets, retweets, unretweets, and replies.  You can check their
 	formats by mathACb_tweet_summaries.csv, mathACb_tweets.csv,
-	mathACb_retweets.csv, mathACb_unretweets.csv, and
-	mathACb_replies.csv in the tests/logfiles director.  twXiv needs
-	a tweet log file for cross-lists and replacements.  Other log
-	files are useful to avoid duplication errors of tweets and
+	mathACb_retweets.csv, mathACb_unretweets.csv, 
+	mathACb_replies.csv,
+	and mathACb_quotes.csv in the tests/logfiles director.  twXiv
+	needs a tweet log file for cross-lists and replacements.  Other
+	log files are useful to avoid duplication errors of tweets and
 	retweets.
 		
 	- aliases.json tells twXiv aliases of arXiv category names.
@@ -87,7 +90,8 @@ usage: twXiv.py [-h] --switches_keys SWITCHES_KEYS
                 [--captions CAPTIONS] [--mode {0,1}]
 
 arXiv daily new submissions by tweets, abstracts by
-replies, and cross-lists and replacements by retweets.
+replies, cross-lists by retweets, and replacements by
+quotes and retweets.
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -114,7 +118,7 @@ optional arguments:
 
 	```
 	% ./twXiv.py -s tests/switches.json -m 1
-	**process started at 2020-08-02 xx:xx:xx (UTC)
+	**process started at xxxx-xx-xx xx:xx:xx (UTC)
 	starting a thread of retrieval/new submissions/abstracts for math.AC
 	getting daily entries for math.AC
 	waiting for a next thread of retrieval/new submissions/abstracts
@@ -122,20 +126,20 @@ optional arguments:
 	no log files
 	no log files
 
-	utc: 2020-08-02 xx:xx:xx 
+	utc: xxxx-xx-xx xx:xx:xx 
 	thread arXiv category: math.AC
 	arXiv id: 
 	url: https://twitter.com/user/status/
 	post method: tweet
 	post mode: 1
 	url: https://twitter.com/user/status/xxxxxxxxxxxxxxxxxxxxxxxx
-	text: [2020-08-02 Sun (UTC), 2 new articles found for mathAC]
+	text: [xxxx-xx-xx Sun (UTC), 2 new articles found for mathAC]
 
 	starting a thread of retrieval/new submissions/abstracts for math.AG
 	getting daily entries for math.AG
 	joining threads of retrieval/new submissions/abstracts
 
-	utc: 2020-08-02 xx:xx:xx
+	utc: xxxx-xx-xx xx:xx:xx
 	thread arXiv category: math.AC
 	arXiv id: xxxx.xxxxx
 	url: https://twitter.com/user/status/
@@ -146,7 +150,7 @@ optional arguments:
 
 	....
 
-	**process ended at 2020-08-02 xx:xx:xx (UTC)
+	**process ended at xxxx-xx-xx xx:xx:xx (UTC)
 	**elapsed time from the start: xx:xx:xx
 	```
 
@@ -155,26 +159,26 @@ optional arguments:
 
 	```
 	% ./twXiv.py -s tests/switches.json -l tests/logfiles.json -a tests/aliases.json -c tests/captions.json -m 1
-	**process started at 2020-08-02 xx:xx:xx (UTC)
+	**process started at xxxx-xx-xx xx:xx:xx (UTC)
 	starting a thread of retrieval/new submissions/abstracts for math.AC
 	getting daily entries for math.AC
 	waiting for a next thread of retrieval/new submissions/abstracts
 	new submissions for math.AC
 
-	utc: 2020-08-02 xx:xx:xx 
+	utc: xxxx-xx-xx xx:xx:xx 
 	thread arXiv category: math.AC
 	arXiv id: 
 	url: https://twitter.com/user/status/
 	post method: tweet
 	post mode: 1
 	url: https://twitter.com/user/status/xxxxxxxxxxxxxxxxxxxxxxxxx
-	text: [2020-08-02 Sun (UTC), 2 new articles found for mathAC Commutative Algebra]
+	text: [xxxx-xx-xx Sun (UTC), 2 new articles found for mathAC Commutative Algebra]
 
 	starting a thread of retrieval/new submissions/abstracts for math.AG
 	getting daily entries for math.AG
 	joining threads of retrieval/new submissions/abstracts
 
-	utc: 2020-08-02 xx:xx:xx
+	utc: xxxx-xx-xx xx:xx:xx
 	thread arXiv category: math.AC
 	arXiv id: 2007.xxxxxx
 	url: https://twitter.com/user/status/
@@ -184,16 +188,16 @@ optional arguments:
 
 	new submissions for math.AG
 
-	utc: 2020-08-02 xx:xx:xx
+	utc: xxxx-xx-xx xx:xx:xx
 	thread arXiv category: math.AG
 	arXiv id: 
 	url: https://twitter.com/user/status/
 	post method: tweet
 	post mode: 1
 	url: https://twitter.com/user/status/xxxxxxxxxxxxxxxxxxxxxxxxxxxx
-	text: [2020-08-02 Sun (UTC), 4 new articles found for mathAG Algebraic Geometry]
+	text: [xxxx-xx-xx Sun (UTC), 4 new articles found for mathAG Algebraic Geometry]
 
-	utc: 2020-08-02 xx:xx:xx
+	utc: xxxx-xx-xx xx:xx:xx
 	thread arXiv category: math.AC
 	arXiv id: 2007.xxxxxx
 	url: https://twitter.com/user/status/xxxxxxxxxxxxxxxxxxxx
@@ -204,23 +208,40 @@ optional arguments:
 
 	.....
 	
-	**crosslist process started at 2020-08-02 xx:xx:xx (UTC) 
+	**crosslist process started at xxxx-xx-xx xx:xx:xx (UTC) 
 	**elapsed time from the start: xx:xx:xx
 	start a crosslist thread of math.AC
 	waiting for a next crosslist thread
 	start a crosslist thread of math.AG
 	joining crosslist threads
 
-	**replacement process started at 2020-08-02 xx:xx:xx (UTC)
+	**replacement process started at xxxx-xx-xx xx:xx:xx (UTC)
 	**elapsed time from the start: xx:xx:xx
 	**elapsed time from the cross-list start: xx:xx:xx
-	start a replacement thread of math.AC
-	waiting for a next replacement thread
-	start a replacement thread of math.AG
+	quote-replacement starts
+	start a quote-replacement thread of math.AC
+	waiting for a next quote-replacement thread
+	start a quote-replacement thread of math.AG
+	
+	.....
+	
+	utc: xxxx-xx-xx xx:xx:xx
+	thread arXiv category: math.AG
+	arXiv id: 2010.xxxx
+	url: https://twitter.com/user/status/xxxxxxxxxxxxxxxxxxxx
+	post method: quote
+	post mode: 0
+	url: https://twitter.com/user/status/
+	text: This https://arxiv.org/abs/xxxx.xxxx has been replaced.....
 
 	.....
 
-	utc: 2020-08-02 xx:xx:xx 
+	retweet-replacement starts
+	start a retweet-replacement thread of math.AC
+	waiting for a next quote-replacement thread
+	start a retweet-replacement thread of math.AG
+	
+	utc: xxxx-xx-xx xx:xx:xx 
 	thread arXiv category: math.AG
 	arXiv id: 1900.xxxxx
 	url: https://twitter.com/user/status/xxxxxxxxxxxxxxxxxxxx
@@ -229,7 +250,7 @@ optional arguments:
 	url: https://twitter.com/user/status/xxxxxxxxxxxxxxxxxxxx
 	text: 
 
-	utc: 2020-08-02 xx:xx:xx 
+	utc: xxxx-xx-xx xx:xx:xx 
 	thread arXiv category: math.AG
 	arXiv id: 1900.xxxxx
 	url: https://twitter.com/user/status/xxxxxxxxxxxxxxxxxxxx
@@ -240,7 +261,7 @@ optional arguments:
 
 	.....
 
-	**process ended at 2020-08-02 xx:xx:xx (UTC)
+	**process ended at xxxx-xx-xx xx:xx:xx (UTC)
 	**elapsed time from the start: xx:xx:xx
 	**elapsed time from the cross-list start: xx:xx:xx
 	**elapsed time from the replacement start: xx:xx:xx
@@ -248,13 +269,13 @@ optional arguments:
 * Without the option ```-c tests/captions.json```above, you get
 
 	```
-	text: [2020-08-02 Sun (UTC), 4 new articles found for mathAG]
+	text: [xxxx-xx-xx Sun (UTC), 4 new articles found for mathAG]
 	```
 
 	instead of
 
 	```
-	text: [2020-08-02 Sun (UTC), 4 new articles found for mathAG Algebraic Geometry]
+	text: [xxxx-xx-xx Sun (UTC), 4 new articles found for mathAG Algebraic Geometry]
 	```
 
 
@@ -266,8 +287,12 @@ optional arguments:
   
 * 0.0.2
 
-  * 2020-08-15, added the -c option with some other updates.
+  * 2020-08-15, added the -c option.
 
+* 0.1.0
+
+  * 2021-01-31, text counting by twitter-text-parser, replacements by
+	quotes and retweets, and links to research tools.
 
 ## Author
 So Okada, so.okada@gmail.com, https://so-okada.github.io/
@@ -289,7 +314,7 @@ However, it has been
 discontinued for a while. Therefore, the author has written twXiv
 by python3, adding functions such as abstracts by replies and
 cross-lists and replacements by retweets. 
-The bots now run by twXiv.
+Since 2020-08, the bots run by twXiv.
 
  
 

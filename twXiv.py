@@ -12,7 +12,8 @@ import twXiv_post as tXp
 parser = argparse.ArgumentParser(
     description='arXiv daily new submissions by tweets, '
     'abstracts by replies, '
-    'and cross-lists and replacements by retweets.')
+    'cross-lists by retweets, '
+    'and replacements by quotes and retweets.')
 parser.add_argument("--switches_keys",
                     "-s",
                     required=True,
