@@ -32,7 +32,8 @@ def main(switches, logfiles, captions, aliases, pt_mode):
     newsubmission_mode = {}
     abstract_mode = {}
     crosslist_mode = {}
-    replacement_mode = {}
+    quote_replacement_mode = {}
+    retweet_replacement_mode = {}
 
     for cat in switches:
         api_dict[cat] = tweet_api(switches[cat])
@@ -41,7 +42,10 @@ def main(switches, logfiles, captions, aliases, pt_mode):
         newsubmission_mode[cat] = int(switches[cat]['newsubmissions'])
         abstract_mode[cat] = int(switches[cat]['abstracts'])
         crosslist_mode[cat] = int(switches[cat]['crosslists'])
-        replacement_mode[cat] = int(switches[cat]['replacements'])
+        quote_replacement_mode[cat] = int(
+            switches[cat]['quote_replacements'])
+        retweet_replacement_mode[cat] = int(
+            switches[cat]['retweet_replacements'])
         if cat in captions:
             caption_dict[cat] = captions[cat]
         else:
@@ -126,9 +130,8 @@ def main(switches, logfiles, captions, aliases, pt_mode):
     print(ptext)
 
     print("quote-replacement starts")
-    threads = []
     for i, cat in enumerate(switches):
-        if entries_dict[cat] and replacement_mode[cat]:
+        if entries_dict[cat]:
             replacement_entries = entries_dict[cat].replacements
             # version check: new sub web pages exclude versions > 5.
             webreplacements_dict[cat] = []
@@ -136,10 +139,13 @@ def main(switches, logfiles, captions, aliases, pt_mode):
                 if not each['version'] == '' and int(
                         each['version']) > 5:
                     print('version unknown or >5 for ' + each['id'])
-                # exclude old arXiv identifiers
+                    # exclude old arXiv identifiers
                 elif not re.match('[a-z|A-Z]', each['id']):
                     webreplacements_dict[cat].append(each)
 
+    threads = []
+    for i, cat in enumerate(switches):
+        if webreplacements_dict[cat] and quote_replacement_mode[cat]:
             th = Thread(name=cat,
                         target=quote_replacement,
                         args=(logfiles, cat, api_dict[cat],
@@ -159,7 +165,7 @@ def main(switches, logfiles, captions, aliases, pt_mode):
     print("retweet-replacement starts")
     threads = []
     for i, cat in enumerate(switches):
-        if entries_dict[cat] and replacement_mode[cat]:
+        if webreplacements_dict[cat] and retweet_replacement_mode[cat]:
             th = Thread(name=cat,
                         target=retweet_replacement,
                         args=(logfiles, cat, api_dict[cat],
@@ -425,6 +431,8 @@ def newsubmissions(logfiles, cat, caption, api, update_limited,
                         logfiles, cat, api, '', arxiv_id,
                         partial_abst, abst_posting.id_str, 'reply',
                         pt_mode)
+                if abst_posting == 0:
+                    break
 
 
 # crosslists by retweets
@@ -554,15 +562,17 @@ def quote_replacement(logfiles, cat, api, update_limited, entries,
 
     entries_to_quote = []
     for each in entries:
-        if int(each['version']
-               ) == 2 and each['primary_subject'] == cat:
+        arxiv_id = each['id']
+        if each['primary_subject'] == cat and \
+           not any(arxiv_id == tweet_row['arxiv_id']
+                for tweet_index, tweet_row in quote_df.iterrows()):
             entries_to_quote.append(each)
 
     for each in entries_to_quote:
         arxiv_id = each['id']
         username = logfiles[cat]['username']
         ptext = 'This https://arxiv.org/abs/' + arxiv_id + \
-            ' has been replaced and linked from ' + \
+            ' has been replaced. Links: ' + \
             tool_urls(arxiv_id)
 
         for tweet_index, tweet_row in tweet_df.iterrows():
@@ -576,12 +586,7 @@ def quote_replacement(logfiles, cat, api, update_limited, entries,
 
 def retweet_replacement(logfiles, cat, api, update_limited, entries,
                         pt_mode):
-    entries_to_retweet = []
     for each in entries:
-        if int(each['version']) > 2 or each['primary_subject'] != cat:
-            entries_to_retweet.append(each)
-
-    for each in entries_to_retweet:
         arxiv_id = each['id']
         subject = each['primary_subject']
         if subject not in logfiles.keys():
@@ -608,12 +613,19 @@ def retweet_replacement(logfiles, cat, api, update_limited, entries,
 
         # unretweet and retweet
         for tweet_index, tweet_row in quote_df.iterrows():
+            # check if arxiv_id is in quote_log.
             if arxiv_id == tweet_row['arxiv_id']:
-                twitter_id = tweet_row['twitter_id']
-                update_limited(logfiles, cat, api, '', arxiv_id, '',
-                               twitter_id, 'unretweet', pt_mode)
-                update_limited(logfiles, cat, api, '', arxiv_id, '',
-                               twitter_id, 'retweet', pt_mode)
+                log_time = tweet_row['utc']
+                log_time = datetime.fromisoformat(log_time)
+                time_now = datetime.utcnow().replace(microsecond=0)
+                # check if arxiv_id is not of today.
+                if not check_dates(time_now, log_time):
+                    twitter_id = tweet_row['twitter_id']
+                    update_limited(logfiles, cat, api, '', arxiv_id,
+                                   '', twitter_id, 'unretweet',
+                                   pt_mode)
+                    update_limited(logfiles, cat, api, '', arxiv_id,
+                                   '', twitter_id, 'retweet', pt_mode)
 
 
 # true if this finds a today's tweet.
@@ -665,6 +677,7 @@ def tool_urls(arxiv_id):
         arxiv_id
     semantic_url = 'https://www.semanticscholar.org/paper/'
     ctdp_url = 'https://www.connectedpapers.com/main/'
+    paperid = ''
 
     try:
         paperid = tXs.paperid('arXiv:' + arxiv_id)

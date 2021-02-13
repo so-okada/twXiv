@@ -4,6 +4,7 @@
 
 max_len = 280
 url_len = 23
+url_margin = 2
 
 # tweets for new submissions:
 # min_len_authors+2+min_len_title+1+urls_len+margin
@@ -11,15 +12,14 @@ url_len = 23
 # =280
 # =max_len
 
-urls_len = url_len * 2 + 4
+urls_len = (url_len + url_margin) * 2
 min_len_authors = 90
 min_len_title = 128
 newsub_spacer = 3
 margin = 9
 
 # abstract tag for a counter and url
-abst_tag = 38
-# 10+url_len+2+1
+abst_tag = 11 + (url_len + url_margin) + 1
 
 # arXiv API rate limits  2020-06-16
 # no more than 1 request every 3 seconds, a single connection at a time.
@@ -30,7 +30,8 @@ arxiv_call_period = 5
 arxiv_max_trial = 6
 arxiv_call_sleep = 20 * 60
 
-main_thread_wait = 40
+main_thread_wait = 60
+
 
 # 300 tweets/retweets/unretweets/replies (combined)
 # per user account and 3 hours
@@ -52,7 +53,7 @@ overall_twitter_limit_period = 5
 # (100 requests per 5 minute window per IP address).
 # https://api.semanticscholar.org/
 sch_call_limit = 90
-sch_call_period = 5*60
+sch_call_period = 5 * 60
 
 sch_max_trial = 6
 sch_call_sleep = 3
