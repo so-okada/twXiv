@@ -56,4 +56,4 @@ sch_call_limit = 90
 sch_call_period = 5 * 60
 
 sch_max_trial = 6
-sch_call_sleep = 3
+sch_call_sleep = 5

@@ -312,8 +312,8 @@ and  [the author's comment](https://twitter.com/vela/status/729622960974127104))
 The bots used arxiv_speaker [https://github.com/misho104-obsolete/arxiv_speaker](https://github.com/misho104-obsolete/arxiv_speaker). Sho Iwamoto wrote it by ruby for tweeting new submissions. 
 However, it has been
 discontinued for a while. Therefore, the author has written twXiv
-by python3, adding functions such as abstracts by replies and
-cross-lists and replacements by retweets. 
+by python3, adding functions such as abstracts by replies,
+cross-lists by retweets, and replacements by quotes and retweets. 
 Since 2020-08, the bots run by twXiv.
 
  
