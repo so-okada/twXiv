@@ -279,7 +279,7 @@ def update(logfiles, cat, api, total, arxiv_id, text, tw_id_str,
                          result.id_str, pt_method, pt_mode)
         except Exception:
             time_now = datetime.utcnow().replace(microsecond=0)
-            error_text = '\n**error to reply**' + '\nutc: ' + str(time_now) + \
+            error_text = '\n**error to quote**' + '\nutc: ' + str(time_now) + \
                 error_text
             print(error_text)
             traceback.print_exc()
@@ -572,8 +572,8 @@ def quote_replacement(logfiles, cat, api, update_limited, entries,
         arxiv_id = each['id']
         username = logfiles[cat]['username']
         ptext = 'This https://arxiv.org/abs/' + arxiv_id + \
-            ' has been replaced. Links: ' + \
-            tool_urls(arxiv_id)
+            ' has been replaced. ' + \
+            tool_links(arxiv_id)
 
         for tweet_index, tweet_row in tweet_df.iterrows():
             if arxiv_id == tweet_row['arxiv_id']:
@@ -672,7 +672,7 @@ def check_dates(time1, time2):
         return False
 
 
-def tool_urls(arxiv_id):
+def tool_links(arxiv_id):
     google_url = 'https://scholar.google.com/scholar?q=arXiv%3A' +\
         arxiv_id
     semantic_url = 'https://www.semanticscholar.org/paper/'
@@ -690,6 +690,6 @@ def tool_urls(arxiv_id):
         tool_urls = google_url + ' ' + \
             semantic_url + paperid + ' ' + \
             ctdp_url + paperid
-        return tool_urls
+        return 'Links: ' + tool_urls
     else:
-        return google_url
+        return 'Link: ' + google_url
