@@ -573,7 +573,7 @@ def quote_replacement(logfiles, cat, api, update_limited, entries,
         username = logfiles[cat]['username']
         ptext = 'This https://arxiv.org/abs/' + arxiv_id + \
             ' has been replaced. ' + \
-            tool_links(arxiv_id)
+            tools(arxiv_id)
 
         for tweet_index, tweet_row in tweet_df.iterrows():
             if arxiv_id == tweet_row['arxiv_id']:
@@ -589,6 +589,7 @@ def retweet_replacement(logfiles, cat, api, update_limited, entries,
     for each in entries:
         arxiv_id = each['id']
         subject = each['primary_subject']
+
         if subject not in logfiles.keys():
             print('No quote log for ' + subject)
             continue
@@ -618,8 +619,8 @@ def retweet_replacement(logfiles, cat, api, update_limited, entries,
                 log_time = tweet_row['utc']
                 log_time = datetime.fromisoformat(log_time)
                 time_now = datetime.utcnow().replace(microsecond=0)
-                # check if arxiv_id is not of today.
-                if not check_dates(time_now, log_time):
+                if cat != subject or not check_dates(
+                        time_now, log_time):
                     twitter_id = tweet_row['twitter_id']
                     update_limited(logfiles, cat, api, '', arxiv_id,
                                    '', twitter_id, 'unretweet',
@@ -672,7 +673,7 @@ def check_dates(time1, time2):
         return False
 
 
-def tool_links(arxiv_id):
+def tools(arxiv_id):
     google_url = 'https://scholar.google.com/scholar?q=arXiv%3A' +\
         arxiv_id
     semantic_url = 'https://www.semanticscholar.org/paper/'
@@ -687,9 +688,9 @@ def tool_links(arxiv_id):
         print(error_text)
 
     if paperid:
-        tool_urls = google_url + ' ' + \
+        urls = google_url + ' ' + \
             semantic_url + paperid + ' ' + \
             ctdp_url + paperid
-        return 'Links: ' + tool_urls
+        return 'Links: ' + urls
     else:
         return 'Link: ' + google_url
