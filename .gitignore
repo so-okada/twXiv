@@ -5,6 +5,7 @@
 *html*
 **/
 ch_*
+*log
 
 !.gitignore
 !tests/
