@@ -294,6 +294,10 @@ optional arguments:
   * 2021-01-31, text counting by twitter-text-parser, replacements by
 	quotes and retweets, and links to research tools.
 
+* 0.1.1
+
+  * 2021-03-02, minor fixes.
+
 ## Author
 So Okada, so.okada@gmail.com, https://so-okada.github.io/
 
