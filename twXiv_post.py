@@ -129,7 +129,7 @@ def main(switches, logfiles, captions, aliases, pt_mode):
         str(replacement_time - crosslist_time)
     print(ptext)
 
-    print("quote-replacement starts")
+    print("\n**quote-replacement starts")
     for i, cat in enumerate(switches):
         if entries_dict[cat]:
             replacement_entries = entries_dict[cat].replacements
@@ -162,7 +162,7 @@ def main(switches, logfiles, captions, aliases, pt_mode):
         print('joining quote-replacement threads')
         [th.join() for th in threads]
 
-    print("retweet-replacement starts")
+    print("\n**retweet-replacement starts")
     threads = []
     for i, cat in enumerate(switches):
         if webreplacements_dict[cat] and retweet_replacement_mode[cat]:
