@@ -75,11 +75,13 @@ with arXiv.
 
 * 	On the use of metadata of arXiv articles, there is the web page of
    [Terms of Use for arXiv APIs](https://arxiv.org/help/api/tou). As
-   of revision 0.5.7, this says "Retrieve, store, transform, and share
-   descriptive metadata about arXiv e-prints."  and "Descriptive
-   metadata includes information for discovery and identification
-   purposes, and includes fields such as title, abstract, authors,
-   identifiers, and classification terms."
+   of the revision 0.8.0, this says "You are free to use descriptive
+   metadata about arXiv e-prints under the terms of the Creative
+   Commons Universal (CC0 1.0) Public Domain Declaration." and
+   "Descriptive metadata includes information for discovery and
+   identification purposes, and includes fields such as title,
+   abstract, authors, identifiers, and classification terms."
+
 
 ## Usage
 
