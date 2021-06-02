@@ -66,11 +66,11 @@ with arXiv.
 	use this via twXiv_daily_feed.py to regularly obtain data.  
 	
 *	Output entries of twXiv can differ from those of arXiv new
-	submission web pages. 
-	First, under our current settings, arXiv_feed_parser of a
-	category C gives new submissions whose primary subjects are the
-	category C.	Second, entries of arXiv rss feeds are not
-	necessarily the same as those of arXiv new submission web pages.
+	submission web pages.  First, under our current settings,
+	arXiv_feed_parser of a category C gives new submissions whose
+	primary subjects are the category C. Second, entries of arXiv rss
+	feeds are not necessarily the same as those of arXiv new
+	submission web pages.
 
 
 * 	On the use of metadata of arXiv articles, there is the web page of
@@ -298,8 +298,13 @@ optional arguments:
 
 * 0.1.1
 
-  * 2021-03-02, minor fixes.
+	* 2021-03-02, minor fixes.
+  
+* 0.1.2
 
+	* 2021-06-02, a quick fix to adapt an api update of semantic scholar.
+	
+	
 ## Author
 So Okada, so.okada@gmail.com, https://so-okada.github.io/
 

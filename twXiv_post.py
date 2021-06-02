@@ -672,25 +672,11 @@ def check_dates(time1, time2):
     else:
         return False
 
-
+# a quick fix to adapt S2 api update, 2021-06-02
 def tools(arxiv_id):
     google_url = 'https://scholar.google.com/scholar?q=arXiv%3A' +\
         arxiv_id
-    semantic_url = 'https://www.semanticscholar.org/paper/'
-    ctdp_url = 'https://www.connectedpapers.com/main/'
-    paperid = ''
-
-    try:
-        paperid = tXs.paperid('arXiv:' + arxiv_id)
-    except Exception:
-        error_text = '\narXiv_id: ' + arxiv_id
-        error_text = '\n**error for sch_paperid**' + error_text
-        print(error_text)
-
-    if paperid:
-        urls = google_url + ' ' + \
-            semantic_url + paperid + ' ' + \
-            ctdp_url + paperid
-        return 'Links: ' + urls
-    else:
-        return 'Link: ' + google_url
+    semantic_url = 'https://api.semanticscholar.org/' +\
+        'arXiv:' + arxiv_id
+    urls = google_url + ' ' + semantic_url
+    return 'Links: ' + urls

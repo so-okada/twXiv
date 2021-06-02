@@ -6,6 +6,7 @@
 **/
 ch_*
 *log
+memo/
 
 !.gitignore
 !tests/
