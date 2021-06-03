@@ -302,7 +302,7 @@ optional arguments:
   
 * 0.1.2
 
-	* 2021-06-02, a quick fix to adapt an api update of semantic scholar.
+	* 2021-06-03, a fix to adapt an api update of semantic scholar.
 	
 	
 ## Author

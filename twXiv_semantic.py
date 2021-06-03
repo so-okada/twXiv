@@ -3,10 +3,12 @@
 # a part of twXiv
 # https://github.com/so-okada/twXiv/
 
+import re
 import time
 import semanticscholar as sch
 from ratelimit import limits, sleep_and_retry, rate_limited
 from variables import *
+
 
 @sleep_and_retry
 @limits(calls=sch_call_limit, period=sch_call_period)
@@ -15,11 +17,10 @@ def paperid(arxiv_id):
     while trial_num < sch_max_trial:
         paper = sch.paper(arxiv_id, timeout=2)
         if paper == {}:
-            print(
-                str(trial_num + 1) + 'th sch parse error for ' +
-                arxiv_id)
+            print(str(trial_num + 1) + 'th sch parse error for ' + arxiv_id)
         else:
-            return paper['paperId']
+            return re.sub('https://www.semanticscholar.org/paper/', '',
+                          paper['url'])
         trial_num += 1
         if trial_num < sch_max_trial:
             print('sleep and retry for ' + arxiv_id)
