@@ -65,13 +65,36 @@ with arXiv.
 *  arXiv_feed_parser.py is a simple arXiv feed parser for twXiv. We
 	use this via twXiv_daily_feed.py to regularly obtain data.  
 	
-*	Output entries of twXiv can differ from those of arXiv new
-	submission web pages.  First, under our current settings,
-	arXiv_feed_parser of a category C gives new submissions whose
-	primary subjects are the category C. Second, entries of arXiv rss
-	feeds are not necessarily the same as those of arXiv new
-	submission web pages.
+*	Output entries of twXiv can differ from those of arXiv
+    new submission web pages.  First, entries of arXiv rss
+    feeds are not necessarily the same as those of arXiv new
+    submission web pages.  Second, arXiv_feed_parser for an
+    arXiv category C gives new submissions whose primary
+    subjects are the category C.  Then, twXiv for the
+    category C counts and tweets a new paper whose principal
+    subject matches the category C.
 
+	- Let us assume that there is no new paper whose
+	principal subject matches the category C, but there is a
+	new paper P whose non-principal subject matches the
+	category C. Then, the arXiv new submission web page of
+	the category C lists the paper P as a new submission of
+	the category C, not as a cross-list.  However, twXiv
+	keeps considering the paper P as a cross-list for the
+	category C.  Then, the output of twXiv for the category
+	C differs from the arXiv new submission web page of the
+	category C.
+
+	- A reason for this is that twitter does not like
+	duplicate or substiantially similar tweets from bots. 
+	So, twXiv maintains a single
+	tweet for the title, authors, and abs/pdf identifiers of
+	a new paper across bots in your access keys.
+	Furthermore, if configured, twXiv tries to retweet and
+	quote for cross-lists and replacements from bots in your
+	access keys.
+
+	
 
 * 	On the use of metadata of arXiv articles, there is the web page of
    [Terms of Use for arXiv APIs](https://arxiv.org/help/api/tou). As
