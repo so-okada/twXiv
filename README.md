@@ -85,7 +85,9 @@ with arXiv.
 	C differs from the arXiv new submission web page of the
 	category C.
 
-	- A reason for this is that twitter does not like
+	- One reason for this is to clarify what twXiv tweets,
+	retweets, and quotes across categories.
+	Another reason  is that twitter does not like
 	duplicate or substiantially similar tweets from bots. 
 	So, twXiv maintains a single
 	tweet for the title, authors, and abs/pdf identifiers of
