@@ -74,7 +74,7 @@ with arXiv.
     category C counts and tweets a new paper whose principal
     subject matches the category C.
 
-	- Let us assume that there is no new paper whose
+	- For example, let us assume that there is no new paper whose
 	principal subject matches the category C, but there is a
 	new paper P whose non-principal subject matches the
 	category C. Then, the arXiv new submission web page of
@@ -86,15 +86,14 @@ with arXiv.
 	category C.
 
 	- One reason for this is to clarify what twXiv tweets,
-	retweets, and quotes across categories.
-	Another reason  is that twitter does not like
-	duplicate or substiantially similar tweets from bots. 
-	So, twXiv maintains a single
-	tweet for the title, authors, and abs/pdf identifiers of
-	a new paper across bots in your access keys.
-	Furthermore, if configured, twXiv tries to retweet and
-	quote for cross-lists and replacements from bots in your
-	access keys.
+	retweets, and quotes across categories.  Another reason
+	is that twitter does not like duplicate or
+	substiantially similar tweets from bots.  So, twXiv
+	maintains a single tweet for the title, authors, and
+	abs/pdf identifiers of a new paper across bots in your
+	access keys. Furthermore, if configured, twXiv tries to
+	retweet and quote for cross-lists and replacements from
+	bots in your access keys.
 
 	
 
