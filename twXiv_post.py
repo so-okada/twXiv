@@ -198,7 +198,6 @@ def tweet_api(keys):
     auth.set_access_token(atoken, atoken_secret)
 
     return tw.API(auth,
-                  wait_on_rate_limit_notify=True,
                   wait_on_rate_limit=True,
                   retry_count=3,
                   retry_delay=12)
