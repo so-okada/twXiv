@@ -87,7 +87,7 @@ with arXiv.
 	- One reason for this is to clarify what twXiv tweets,
 	retweets, and quotes across categories.  Another reason
 	is that twitter does not like duplicate or
-	substiantially similar tweets from bots.  So, twXiv
+	substantially similar tweets from bots.  So, twXiv
 	maintains a single tweet for the title, authors, and
 	abs/pdf identifiers of a new paper across bots in 
 	access keys. Furthermore, if configured, twXiv tries to
@@ -304,7 +304,7 @@ optional arguments:
 	```
 
 
-## Version history
+## Versions
 
 * 0.0.1
 
@@ -327,32 +327,99 @@ optional arguments:
 
 	* 2021-06-03, a fix to adapt an api update of semantic scholar.
 	
-	
+* 0.1.3
+
+	* 2021-10-26,  a fix for tweepy v4.
+
+## List of Bots
+
+* [https://twitter.com/mathACb](https://twitter.com/mathACb): 
+  Commutative Algebra
+* [https://twitter.com/mathAGb](https://twitter.com/mathAGb):
+  Algebraic Geometry
+*[https://twitter.com/mathAPb](https://twitter.com/mathAPb):
+  Analysis of PDEs 
+* [https://twitter.com/mathATb](https://twitter.com/mathATb):
+Algebraic Topology 
+* [https://twitter.com/mathCAbot](https://twitter.com/mathCAbot):
+Classical Analysis and ODEs
+* [https://twitter.com/mathCObot](https://twitter.com/mathCObot):
+Combinatorics 
+* [https://twitter.com/mathCTbot](https://twitter.com/mathCTbot):
+Category Theory 
+* [https://twitter.com/mathCVb](https://twitter.com/mathCVb):
+Complex Variables 
+* [https://twitter.com/mathDGb](https://twitter.com/mathDGb):
+Differential Geometry 
+* [https://twitter.com/mathDSb](https://twitter.com/mathDSb):
+Dynamical Systems 
+* [https://twitter.com/mathFAbot](https://twitter.com/mathFAbot):
+Functional Analysis 
+* [https://twitter.com/mathGMb](https://twitter.com/mathGMb):
+General Mathematics 
+* [https://twitter.com/mathGNb](https://twitter.com/mathGNb):
+General Topology 
+* [https://twitter.com/mathGRbot](https://twitter.com/mathGRbot):
+Group Theory 
+* [https://twitter.com/mathGTb](https://twitter.com/mathGTb):
+Geometric Topology 
+* [https://twitter.com/mathHOb](https://twitter.com/mathHOb):
+History and Overview 
+* [https://twitter.com/mathITbot](https://twitter.com/mathITbot):
+Information Theory 
+* [https://twitter.com/mathKTb](https://twitter.com/mathKTb):
+K-Theory and Homology 
+* [https://twitter.com/mathLOb](https://twitter.com/mathLOb):
+Logic 
+* [https://twitter.com/mathMGb](https://twitter.com/mathMGb):
+Metric Geometry 
+* [https://twitter.com/mathMPb](https://twitter.com/mathMPb):
+Mathematical Physics 
+* [https://twitter.com/mathNAb](https://twitter.com/mathNAb):
+Numerical Analysis 
+* [https://twitter.com/mathNTb](https://twitter.com/mathNTb):
+Number Theory 
+* [https://twitter.com/mathOAb](https://twitter.com/mathOAb):
+Operator Algebras 
+* [https://twitter.com/mathOCb](https://twitter.com/mathOCb):
+Optimization and Control 
+* [https://twitter.com/mathPRb](https://twitter.com/mathPRb):
+Probability
+* [https://twitter.com/mathQAb](https://twitter.com/mathQAb):
+Quantum Algebra 
+* [https://twitter.com/mathRAb](https://twitter.com/mathRAb):
+Probability 
+* [https://twitter.com/mathRTb](https://twitter.com/mathRTb):
+Representation Theory 
+* [https://twitter.com/mathSGb](https://twitter.com/mathSGb):
+Symplectic Geometry 
+* [https://twitter.com/mathSPb](https://twitter.com/mathSPb):
+Spectral Theory 
+* [https://twitter.com/mathSTb](https://twitter.com/mathSTb):
+Statistics Theory 
+
 ## Author
 So Okada, so.okada@gmail.com, https://so-okada.github.io/
 
 ## Motivation
 
-Since 2013-04, the author has been running arXiv bots
-
-* [https://twitter.com/mathACb](https://twitter.com/mathACb)
-* [https://twitter.com/mathAGb](https://twitter.com/mathAGb)
-* ...
-* [https://twitter.com/mathSTb](https://twitter.com/mathSTb)
-
-for all arXiv math categories  (see 
-[a paper on these bots](https://arxiv.org/abs/1410.4139)
-and  [the author's comment](https://twitter.com/vela/status/729622960974127104)). 
-The bots used arxiv_speaker [https://github.com/misho104-obsolete/arxiv_speaker](https://github.com/misho104-obsolete/arxiv_speaker). Sho Iwamoto wrote it by ruby for tweeting new submissions. 
-However, it has been
-discontinued for a while. Therefore, the author has written twXiv
-by python3, adding functions such as abstracts by replies,
-cross-lists by retweets, and replacements by quotes and retweets. 
-Since 2020-08, the bots run by twXiv.
-
- 
-
-
+Since 2013-04, the author has been running bots in [the
+above list](#List-of-twXiv-Bots) for all arXiv math
+categories (see [a paper on these
+bots](https://arxiv.org/abs/1410.4139), [the author's
+comment](https://twitter.com/vela/status/729622960974127104),
+and [bots](https://dicto.xyz/bookmarks/arxiv-twitter-feeds/)
+of
+[Notionsandnotes](https://twittercommunity.com/u/notionsandnotes/summary)).
+Until 2020-08, the author used arxiv_speaker
+[https://github.com/misho104-obsolete/arxiv_speaker](https://github.com/misho104-obsolete/arxiv_speaker). Sho
+Iwamoto wrote it by ruby for tweeting new submissions with
+titles, authors, and ids.  However, it has been discontinued
+for a while.  Therefore, the author has written twXiv by
+python3, adding functions such as abstracts by replies,
+cross-lists by retweets, and replacements by quotes and
+retweets.  Since 2020-08, the bots in [the above
+list](#List-of-twXiv-Bots) have used twXiv.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an 
