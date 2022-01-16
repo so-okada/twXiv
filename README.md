@@ -337,7 +337,7 @@ optional arguments:
   Commutative Algebra
 * [https://twitter.com/mathAGb](https://twitter.com/mathAGb):
   Algebraic Geometry
-*[https://twitter.com/mathAPb](https://twitter.com/mathAPb):
+* [https://twitter.com/mathAPb](https://twitter.com/mathAPb):
   Analysis of PDEs 
 * [https://twitter.com/mathATb](https://twitter.com/mathATb):
 Algebraic Topology 
