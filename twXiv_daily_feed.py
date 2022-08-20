@@ -26,19 +26,19 @@ def daily_entries(cat, aliases):
                 str(trial_num + 1) + 'th feed parse error for ' + cat)
         else:
             announced_time = feed.updated_parsed
-        if trial_num < arxiv_max_trial - 1:
-            if tXp.check_dates(announced_time, time_now):
-                if len(feed.entries) > 0:
+            if trial_num < arxiv_max_trial - 1:
+                if tXp.check_dates(announced_time, time_now):
+                    if len(feed.entries) > 0:
+                        return feed
+                    else:
+                        print('empty feed entries for ' + cat)
+                else:
+                    print('not of today in UTC time zone for ' + cat)
+            else:
+                if tXp.check_dates(announced_time, time_now):
                     return feed
                 else:
-                    print('empty feed entries for ' + cat)
-            else:
-                print('not of today in UTC time zone for ' + cat)
-        else:
-            if tXp.check_dates(announced_time, time_now):
-                return feed
-            else:
-                print('not of today in UTC time zone for ' + cat)
+                    print('not of today in UTC time zone for ' + cat)
         trial_num += 1
         if trial_num < arxiv_max_trial:
             print('sleep and retry for ' + cat)

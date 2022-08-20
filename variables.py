@@ -29,7 +29,6 @@ arxiv_call_period = 5
 
 arxiv_max_trial = 6
 arxiv_call_sleep = 20 * 60
-
 main_thread_wait = 60
 
 
@@ -55,5 +54,5 @@ overall_twitter_limit_period = 5
 sch_call_limit = 90
 sch_call_period = 5 * 60
 
-sch_max_trial = 6
+sch_max_trial = 3
 sch_call_sleep = 5
