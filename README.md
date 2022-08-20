@@ -94,9 +94,8 @@ with arXiv.
 	retweet and quote for cross-lists and replacements from
 	bots in access keys.
 
-	
 
-* 	On the use of metadata of arXiv articles, there is the web page of
+* On the use of metadata of arXiv articles, there is the web page of
    [Terms of Use for arXiv APIs](https://arxiv.org/help/api/tou). As
    of the revision 0.8.0, this says that "You are free to use descriptive
    metadata about arXiv e-prints under the terms of the Creative
@@ -331,6 +330,10 @@ optional arguments:
 
 	* 2021-10-26,  a fix for tweepy v4.
 
+* 0.1.4
+
+	* 2022-08-20, minor fixes.
+	
 ## List of Bots
 
 * [https://twitter.com/mathACb](https://twitter.com/mathACb): 
