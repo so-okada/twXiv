@@ -406,7 +406,7 @@ So Okada, so.okada@gmail.com, https://so-okada.github.io/
 
 ## Motivation
 
-Since 2013-04, the author has been running bots in [the
+Since 2013-04, the author has been running  [bots in the
 above list](#List-of-twXiv-Bots) for all arXiv math
 categories (see [a paper on these
 bots](https://arxiv.org/abs/1410.4139), [the author's
@@ -421,8 +421,8 @@ titles, authors, and ids.  However, it has been discontinued
 for a while.  Therefore, the author has written twXiv by
 python3, adding functions such as abstracts by replies,
 cross-lists by retweets, and replacements by quotes and
-retweets.  Since 2020-08, the bots in [the above
-list](#List-of-twXiv-Bots) have used twXiv.
+retweets.  Since 2020-08, the  [bots in the above
+list](#List-of-twXiv-Bots) have used twXiv on gcp free tier.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an 
