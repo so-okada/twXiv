@@ -5,17 +5,18 @@
 
 import re
 import time
-import semanticscholar as sch
 from ratelimit import limits, sleep_and_retry, rate_limited
 from variables import *
 
+from semanticscholar import SemanticScholar
+sch = SemanticScholar(timeout=5)
 
 @sleep_and_retry
 @limits(calls=sch_call_limit, period=sch_call_period)
 def paperid(arxiv_id):
     trial_num = 0
     while trial_num < sch_max_trial:
-        paper = sch.paper(arxiv_id, timeout=2)
+        paper = sch.get_paper(arxiv_id)
         if paper == {}:
             print(str(trial_num + 1) + 'th sch parse error for ' + arxiv_id)
         else:

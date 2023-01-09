@@ -684,7 +684,7 @@ def tools(arxiv_id):
         error_text = '\narXiv_id: ' + arxiv_id
         error_text = '\n**error for sch_paperid**' + error_text
         print(error_text)
-
+        
     if paperid:
         urls = google_url + ' ' + \
             semantic_url + paperid + ' ' + \

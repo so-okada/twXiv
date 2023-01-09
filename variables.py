@@ -54,5 +54,7 @@ overall_twitter_limit_period = 5
 sch_call_limit = 90
 sch_call_period = 5 * 60
 
-sch_max_trial = 3
+sch_max_trial = 2
 sch_call_sleep = 5
+
+

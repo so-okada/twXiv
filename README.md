@@ -334,6 +334,10 @@ optional arguments:
 
 	* 2022-08-20, minor fixes.
 	
+* 0.1.5
+	
+	* 2022-01-09, a fix for semanticscholar 0.3.2.
+		
 ## List of Bots
 
 * [https://twitter.com/mathACb](https://twitter.com/mathACb): 
