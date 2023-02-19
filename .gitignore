@@ -9,6 +9,7 @@ ch_*
 
 !.gitignore
 !tests/
+!tests/logfiles/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
