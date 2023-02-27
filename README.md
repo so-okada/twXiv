@@ -431,8 +431,10 @@ of
 [Notionsandnotes](https://twittercommunity.com/u/notionsandnotes/summary), and
 the author's
 comments:
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I am running these bots mainly just for convenience of sharing wisdom of arXiv papers for each arXiv category.</p>&mdash; So Okada (@vela) <a href="https://twitter.com/vela/status/729622960974127104?ref_src=twsrc%5Etfw">May 9, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This would end my 32 math arXiv twitter bots such as <a href="https://t.co/w8cCIaUlBM">https://t.co/w8cCIaUlBM</a>, <a href="https://t.co/2j62N9Vk8a">https://t.co/2j62N9Vk8a</a>, ... They have shared wisdom of arXiv papers with comments, discussions, or jokes not just to academics but to the public. I have maintained them nearly 10 years from 2013-04. <a href="https://t.co/J0WUSSTlwZ">https://t.co/J0WUSSTlwZ</a></p>&mdash; So Okada (@vela) <a href="https://twitter.com/vela/status/1622129115603308544?ref_src=twsrc%5Etfw">February 5, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I am running these bots mainly just for convenience of sharing wisdom of arXiv papers for each arXiv category.</p>&mdash; So Okada (@vela) <a href="https://twitter.com/vela/status/729622960974127104?ref_src=twsrc%5Etfw">May 9, 2016</a></blockquote> 
+<!-- <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This would end my 32 math arXiv twitter bots such as <a href="https://t.co/w8cCIaUlBM">https://t.co/w8cCIaUlBM</a>, <a href="https://t.co/2j62N9Vk8a">https://t.co/2j62N9Vk8a</a>, ... They have shared wisdom of arXiv papers with comments, discussions, or jokes not just to academics but to the public. I have maintained them nearly 10 years from 2013-04. <a href="https://t.co/J0WUSSTlwZ">https://t.co/J0WUSSTlwZ</a></p>&mdash; So Okada (@vela) <a href="https://twitter.com/vela/status/1622129115603308544?ref_src=twsrc%5Etfw">February 5, 2023</a></blockquote>
+<!-- <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
 
 
 ## Contributing
