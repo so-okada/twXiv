@@ -412,23 +412,28 @@ So Okada, so.okada@gmail.com, https://so-okada.github.io/
 
 ## Motivation
 
-Since 2013-04, the author has been running  [bots in the
-above list](#List-of-twXiv-Bots) for all arXiv math
-categories (see [a paper on these
-bots](https://arxiv.org/abs/1410.4139), [the author's
-comment](https://twitter.com/vela/status/729622960974127104),
-and [bots](https://dicto.xyz/bookmarks/arxiv-twitter-feeds/)
+Since 2013-04, the author has been running the bots above
+ for all arXiv math categories.  Until 2020-08, the author
+ used arxiv_speaker
+ [https://github.com/misho104-obsolete/arxiv_speaker](https://github.com/misho104-obsolete/arxiv_speaker). Sho
+ Iwamoto wrote it by ruby for tweeting new submissions with
+ titles, authors, and ids.  However, it has been
+ discontinued for a while.  Therefore, the author has
+ written twXiv by python3, adding functions such as
+ abstracts by replies, cross-lists by retweets, and
+ replacements by quotes and retweets.  Since 2020-08, the
+ bots above have used twXiv on gcp free tier.
+
+For more background, see 
+[a paper on these bots](https://arxiv.org/abs/1410.4139),
+ [bots](https://dicto.xyz/bookmarks/arxiv-twitter-feeds/)
 of
-[Notionsandnotes](https://twittercommunity.com/u/notionsandnotes/summary)).
-Until 2020-08, the author used arxiv_speaker
-[https://github.com/misho104-obsolete/arxiv_speaker](https://github.com/misho104-obsolete/arxiv_speaker). Sho
-Iwamoto wrote it by ruby for tweeting new submissions with
-titles, authors, and ids.  However, it has been discontinued
-for a while.  Therefore, the author has written twXiv by
-python3, adding functions such as abstracts by replies,
-cross-lists by retweets, and replacements by quotes and
-retweets.  Since 2020-08, the  [bots in the above
-list](#List-of-twXiv-Bots) have used twXiv on gcp free tier.
+[Notionsandnotes](https://twittercommunity.com/u/notionsandnotes/summary), and
+the author's
+comments:
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I am running these bots mainly just for convenience of sharing wisdom of arXiv papers for each arXiv category.</p>&mdash; So Okada (@vela) <a href="https://twitter.com/vela/status/729622960974127104?ref_src=twsrc%5Etfw">May 9, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This would end my 32 math arXiv twitter bots such as <a href="https://t.co/w8cCIaUlBM">https://t.co/w8cCIaUlBM</a>, <a href="https://t.co/2j62N9Vk8a">https://t.co/2j62N9Vk8a</a>, ... They have shared wisdom of arXiv papers with comments, discussions, or jokes not just to academics but to the public. I have maintained them nearly 10 years from 2013-04. <a href="https://t.co/J0WUSSTlwZ">https://t.co/J0WUSSTlwZ</a></p>&mdash; So Okada (@vela) <a href="https://twitter.com/vela/status/1622129115603308544?ref_src=twsrc%5Etfw">February 5, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an 
