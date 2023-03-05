@@ -69,7 +69,7 @@ with arXiv.
   pages.  First, items of arXiv rss feeds are not
   necessarily the same as those of arXiv new submission web
   pages (see
-  https://mastoxiv.page/@vela/109829294232368163).  Second,
+	https://mastoxiv.page/@vela/109829294232368163).  Second,
   arXiv_feed_parser for an arXiv category C gives new
   submissions whose primary subjects are the category C.
   Then, twXiv for the category C counts and tweets a new
@@ -417,8 +417,8 @@ Since 2013-04, the author has been running the bots above
  used arxiv_speaker
  [https://github.com/misho104-obsolete/arxiv_speaker](https://github.com/misho104-obsolete/arxiv_speaker). Sho
  Iwamoto wrote it by ruby for tweeting new submissions with
- titles, authors, and ids.  However, it has been
- discontinued for a while.  Therefore, the author has
+ titles, authors, and ids.  However, it was
+ discontinued.  Therefore, the author has
  written twXiv by python3, adding functions such as
  abstracts by replies, cross-lists by retweets, and
  replacements by quotes and retweets.  Since 2020-08, the
