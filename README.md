@@ -66,10 +66,12 @@ with arXiv.
   use this via twXiv_daily_feed.py to regularly obtain data.  
 	
 * Outputs of twXiv can differ from arXiv new submission web
-  pages.  First, items of arXiv rss feeds are not
+  pages. First, this can be due to bugs in my scripts or
+  connection errors.
+  Second, items of arXiv rss feeds are not
   necessarily the same as those of arXiv new submission web
   pages (see
-	https://mastoxiv.page/@vela/109829294232368163).  Second,
+	https://mastoxiv.page/@vela/109829294232368163).  Third,
   arXiv_feed_parser for an arXiv category C gives new
   submissions whose primary subjects are the category C.
   Then, twXiv for the category C counts and tweets a new
