@@ -328,11 +328,11 @@ optional arguments:
   
 * 0.1.2
 
-	* 2021-06-03, a fix to adapt an api update of semantic scholar.
+	* 2021-06-03, a fix for semantic scholar api update.
 	
 * 0.1.3
 
-	* 2021-10-26,  a fix for tweepy v4.
+	* 2021-10-26, a fix for tweepy v4.
 
 * 0.1.4
 
@@ -341,7 +341,11 @@ optional arguments:
 * 0.1.5
 	
 	* 2022-01-09, a fix for semanticscholar 0.3.2.
+	
+* 0.2.0	
 		
+	* 2023-06-25, a fix for twitter API V2 endpoints and a daily rate limit.
+	
 ## List of Bots
 
 * [https://twitter.com/mathACb](https://twitter.com/mathACb): 

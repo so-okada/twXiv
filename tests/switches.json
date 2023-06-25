@@ -1,7 +1,7 @@
 {
     "math.AC": {
         "username": "mathACb",
-        "__comment": "For example, if you want no abstracts, you put 0 for abstracts.",
+        "__comment": "0 for no abstracts, for example.",
         "newsubmissions": "1",
         "abstracts": "1",
         "crosslists": "1",
