@@ -7,13 +7,12 @@
 import re
 import feedparser
 from datetime import datetime
-from bs4 import BeautifulSoup
 from dateutil.parser import parse
 
 
 class retrieve:
     def __init__(self, cat, aliases):
-        url = 'http://export.arxiv.org/rss/' + cat
+        url = 'http://rss.arxiv.org/rss/' + cat
         resp = feedparser.parse(url)
 
         titles = []
@@ -24,45 +23,36 @@ class retrieve:
         labels = []
         versions = []
         for each in resp.entries:
-            title_subject = each['title'].split('. (arXiv:')
-            titles.append(title_subject[0])
-
-            # subjects
-            current_identifier = re.findall('\[.*\]', title_subject[1])
-            if current_identifier:
-                subject = re.sub('[\[|\]]', '', current_identifier[0])
-            else:
-                old_identifier = re.findall('[-|\w]+\/', title_subject[1])
-                subject = re.sub('/', '', old_identifier[0])
+            titles.append(each['title'])
+            subject=each['tags'][0]['term']
             subject = alias_replace(subject, aliases)
-
-            # new submissions, cross-lists, or replacements
             primary_subjects.append(subject)
-            if 'UPDATED' in title_subject[1]:
+            
+            # new submissions, cross-lists, or replacements
+            announce_type=each['arxiv_announce_type']
+            if 'replace' in announce_type:
                 labels.append('Replacement')
-            elif 'CROSS LISTED' in title_subject[1]:
+            elif 'cross' in announce_type:
                 labels.append('Cross-list')
             elif subject == cat:
                 labels.append('New submission')
             else:
                 labels.append('Cross-list')
 
+            oai=each['id']
+            version=re.sub('v', '',re.findall('v[0-9]+', oai)[0])
             # versions
-            versions.append(
-                re.sub('v', '',
-                       re.findall('v[0-9]+', title_subject[1])[0]))
-            identifiers.append(re.sub('http://arxiv.org/abs/', '', each['id']))
-            authors.append(BeautifulSoup(each['author'], 'lxml').text)
-            abstracts.append(
-                re.sub('\n', ' ',
-                       BeautifulSoup(each['summary'], 'lxml').text))
+            versions.append(version)
+            identifiers.append(re.sub('oai:arXiv.org:','',oai))
+            authors.append(re.sub('\n[ ]+',', ',each['author']))
+            abstracts.append(each['summary'])
 
         self.cat = cat
         self.feed = resp
         self.bozo = resp['bozo']
         self.entries = resp.entries
-        self.updated = parse(resp['updated'])
-        self.updated_parsed = datetime(*resp['updated_parsed'][:6])
+        self.updated = resp['feed']['published']
+        self.updated_parsed = datetime(*resp['feed']['published_parsed'][:6])
         self.identifiers = identifiers
         self.authors = authors
         self.titles = titles

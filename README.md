@@ -8,10 +8,10 @@ with arXiv.
 
 ## Setup
 
-* Install pandas, ratelimit, semanticscholar, tweepy, twitter-text-parser, nameparser, feedparser, and beautifulsoup4. 
+* Install pandas, ratelimit, semanticscholar, tweepy, twitter-text-parser, nameparser, and feedparser.
 
 	```
-	% pip3 install pandas ratelimit semanticscholar tweepy twitter-text-parser nameparser feedparser beautifulsoup4
+	% pip3 install pandas ratelimit semanticscholar tweepy twitter-text-parser nameparser feedparser 
 	```
 
 * Let twXiv.py be executable.
@@ -345,6 +345,12 @@ optional arguments:
 * 0.2.0	
 		
 	* 2023-06-25, a fix for twitter API V2 endpoints and a daily rate limit.
+
+* 0.3.0	
+
+	* 2024-02-04, updated arXiv_feed_parser
+	for arXiv rss re-implemented.
+
 	
 ## List of Bots
 
