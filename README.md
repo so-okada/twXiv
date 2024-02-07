@@ -350,7 +350,10 @@ optional arguments:
 
 	* 2024-02-04, updated arXiv_feed_parser
 	for arXiv rss re-implemented.
+	
+* 0.3.1	
 
+	* 2024-02-07, a minor update.
 	
 ## List of Bots
 

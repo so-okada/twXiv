@@ -43,7 +43,8 @@ class retrieve:
             version=re.sub('v', '',re.findall('v[0-9]+', oai)[0])
             # versions
             versions.append(version)
-            identifiers.append(re.sub('oai:arXiv.org:','',oai))
+            identifiers.append(re.sub('v[0-9]+','', \
+                                      re.sub('oai:arXiv.org:','',oai)))
             authors.append(re.sub('\n[ ]+',', ',each['author']))
             abstracts.append(each['summary'])
 
