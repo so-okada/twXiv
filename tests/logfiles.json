@@ -2,28 +2,11 @@
     "math.AC": {
         "username": "mathACb",
         "tweet_summary_log": "logfiles/mathACb_tweet_summaries.csv",
-        "tweet_log": "logfiles/mathACb_tweets.csv",
-        "retweet_log": "logfiles/mathACb_retweets.csv",
-        "unretweet_log": "logfiles/mathACb_unretweets.csv",
-        "reply_log": "logfiles/mathACb_replies.csv",
-	"quote_log": "logfiles/mathACb_quotes.csv"
+        "tweet_log": "logfiles/mathACb_tweets.csv"
     },
     "math.AG": {
         "username": "mathAGb",
         "tweet_summary_log": "logfiles/mathAGb_tweet_summaries.csv",
-        "tweet_log": "logfiles/mathAGb_tweets.csv",
-        "retweet_log": "logfiles/mathAGb_retweets.csv",
-        "unretweet_log": "logfiles/mathAGb_unretweets.csv",
-        "reply_log": "logfiles/mathAGb_replies.csv",
-        "quote_log": "logfiles/mathAGb_quotes.csv"
-    },
-    "math.HO": {
-        "username": "mathHOb",
-        "tweet_summary_log": "logfiles/mathHOb_tweet_summaries.csv",
-        "tweet_log": "logfiles/mathHOb_tweets.csv",
-        "retweet_log": "logfiles/mathHOb_retweets.csv",
-        "unretweet_log": "logfiles/mathHOb_unretweets.csv",
-        "reply_log": "logfiles/mathHOb_replies.csv",
-        "quote_log": "logfiles/mathHOb_quotes.csv"	
+        "tweet_log": "logfiles/mathAGb_tweets.csv"
     }
 }

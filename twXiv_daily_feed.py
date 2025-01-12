@@ -5,8 +5,8 @@
 # https://github.com/so-okada/twXiv/
 
 import time
-from datetime import datetime, date, timedelta
-from ratelimit import limits, sleep_and_retry, rate_limited
+from datetime import datetime
+from ratelimit import limits, sleep_and_retry
 
 from variables import *
 import twXiv_post as tXp
@@ -22,8 +22,7 @@ def daily_entries(cat, aliases):
     while trial_num < arxiv_max_trial:
         feed = afpa.retrieve(cat, aliases)
         if feed.bozo:
-            print(
-                str(trial_num + 1) + 'th feed parse error for ' + cat)
+            print(str(trial_num + 1) + "th feed parse error for " + cat)
         else:
             announced_time = feed.updated_parsed
             if trial_num < arxiv_max_trial - 1:
@@ -31,17 +30,17 @@ def daily_entries(cat, aliases):
                     if len(feed.entries) > 0:
                         return feed
                     else:
-                        print('empty feed entries for ' + cat)
+                        print("empty feed entries for " + cat)
                 else:
-                    print('not of today in UTC time zone for ' + cat)
+                    print("not of today in UTC time zone for " + cat)
             else:
                 if tXp.check_dates(announced_time, time_now):
                     return feed
                 else:
-                    print('not of today in UTC time zone for ' + cat)
+                    print("not of today in UTC time zone for " + cat)
         trial_num += 1
         if trial_num < arxiv_max_trial:
-            print('sleep and retry for ' + cat)
+            print("sleep and retry for " + cat)
             time.sleep(arxiv_call_sleep)
         else:
-            raise Exception('fatal parse error for ' + cat)
+            raise Exception("fatal parse error for " + cat)

@@ -12,7 +12,7 @@ from dateutil.parser import parse
 
 class retrieve:
     def __init__(self, cat, aliases):
-        url = 'http://rss.arxiv.org/rss/' + cat
+        url = "http://rss.arxiv.org/rss/" + cat
         resp = feedparser.parse(url)
 
         titles = []
@@ -23,37 +23,36 @@ class retrieve:
         labels = []
         versions = []
         for each in resp.entries:
-            titles.append(each['title'])
-            subject=each['tags'][0]['term']
+            titles.append(each["title"])
+            subject = each["tags"][0]["term"]
             subject = alias_replace(subject, aliases)
             primary_subjects.append(subject)
-            
-            # new submissions, cross-lists, or replacements
-            announce_type=each['arxiv_announce_type']
-            if 'replace' in announce_type:
-                labels.append('Replacement')
-            elif 'cross' in announce_type:
-                labels.append('Cross-list')
-            elif subject == cat:
-                labels.append('New submission')
-            else:
-                labels.append('Cross-list')
 
-            oai=each['id']
-            version=re.sub('v', '',re.findall('v[0-9]+', oai)[0])
+            # new submissions, cross-lists, or replacements
+            announce_type = each["arxiv_announce_type"]
+            if "replace" in announce_type:
+                labels.append("Replacement")
+            elif "cross" in announce_type:
+                labels.append("Cross-list")
+            elif subject == cat:
+                labels.append("New submission")
+            else:
+                labels.append("Cross-list")
+
+            oai = each["id"]
+            version = re.sub("v", "", re.findall("v[0-9]+", oai)[0])
             # versions
             versions.append(version)
-            identifiers.append(re.sub('v[0-9]+','', \
-                                      re.sub('oai:arXiv.org:','',oai)))
-            authors.append(re.sub('\n[ ]+',', ',each['author']))
-            abstracts.append(each['summary'])
+            identifiers.append(re.sub("v[0-9]+", "", re.sub("oai:arXiv.org:", "", oai)))
+            authors.append(re.sub("\n[ ]+", ", ", each["author"]))
+            abstracts.append(each["summary"])
 
         self.cat = cat
         self.feed = resp
-        self.bozo = resp['bozo']
+        self.bozo = resp["bozo"]
         self.entries = resp.entries
-        self.updated = resp['feed']['published']
-        self.updated_parsed = datetime(*resp['feed']['published_parsed'][:6])
+        self.updated = resp["feed"]["published"]
+        self.updated_parsed = datetime(*resp["feed"]["published_parsed"][:6])
         self.identifiers = identifiers
         self.authors = authors
         self.titles = titles
@@ -72,22 +71,23 @@ class retrieve:
         len_identifiers = len(self.identifiers)
         for each in range(len_identifiers):
             entry = {}
-            entry['id'] = self.identifiers[each]
-            entry['abs_url'] = 'https://arxiv.org/abs/' + entry['id']
-            entry['pdf_url'] = re.sub('abs', 'pdf', entry['abs_url'])
-            entry['title'] = self.titles[each]
-            entry['authors'] = self.authors[each]
-            entry['primary_subject'] = self.primary_subjects[each]
-            entry['abstract'] = self.abstracts[each]
-            entry['label'] = self.labels[each]
-            entry['version'] = self.versions[each]
+            entry["id"] = self.identifiers[each]
+            entry["abs_url"] = "https://arxiv.org/abs/" + entry["id"]
+            entry["pdf_url"] = re.sub("abs", "pdf", entry["abs_url"])
+            entry["html_url"] = re.sub("abs", "html", entry["abs_url"])
+            entry["title"] = self.titles[each]
+            entry["authors"] = self.authors[each]
+            entry["primary_subject"] = self.primary_subjects[each]
+            entry["abstract"] = self.abstracts[each]
+            entry["label"] = self.labels[each]
+            entry["version"] = self.versions[each]
             # comments and subjects are not in feed 2020-07-12
-            entry['comments'] = ''
-            entry['subjects'] = ''
+            entry["comments"] = ""
+            entry["subjects"] = ""
 
-            if entry['label'] == 'New submission':
+            if entry["label"] == "New submission":
                 newsubmissions.append(entry)
-            elif entry['label'] == 'Cross-list':
+            elif entry["label"] == "Cross-list":
                 crosslists.append(entry)
             else:
                 replacements.append(entry)

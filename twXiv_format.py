@@ -10,54 +10,57 @@ from variables import *
 
 
 # format all new submissions
-def format(entries):
-    return [format_each(one) for one in entries]
+def format(entries, half):
+    return [format_each(one, half) for one in entries]
 
 
 # format each new submission
-def format_each(orig_entry):
+def format_each(orig_entry, half):
+    if half == 1:
+        global max_len
+        global urls_len
+        global min_len_authors
+        global min_len_title
+        max_len = max_len_short
+        urls_len = urls_len_short
+        min_len_authors = min_len_authors_short
+        min_len_title = min_len_title_short
+
     fixed_length = urls_len + newsub_spacer + margin
     entry = orig_entry.copy()
-    orig_title = entry['title']
+    orig_title = entry["title"]
 
-    authors_title = entry['authors'] + entry['title']
-    current_len = \
-        parse_tweet(authors_title).weightedLength + fixed_length
+    authors_title = entry["authors"] + entry["title"]
+    current_len = parse_tweet(authors_title).weightedLength + fixed_length
 
     # first,  a title
     if current_len > max_len:
         difference = current_len - max_len
-        current_len_title = parse_tweet(entry['title']).weightedLength
+        current_len_title = parse_tweet(entry["title"]).weightedLength
         lim = max(min_len_title, current_len_title - difference)
-        entry['title'] = simple(entry['title'], lim)
+        entry["title"] = simple(entry["title"], lim)
 
-    authors_title = entry['authors'] + entry['title']
-    current_len = \
-        parse_tweet(authors_title).weightedLength + fixed_length
+    authors_title = entry["authors"] + entry["title"]
+    current_len = parse_tweet(authors_title).weightedLength + fixed_length
 
     # second, authors
     if current_len > max_len:
         difference = current_len - max_len
-        current_len_authors = \
-            parse_tweet(entry['authors']).weightedLength
+        current_len_authors = parse_tweet(entry["authors"]).weightedLength
         lim = max(min_len_authors, current_len_authors - difference)
-        entry['authors'] = authors(entry['authors'], lim)
+        entry["authors"] = authors(entry["authors"], lim)
 
     # third,  a longer title if the length of authors' names becomes shorter
-    entry['title'] = orig_title
-    authors_title = entry['authors'] + entry['title']
-    current_len = \
-        parse_tweet(authors_title).weightedLength + fixed_length
+    entry["title"] = orig_title
+    authors_title = entry["authors"] + entry["title"]
+    current_len = parse_tweet(authors_title).weightedLength + fixed_length
 
     if current_len > max_len:
         difference = current_len - max_len
-        current_len_title = parse_tweet(entry['title']).weightedLength
+        current_len_title = parse_tweet(entry["title"]).weightedLength
         lim = max(min_len_title, current_len_title - difference)
-        entry['title'] = simple(entry['title'], lim)
+        entry["title"] = simple(entry["title"], lim)
 
-    entry['separated_abstract'] = \
-        separate_abstract(entry['abstract'], entry['id'],
-                          max_len - abst_tag - margin)
     return entry
 
 
@@ -78,7 +81,7 @@ def simple(orig, lim):
 # formating authors' names
 def authors(orig, lim):
     if lim < 1:
-        return ''
+        return ""
     if parse_tweet(orig).weightedLength <= lim:
         return orig
 
@@ -87,7 +90,7 @@ def authors(orig, lim):
         if parse_tweet(collab).weightedLength <= lim:
             return collab
         else:
-            return ''
+            return ""
 
     no_paren = noparen(orig)
     if parse_tweet(no_paren).weightedLength <= lim:
@@ -101,29 +104,29 @@ def authors(orig, lim):
     if parse_tweet(et_al).weightedLength <= lim:
         return et_al
 
-    return ''
+    return ""
 
 
 def collaboration(orig):
-    collab = re.match(r'^[^:]+collaboration:', orig, re.IGNORECASE)
+    collab = re.match(r"^[^:]+collaboration:", orig, re.IGNORECASE)
     if collab:
-        return re.sub(':$', '', collab.group())
+        return re.sub(":$", "", collab.group())
     else:
         return orig
 
 
 def noparen(test_str):
-    ret = ''
+    ret = ""
     skip = 0
     for i in test_str:
-        if i == '(':
+        if i == "(":
             skip += 1
-        elif i == ')':
+        elif i == ")":
             skip -= 1
         elif skip == 0:
             ret += i
-    ret = re.sub('[ ]+,', ',', ret)
-    ret = re.sub('[ ]+$', '', ret)
+    ret = re.sub("[ ]+,", ",", ret)
+    ret = re.sub("[ ]+$", "", ret)
     return ret
 
 
@@ -131,48 +134,39 @@ def noparen(test_str):
 
 
 def surnames(orig):
-    names = orig.split(',')
+    names = orig.split(",")
     sr_names = [HumanName(one).last for one in names]
-    separator = ', '
+    separator = ", "
     return separator.join(sr_names)
 
 
 def etal(orig):
-    first_author = re.search(r'[\w|.| ]+,', orig)
+    first_author = re.search(r"[\w|.| ]+,", orig)
     return first_author.group() + " et al."
 
-
-# separate an abstract with a counter and url tag
-def separate_abstract(orig, id, lim):
-    sep_abstract = separate(orig, lim)
-    num = len(sep_abstract)
-    result = []
-    for i, each in enumerate(sep_abstract):
-        ptext = each + \
-            " [" + str(i+1) + "/" + str(num) + \
-            " of https://arxiv.org/abs/"+id+"v1]"
-        result.append(ptext)
-    return result
 
 # separate a text by weighted lengths <=lim
 def separate(orig, lim):
     sep_text = []
     orig = orig.strip()
-    
+
     # no inf loop
-    if any(
-            parse_tweet(t).weightedLength > lim
-            for t in orig.split(' ')):
-        print('\n**cannot separate** \
-        \nmax weighted length:  ' + str(lim) + ' \ninput:  ' + orig)
+    if any(parse_tweet(t).weightedLength > lim for t in orig.split(" ")):
+        print(
+            "\n**cannot separate** \
+        \nmax weighted length:  "
+            + str(lim)
+            + " \ninput:  "
+            + orig
+        )
         return sep_text
 
     while orig:
         partial_text = orig
         wlen = parse_tweet(partial_text).weightedLength
         while wlen > lim:
-            partial_text = partial_text.rsplit(' ', 1)[0]
+            partial_text = partial_text.rsplit(" ", 1)[0]
             wlen = parse_tweet(partial_text).weightedLength
         sep_text.append(partial_text.strip())
-        orig = orig[len(partial_text):].strip()
+        orig = orig[len(partial_text) :].strip()
     return sep_text

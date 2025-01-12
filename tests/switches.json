@@ -1,12 +1,8 @@
 {
     "math.AC": {
         "username": "mathACb",
-        "__comment": "0 for no abstracts, for example.",
+        "__comment": "0 for no new submissions",
         "newsubmissions": "1",
-        "abstracts": "0",
-        "crosslists": "0",
-	"quote_replacements": "0",
-	"retweet_replacements": "0",
         "consumer_key": "xxxxxxxxxxxxxxxxxx",
         "consumer_secret": "xxxxxxxxxxxxxxxxxx",
         "access_token": "xxxxxxxxxxxxxxxxxx",
@@ -15,10 +11,6 @@
     "math.AG": {
         "username": "mathAGb",
         "newsubmissions": "1",
-        "abstracts": "0",
-        "crosslists": "0",
-	"quote_replacements": "0",
-	"retweet_replacements": "0",
         "consumer_key": "xxxxxxxxxxxxxxxxxx",
         "consumer_secret": "xxxxxxxxxxxxxxxxxx",
         "access_token": "xxxxxxxxxxxxxxxxxx",

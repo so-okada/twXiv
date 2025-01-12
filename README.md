@@ -1,17 +1,15 @@
 # Application Info
 
-This application twXiv gives arXiv daily new submissions by tweets,
-abstracts by replies, cross-lists by retweets, and replacements by
-quotes and retweets.  We use python3 scripts. twXiv is not affiliated
-with arXiv.
+This application twXiv gives arXiv daily new submissions by tweets. 
+We use python3 scripts. twXiv is not affiliated with arXiv.
 
 
 ## Setup
 
-* Install pandas, ratelimit, semanticscholar, tweepy, twitter-text-parser, nameparser, and feedparser.
+* Install pandas, ratelimit, tweepy, twitter-text-parser, nameparser, and feedparser.
 
 	```
-	% pip3 install pandas ratelimit semanticscholar tweepy twitter-text-parser nameparser feedparser 
+	% pip3 install pandas ratelimit tweepy twitter-text-parser nameparser feedparser 
 	```
 
 * Let twXiv.py be executable.
@@ -26,7 +24,6 @@ with arXiv.
 	- twXiv_post.py 	
 	- twXiv_format.py
 	- twXiv_daily_feed.py 	
-	- twXiv_semantic.py
 	- arXiv_feed_parser.py
 	- variables.py
 
@@ -34,26 +31,16 @@ with arXiv.
 * Configure switches.json, logfiles.json, and aliases.json in the
   tests directory for your settings.
 
-	- accesses.json specifies twitter access keys and whether to use
-	new submissions/abstracts/cross-lists/replacements by twXiv.
+	- accesses.json specifies twitter access keys and whether to put
+	new submissions for each category.
 
-    - logfiles.json indicates log file locations for tweet summaries,
-	tweets, retweets, unretweets, and replies.  You can check their
-	formats by mathACb_tweet_summaries.csv, mathACb_tweets.csv,
-	mathACb_retweets.csv, mathACb_unretweets.csv, 
-	mathACb_replies.csv,
-	and mathACb_quotes.csv in the tests/logfiles director.  twXiv
-	needs a tweet log file for cross-lists and replacements.  Other
-	log files are useful to avoid duplication errors of tweets and
-	retweets.
+    - logfiles.json indicates log file locations for tweet summaries
+	and tweets. In the tests/logfiles director, you have the sample
+	log files mathACb_tweet_summaries.csv and mathACb_tweets.csv.
 		
-	- aliases.json tells twXiv aliases of arXiv category names.
-    For example, math.IT is an alias of cs.IT. Without  this file,
-	twXiv of rss feeds returns no 
-	new submissions,
-	when you take the category name math.IT. 
-	If provided, twXiv replaces category names by their aliases
-	for new submissions, cross-lists, and replacements.
+	- aliases.json tells twXiv aliases of arXiv category names.  For
+    example, math.IT is an alias of cs.IT.  If provided, twXiv
+    replaces category names by their aliases.
 	
 * Configure variables.py for your settings. 
 
@@ -63,45 +50,34 @@ with arXiv.
 ## Notes
 
 * arXiv_feed_parser.py is a simple arXiv feed parser for twXiv. We
-  use this via twXiv_daily_feed.py to regularly obtain data.  
+  use this via twXiv_daily_feed.py to regularly obtain data. 
 	
 * Outputs of twXiv can differ from arXiv new submission web
-  pages. First, this can be due to bugs in my scripts or
-  connection errors.
-  Second, items of arXiv rss feeds are not
-  necessarily the same as those of arXiv new submission web
-  pages (see
-	https://mastoxiv.page/@vela/109829294232368163).  Third,
-  arXiv_feed_parser for an arXiv category C gives new
-  submissions whose primary subjects are the category C.
-  Then, twXiv for the category C counts and tweets a new
-  paper whose principal subject matches the category C.
+  pages. First, this can be due to bugs in my scripts or connection
+  errors.  Second, items of arXiv rss feeds are not necessarily the
+  same as those of arXiv new submission web pages (see
+  https://mastoxiv.page/@vela/109829294232368163).  Third,
+  arXiv_feed_parser for an arXiv category C gives new submissions
+  whose primary subjects are the category C.  Then, twXiv for the
+  category C counts and tweets a new paper whose principal subject
+  matches the category C.
 
 	- For example, let us assume that there is no new paper whose
-	principal subject matches the category C, but there is a
-	new paper P whose non-principal subject matches the
-	category C. Then, the arXiv new submission web page of
-	the category C lists the paper P as a new submission of
-	the category C, not as a cross-list.  However, twXiv
-	keeps considering the paper P as a cross-list for the
-	category C.  Then, the output of twXiv for the category
-	C differs from the arXiv new submission web page of the
-	category C.
-
-	- One reason for this is to clarify what twXiv tweets,
-	retweets, and quotes across categories.  Another reason
-	is that twitter does not like duplicate or
-	substantially similar tweets from bots.  So, twXiv
-	maintains a single tweet for the title, authors, and
-	abs/pdf identifiers of a new paper across bots in 
-	access keys. Furthermore, if configured, twXiv tries to
-	retweet and quote for cross-lists and replacements from
-	bots in access keys.
+	principal subject matches the category C, but there is a new paper
+	P whose non-principal subject matches the category C. Then, the
+	arXiv new submission web page of the category C lists the paper P
+	as a new submission of the category C, not as a cross-list.
+	However, twXiv keeps considering the paper P as a cross-list for
+	the category C.  Then, the output of twXiv for the category C
+	differs from the arXiv new submission web page of the category C.
+	One reason for this is to clarify what twXiv tweets across
+	categories.  Another reason is that twitter does not like
+	duplicate or substantially similar tweets for bots.
 
 
 * On the use of metadata of arXiv articles, there is the web page of
-   [Terms of Use for arXiv APIs](https://arxiv.org/help/api/tou). As
-   of the revision 0.8.0, this says that "You are free to use descriptive
+   [Terms of Use for arXiv APIs](https://arxiv.org/help/api/tou). 
+   This says that "You are free to use descriptive
    metadata about arXiv e-prints under the terms of the Creative
    Commons Universal (CC0 1.0) Public Domain Declaration." and
    "Descriptive metadata includes information for discovery and
@@ -117,9 +93,7 @@ usage: twXiv.py [-h] --switches_keys SWITCHES_KEYS
                 [--logfiles LOGFILES] [--aliases ALIASES]
                 [--captions CAPTIONS] [--mode {0,1}]
 
-arXiv daily new submissions by tweets, abstracts by
-replies, cross-lists by retweets, and replacements by
-quotes and retweets.
+arXiv daily new submissions by tweets.
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -147,9 +121,9 @@ optional arguments:
 	```
 	% ./twXiv.py -s tests/switches.json -m 1
 	**process started at xxxx-xx-xx xx:xx:xx (UTC)
-	starting a thread of retrieval/new submissions/abstracts for math.AC
+	starting a thread of retrieval/new submissions for math.AC
 	getting daily entries for math.AC
-	waiting for a next thread of retrieval/new submissions/abstracts
+	waiting for a next thread of retrieval/new submissions
 	new submissions for math.AC
 	no log files
 	no log files
@@ -163,9 +137,9 @@ optional arguments:
 	url: https://twitter.com/user/status/xxxxxxxxxxxxxxxxxxxxxxxx
 	text: [xxxx-xx-xx Sun (UTC), 2 new articles found for mathAC]
 
-	starting a thread of retrieval/new submissions/abstracts for math.AG
+	starting a thread of retrieval/new submissions for math.AG
 	getting daily entries for math.AG
-	joining threads of retrieval/new submissions/abstracts
+	joining threads of retrieval/new submissions
 
 	utc: xxxx-xx-xx xx:xx:xx
 	thread arXiv category: math.AC
@@ -182,15 +156,14 @@ optional arguments:
 	**elapsed time from the start: xx:xx:xx
 	```
 
-* New submissions, abstracts, cross-lists and replacements (if any) 
-  for math.AC and math.AG:
+* New submissions (if any)   for math.AC and math.AG:
 
 	```
 	% ./twXiv.py -s tests/switches.json -l tests/logfiles.json -a tests/aliases.json -c tests/captions.json -m 1
 	**process started at xxxx-xx-xx xx:xx:xx (UTC)
-	starting a thread of retrieval/new submissions/abstracts for math.AC
+	starting a thread of retrieval/new submissions for math.AC
 	getting daily entries for math.AC
-	waiting for a next thread of retrieval/new submissions/abstracts
+	waiting for a next thread of retrieval/new submissions
 	new submissions for math.AC
 
 	utc: xxxx-xx-xx xx:xx:xx 
@@ -202,9 +175,9 @@ optional arguments:
 	url: https://twitter.com/user/status/xxxxxxxxxxxxxxxxxxxxxxxxx
 	text: [xxxx-xx-xx Sun (UTC), 2 new articles found for mathAC Commutative Algebra]
 
-	starting a thread of retrieval/new submissions/abstracts for math.AG
+	starting a thread of retrieval/new submissions for math.AG
 	getting daily entries for math.AG
-	joining threads of retrieval/new submissions/abstracts
+	joining threads of retrieval/new submissions
 
 	utc: xxxx-xx-xx xx:xx:xx
 	thread arXiv category: math.AC
@@ -225,75 +198,13 @@ optional arguments:
 	url: https://twitter.com/user/status/xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 	text: [xxxx-xx-xx Sun (UTC), 4 new articles found for mathAG Algebraic Geometry]
 
-	utc: xxxx-xx-xx xx:xx:xx
-	thread arXiv category: math.AC
-	arXiv id: 2007.xxxxxx
-	url: https://twitter.com/user/status/xxxxxxxxxxxxxxxxxxxx
-	post method: reply
-	post mode: 1
-	url: https://twitter.com/user/status/xxxxxxxxxxxxxxxxxxxx
-	text:  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [1/4 of https://arxiv.org/abs/2007.xxxxxv1]
-
-	.....
-	
-	**crosslist process started at xxxx-xx-xx xx:xx:xx (UTC) 
-	**elapsed time from the start: xx:xx:xx
-	start a crosslist thread of math.AC
-	waiting for a next crosslist thread
-	start a crosslist thread of math.AG
-	joining crosslist threads
-
-	**replacement process started at xxxx-xx-xx xx:xx:xx (UTC)
-	**elapsed time from the start: xx:xx:xx
-	**elapsed time from the cross-list start: xx:xx:xx
-	quote-replacement starts
-	start a quote-replacement thread of math.AC
-	waiting for a next quote-replacement thread
-	start a quote-replacement thread of math.AG
-	
-	.....
-	
-	utc: xxxx-xx-xx xx:xx:xx
-	thread arXiv category: math.AG
-	arXiv id: 2010.xxxx
-	url: https://twitter.com/user/status/xxxxxxxxxxxxxxxxxxxx
-	post method: quote
-	post mode: 0
-	url: https://twitter.com/user/status/
-	text: This https://arxiv.org/abs/xxxx.xxxx has been replaced.....
-
-	.....
-
-	retweet-replacement starts
-	start a retweet-replacement thread of math.AC
-	waiting for a next quote-replacement thread
-	start a retweet-replacement thread of math.AG
-	
-	utc: xxxx-xx-xx xx:xx:xx 
-	thread arXiv category: math.AG
-	arXiv id: 1900.xxxxx
-	url: https://twitter.com/user/status/xxxxxxxxxxxxxxxxxxxx
-	post method: unretweet
-	post mode: 1
-	url: https://twitter.com/user/status/xxxxxxxxxxxxxxxxxxxx
-	text: 
-
-	utc: xxxx-xx-xx xx:xx:xx 
-	thread arXiv category: math.AG
-	arXiv id: 1900.xxxxx
-	url: https://twitter.com/user/status/xxxxxxxxxxxxxxxxxxxx
-	post method: retweet
-	post mode: 1
-	url: https://twitter.com/user/status/xxxxxxxxxxxxxxxxxxxx
-	text: 
 
 	.....
 
 	**process ended at xxxx-xx-xx xx:xx:xx (UTC)
 	**elapsed time from the start: xx:xx:xx
-	**elapsed time from the cross-list start: xx:xx:xx
-	**elapsed time from the replacement start: xx:xx:xx
-	```
+
+```
 * Without the option ```-c tests/captions.json```above, you get
 
 	```
@@ -348,12 +259,18 @@ optional arguments:
 
 * 0.3.0	
 
-	* 2024-02-04, updated arXiv_feed_parser
-	for arXiv rss re-implemented.
+	* 2024-02-04, updated arXiv_feed_parser for arXiv rss re-implemented.
 	
 * 0.3.1	
 
 	* 2024-02-07, a minor update.
+	
+* 0.4.1
+
+	* 2025-01-12, updated for the X api "17 posts a day" limit,
+	added https://en.wikipedia.org/wiki/Mathematics as a generic math page
+	for an automatic url preview of two paper tweets,
+	added html paper links.
 	
 ## List of Bots
 
@@ -436,8 +353,15 @@ Since 2013-04, the author has been running the bots above
  discontinued.  Therefore, the author has
  written twXiv by python3, adding functions such as
  abstracts by replies, cross-lists by retweets, and
- replacements by quotes and retweets.  Since 2020-08, the
+ replacements by quotes and retweets. 
+Since 2020-08, the
  bots above have used twXiv on gcp free tier.
+ Since 2024-11, the author has 
+ added the function of  two-new-submissions-in-one-tweet
+ and abondoned
+ the functions of abstracts, cross-lists, and replacements
+ for the limitations of  X api free tire.
+
 
 For more background, see 
 [a paper on these bots](https://arxiv.org/abs/1410.4139),

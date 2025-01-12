@@ -8,38 +8,30 @@ arxiv_max_trial = 5
 arxiv_call_sleep = 20 * 60
 main_thread_wait = 60
 
-# semanticscholar API rate limits  2020-12-30
-# 100 requests per 5 minutes. 
-# https://api.semanticscholar.org/
-sch_call_period = 5 * 60
-sch_call_limit = 90
-sch_max_trial = 2
-sch_call_sleep = 5
-
 # max tweet length is 280
 # twitter url length is 23
 # 2020-06-14
 max_len = 280
+max_len_short = int(max_len / 2) - 24
 url_len = 23
 
 # tweets for new submissions:
-# min_len_authors+min_len_title+urls_len=268
 url_margin = 2
-urls_len = (url_len + url_margin) * 2
-min_len_authors = 90
-min_len_title = 128
-newsub_spacer = 3
-margin = 5
-
-# abstract tag for a counter and url
-abst_tag = 11 + (url_len + url_margin) + 1
+urls_len = (url_len + url_margin) * 3
+urls_len_short = urls_len
+min_len_authors = 70
+min_len_authors_short = int(min_len_authors / 2)
+min_len_title = 150
+min_len_title_short = int(min_len_title / 2)
+newsub_spacer = 2
+margin = 2
 
 # rate limit for each category
-# https://developer.twitter.com/en/products/twitter-api
+# https://developer.x.com/en/products/twitter-api
 a_day = 24 * 60 * 60
-post_updates = 50
+post_updates = 9
 
 # limits independent to specific categories
-twitter_sleep = 9
+twitter_sleep = 2
 overall_twitter_limit_call = 1
-overall_twitter_limit_period = 5
+overall_twitter_limit_period = 4
