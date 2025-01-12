@@ -115,49 +115,7 @@ optional arguments:
 
 ## Sample stdouts
 
-
-* New submissions for math.AC and math.AG with no log files:
-
-	```
-	% ./twXiv.py -s tests/switches.json -m 1
-	**process started at xxxx-xx-xx xx:xx:xx (UTC)
-	starting a thread of retrieval/new submissions for math.AC
-	getting daily entries for math.AC
-	waiting for a next thread of retrieval/new submissions
-	new submissions for math.AC
-	no log files
-	no log files
-
-	utc: xxxx-xx-xx xx:xx:xx 
-	thread arXiv category: math.AC
-	arXiv id: 
-	url: https://twitter.com/user/status/
-	post method: tweet
-	post mode: 1
-	url: https://twitter.com/user/status/xxxxxxxxxxxxxxxxxxxxxxxx
-	text: [xxxx-xx-xx Sun (UTC), 2 new articles found for mathAC]
-
-	starting a thread of retrieval/new submissions for math.AG
-	getting daily entries for math.AG
-	joining threads of retrieval/new submissions
-
-	utc: xxxx-xx-xx xx:xx:xx
-	thread arXiv category: math.AC
-	arXiv id: xxxx.xxxxx
-	url: https://twitter.com/user/status/
-	post method: tweet
-	post mode: 1
-	url: https://twitter.com/user/status/xxxxxxxxxxxxxxxxxxxxxxxx
-	text: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-	....
-
-	**process ended at xxxx-xx-xx xx:xx:xx (UTC)
-	**elapsed time from the start: xx:xx:xx
-	```
-
 * New submissions (if any)   for math.AC and math.AG:
-
 	```
 	% ./twXiv.py -s tests/switches.json -l tests/logfiles.json -a tests/aliases.json -c tests/captions.json -m 1
 	**process started at xxxx-xx-xx xx:xx:xx (UTC)
@@ -197,26 +155,11 @@ optional arguments:
 	post mode: 1
 	url: https://twitter.com/user/status/xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 	text: [xxxx-xx-xx Sun (UTC), 4 new articles found for mathAG Algebraic Geometry]
-
-
 	.....
 
-	**process ended at xxxx-xx-xx xx:xx:xx (UTC)
-	**elapsed time from the start: xx:xx:xx
-
-```
-* Without the option ```-c tests/captions.json```above, you get
-
+	** process ended at xxxx-xx-xx xx:xx:xx (UTC)
+	** elapsed time from the start: xx:xx:xx
 	```
-	text: [xxxx-xx-xx Sun (UTC), 4 new articles found for mathAG]
-	```
-
-	instead of
-
-	```
-	text: [xxxx-xx-xx Sun (UTC), 4 new articles found for mathAG Algebraic Geometry]
-	```
-
 
 ## Versions
 
