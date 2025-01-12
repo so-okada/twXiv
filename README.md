@@ -212,7 +212,7 @@ optional arguments:
 
 	* 2025-01-12, updated for the X api "17 posts a day" limit,
 	added https://en.wikipedia.org/wiki/Mathematics as a generic math page
-	for an automatic url preview of two paper tweets,
+	for an automatic url preview of two paper tweets, and
 	added html paper links.
 	
 ## List of Bots
