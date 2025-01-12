@@ -210,9 +210,10 @@ optional arguments:
 	
 * 0.4.1
 
-	* 2025-01-12, updated for the X api "17 posts a day" limit,
+	* 2025-01-12, deleted functions of retweets and replies for the X free api limits,
+	updated for the X api "17 posts a day" limit by a tweet of two papers,
 	added https://en.wikipedia.org/wiki/Mathematics as a generic math page
-	for an automatic url preview of two paper tweets, and
+	for an automatic url preview of the two paper tweets, and
 	added html paper links.
 	
 ## List of Bots
