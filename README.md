@@ -127,10 +127,10 @@ optional arguments:
 	utc: xxxx-xx-xx xx:xx:xx 
 	thread arXiv category: math.AC
 	arXiv id: 
-	url: https://twitter.com/user/status/
+	url: https://x.com/user/status/
 	post method: tweet
 	post mode: 1
-	url: https://twitter.com/user/status/xxxxxxxxxxxxxxxxxxxxxxxxx
+	url: https://x.com/user/status/xxxxxxxxxxxxxxxxxxxxxxxxx
 	text: [xxxx-xx-xx Sun (UTC), 2 new articles found for mathAC Commutative Algebra]
 
 	starting a thread of retrieval/new submissions for math.AG
@@ -140,7 +140,7 @@ optional arguments:
 	utc: xxxx-xx-xx xx:xx:xx
 	thread arXiv category: math.AC
 	arXiv id: 2007.xxxxxx
-	url: https://twitter.com/user/status/
+	url: https://x.com/user/status/
 	post method: tweet
 	post mode: 1
 	url: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -150,10 +150,10 @@ optional arguments:
 	utc: xxxx-xx-xx xx:xx:xx
 	thread arXiv category: math.AG
 	arXiv id: 
-	url: https://twitter.com/user/status/
+	url: https://x.com/user/status/
 	post method: tweet
 	post mode: 1
-	url: https://twitter.com/user/status/xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+	url: https://x.com/user/status/xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 	text: [xxxx-xx-xx Sun (UTC), 4 new articles found for mathAG Algebraic Geometry]
 	.....
 
@@ -218,69 +218,69 @@ optional arguments:
 	
 ## List of Bots
 
-* [https://twitter.com/mathACb](https://twitter.com/mathACb): 
+* [https://x.com/mathACb](https://x.com/mathACb): 
   Commutative Algebra
-* [https://twitter.com/mathAGb](https://twitter.com/mathAGb):
+* [https://x.com/mathAGb](https://x.com/mathAGb):
   Algebraic Geometry
-* [https://twitter.com/mathAPb](https://twitter.com/mathAPb):
+* [https://x.com/mathAPb](https://x.com/mathAPb):
   Analysis of PDEs 
-* [https://twitter.com/mathATb](https://twitter.com/mathATb):
+* [https://x.com/mathATb](https://x.com/mathATb):
 Algebraic Topology 
-* [https://twitter.com/mathCAbot](https://twitter.com/mathCAbot):
+* [https://x.com/mathCAbot](https://x.com/mathCAbot):
 Classical Analysis and ODEs
-* [https://twitter.com/mathCObot](https://twitter.com/mathCObot):
+* [https://x.com/mathCObot](https://x.com/mathCObot):
 Combinatorics 
-* [https://twitter.com/mathCTbot](https://twitter.com/mathCTbot):
+* [https://x.com/mathCTbot](https://x.com/mathCTbot):
 Category Theory 
-* [https://twitter.com/mathCVb](https://twitter.com/mathCVb):
+* [https://x.com/mathCVb](https://x.com/mathCVb):
 Complex Variables 
-* [https://twitter.com/mathDGb](https://twitter.com/mathDGb):
+* [https://x.com/mathDGb](https://x.com/mathDGb):
 Differential Geometry 
-* [https://twitter.com/mathDSb](https://twitter.com/mathDSb):
+* [https://x.com/mathDSb](https://x.com/mathDSb):
 Dynamical Systems 
-* [https://twitter.com/mathFAbot](https://twitter.com/mathFAbot):
+* [https://x.com/mathFAbot](https://x.com/mathFAbot):
 Functional Analysis 
-* [https://twitter.com/mathGMb](https://twitter.com/mathGMb):
+* [https://x.com/mathGMb](https://x.com/mathGMb):
 General Mathematics 
-* [https://twitter.com/mathGNb](https://twitter.com/mathGNb):
+* [https://x.com/mathGNb](https://x.com/mathGNb):
 General Topology 
-* [https://twitter.com/mathGRbot](https://twitter.com/mathGRbot):
+* [https://x.com/mathGRbot](https://x.com/mathGRbot):
 Group Theory 
-* [https://twitter.com/mathGTb](https://twitter.com/mathGTb):
+* [https://x.com/mathGTb](https://x.com/mathGTb):
 Geometric Topology 
-* [https://twitter.com/mathHOb](https://twitter.com/mathHOb):
+* [https://x.com/mathHOb](https://x.com/mathHOb):
 History and Overview 
-* [https://twitter.com/mathITbot](https://twitter.com/mathITbot):
+* [https://x.com/mathITbot](https://x.com/mathITbot):
 Information Theory 
-* [https://twitter.com/mathKTb](https://twitter.com/mathKTb):
+* [https://x.com/mathKTb](https://x.com/mathKTb):
 K-Theory and Homology 
-* [https://twitter.com/mathLOb](https://twitter.com/mathLOb):
+* [https://x.com/mathLOb](https://x.com/mathLOb):
 Logic 
-* [https://twitter.com/mathMGb](https://twitter.com/mathMGb):
+* [https://x.com/mathMGb](https://x.com/mathMGb):
 Metric Geometry 
-* [https://twitter.com/mathMPb](https://twitter.com/mathMPb):
+* [https://x.com/mathMPb](https://x.com/mathMPb):
 Mathematical Physics 
-* [https://twitter.com/mathNAb](https://twitter.com/mathNAb):
+* [https://x.com/mathNAb](https://x.com/mathNAb):
 Numerical Analysis 
-* [https://twitter.com/mathNTb](https://twitter.com/mathNTb):
+* [https://x.com/mathNTb](https://x.com/mathNTb):
 Number Theory 
-* [https://twitter.com/mathOAb](https://twitter.com/mathOAb):
+* [https://x.com/mathOAb](https://x.com/mathOAb):
 Operator Algebras 
-* [https://twitter.com/mathOCb](https://twitter.com/mathOCb):
+* [https://x.com/mathOCb](https://x.com/mathOCb):
 Optimization and Control 
-* [https://twitter.com/mathPRb](https://twitter.com/mathPRb):
+* [https://x.com/mathPRb](https://x.com/mathPRb):
 Probability
-* [https://twitter.com/mathQAb](https://twitter.com/mathQAb):
+* [https://x.com/mathQAb](https://x.com/mathQAb):
 Quantum Algebra 
-* [https://twitter.com/mathRAb](https://twitter.com/mathRAb):
+* [https://x.com/mathRAb](https://x.com/mathRAb):
 Probability 
-* [https://twitter.com/mathRTb](https://twitter.com/mathRTb):
+* [https://x.com/mathRTb](https://x.com/mathRTb):
 Representation Theory 
-* [https://twitter.com/mathSGb](https://twitter.com/mathSGb):
+* [https://x.com/mathSGb](https://x.com/mathSGb):
 Symplectic Geometry 
-* [https://twitter.com/mathSPb](https://twitter.com/mathSPb):
+* [https://x.com/mathSPb](https://x.com/mathSPb):
 Spectral Theory 
-* [https://twitter.com/mathSTb](https://twitter.com/mathSTb):
+* [https://x.com/mathSTb](https://x.com/mathSTb):
 Statistics Theory 
 
 ## Author
@@ -314,10 +314,10 @@ of
 [Notionsandnotes](https://twittercommunity.com/u/notionsandnotes/summary), and
 the author's
 comments:
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I am running these bots mainly just for convenience of sharing wisdom of arXiv papers for each arXiv category.</p>&mdash; So Okada (@vela) <a href="https://twitter.com/vela/status/729622960974127104?ref_src=twsrc%5Etfw">May 9, 2016</a></blockquote> 
-<!-- <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This would end my 32 math arXiv twitter bots such as <a href="https://t.co/w8cCIaUlBM">https://t.co/w8cCIaUlBM</a>, <a href="https://t.co/2j62N9Vk8a">https://t.co/2j62N9Vk8a</a>, ... They have shared wisdom of arXiv papers with comments, discussions, or jokes not just to academics but to the public. I have maintained them nearly 10 years from 2013-04. <a href="https://t.co/J0WUSSTlwZ">https://t.co/J0WUSSTlwZ</a></p>&mdash; So Okada (@vela) <a href="https://twitter.com/vela/status/1622129115603308544?ref_src=twsrc%5Etfw">February 5, 2023</a></blockquote>
-<!-- <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I am running these bots mainly just for convenience of sharing wisdom of arXiv papers for each arXiv category.</p>&mdash; So Okada (@vela) <a href="https://x.com/vela/status/729622960974127104?ref_src=twsrc%5Etfw">May 9, 2016</a></blockquote> 
+<!-- <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script> -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This would end my 32 math arXiv twitter bots such as <a href="https://t.co/w8cCIaUlBM">https://t.co/w8cCIaUlBM</a>, <a href="https://t.co/2j62N9Vk8a">https://t.co/2j62N9Vk8a</a>, ... They have shared wisdom of arXiv papers with comments, discussions, or jokes not just to academics but to the public. I have maintained them nearly 10 years from 2013-04. <a href="https://t.co/J0WUSSTlwZ">https://t.co/J0WUSSTlwZ</a></p>&mdash; So Okada (@vela) <a href="https://x.com/vela/status/1622129115603308544?ref_src=twsrc%5Etfw">February 5, 2023</a></blockquote>
+<!-- <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script> -->
 
 
 ## Contributing
