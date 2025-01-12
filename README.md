@@ -300,7 +300,7 @@ Since 2013-04, the author has been running the bots above
  replacements by quotes and retweets. 
 Since 2020-08, the
  bots above have used twXiv on gcp free tier.
- Since 2024-11, the author has 
+ Since 2025-01, the author has 
  added the function of  two-new-submissions-in-one-tweet
  and abondoned
  the functions of abstracts, cross-lists, and replacements
