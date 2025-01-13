@@ -6,7 +6,7 @@ arxiv_call_period = 5
 
 arxiv_max_trial = 5
 arxiv_call_sleep = 20 * 60
-main_thread_wait = 60
+main_thread_wait = 40
 
 # max tweet length is 280
 # twitter url length is 23
@@ -20,9 +20,9 @@ url_margin = 2
 urls_len = (url_len + url_margin) * 3
 urls_len_short = urls_len
 min_len_authors = 70
-min_len_authors_short = int(min_len_authors / 2)
+min_len_authors_short = int(min_len_authors / 2) - 10
 min_len_title = 150
-min_len_title_short = int(min_len_title / 2)
+min_len_title_short = int(min_len_title / 2) - 10
 newsub_spacer = 2
 margin = 2
 
