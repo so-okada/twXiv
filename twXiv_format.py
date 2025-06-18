@@ -6,7 +6,7 @@
 import re
 from twitter_text import parse_tweet
 from nameparser import HumanName
-from variables import *
+from twXiv_variables import *
 
 
 # format all new submissions

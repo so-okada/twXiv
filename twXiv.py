@@ -6,7 +6,7 @@
 import json
 import argparse
 import traceback
-from variables import *
+from twXiv_variables import *
 import twXiv_post as tXp
 
 parser = argparse.ArgumentParser(description="arXiv daily new submissions by tweets")

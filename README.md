@@ -25,7 +25,7 @@ We use python3 scripts. twXiv is not affiliated with arXiv.
 	- twXiv_format.py
 	- twXiv_daily_feed.py 	
 	- arXiv_feed_parser.py
-	- variables.py
+	- twXiv_variables.py
 
 
 * Configure switches.json, logfiles.json, and aliases.json in the
@@ -42,9 +42,9 @@ We use python3 scripts. twXiv is not affiliated with arXiv.
     example, math.IT is an alias of cs.IT.  If provided, twXiv
     replaces category names by their aliases.
 	
-* Configure variables.py for your settings. 
+* Configure twXiv_variables.py for your settings. 
 
-   - variables.py assigns format parameters for twXiv tweets 
+   - twXiv_variables.py assigns format parameters for twXiv tweets 
    and access frequencies for arXiv and twitter.
 
 ## Notes

@@ -13,7 +13,7 @@ from threading import Thread
 from datetime import datetime, timedelta
 from ratelimit import limits, sleep_and_retry, rate_limited
 
-from variables import *
+from twXiv_variables import *
 import twXiv_format as tXf
 import twXiv_daily_feed as tXd
 

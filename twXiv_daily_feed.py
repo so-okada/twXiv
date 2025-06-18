@@ -8,7 +8,7 @@ import time
 from datetime import datetime
 from ratelimit import limits, sleep_and_retry
 
-from variables import *
+from twXiv_variables import *
 import twXiv_post as tXp
 import arXiv_feed_parser as afpa
 
