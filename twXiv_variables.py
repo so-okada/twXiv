@@ -27,9 +27,9 @@ newsub_spacer = 2
 margin = 2
 
 # rate limit for each category
-# https://developer.x.com/en/products/twitter-api
+# https://devcommunity.x.com/t/specifics-about-the-new-free-tier-rate-limits/229761/2
 a_day = 24 * 60 * 60
-post_updates = 9
+post_updates = 16
 
 # limits independent to specific categories
 twitter_sleep = 2
