@@ -273,7 +273,7 @@ Probability
 * [https://x.com/mathQAb](https://x.com/mathQAb):
 Quantum Algebra 
 * [https://x.com/mathRAb](https://x.com/mathRAb):
-Probability 
+Rings and Algebras
 * [https://x.com/mathRTb](https://x.com/mathRTb):
 Representation Theory 
 * [https://x.com/mathSGb](https://x.com/mathSGb):
