@@ -6,6 +6,12 @@
 **/
 ch_*
 *log
+.env
+.envrc
+data/
+logs/
+*.pyc
+old/
 
 !.gitignore
 !tests/
@@ -140,3 +146,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+
