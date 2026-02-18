@@ -216,6 +216,10 @@ optional arguments:
 	for an automatic url preview of the two paper tweets, and
 	added html paper links.
 	
+* 0.4.12
+
+	* 2026-02-18, fixes for name handling.
+	
 ## List of Bots
 
 * [https://x.com/mathACb](https://x.com/mathACb): 
