@@ -216,7 +216,7 @@ optional arguments:
 	for an automatic url preview of the two paper tweets, and
 	added html paper links.
 	
-* 0.4.12
+* 0.4.2
 
 	* 2026-02-18, fixes for name handling.
 	
