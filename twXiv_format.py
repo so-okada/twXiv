@@ -135,7 +135,7 @@ def noparen(test_str):
 
 def surnames(orig):
     names = orig.split(",")
-    sr_names = [HumanName(one).last for one in names]
+    sr_names = [HumanName(one).last or one.strip() for one in names]
     separator = ", "
     return separator.join(sr_names)
 

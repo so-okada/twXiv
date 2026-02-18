@@ -281,9 +281,11 @@ def newsubmissions(logfiles, cat, caption, api, update_limited, entries, pt_mode
     if half == 0:
         for each in entries:
             arxiv_id = each["id"]
+            authors_prefix = (
+                each["authors"] + ": " if each["authors"] else ""
+            )
             article_text = (
-                each["authors"]
-                + ": "
+                authors_prefix
                 + each["title"]
                 + " "
                 + each["abs_url"]
@@ -298,8 +300,11 @@ def newsubmissions(logfiles, cat, caption, api, update_limited, entries, pt_mode
     else:
         for each in entries:
             pre_arxiv_id = each["id"]
+            authors_prefix = (
+                each["authors"] + ": " if each["authors"] else ""
+            )
             pre_article_text = (
-                each["authors"] + ": " + each["title"] + " " + each["abs_url"]
+                authors_prefix + each["title"] + " " + each["abs_url"]
             )
             if int(post_counter % 2) == 1:
                 arxiv_id = pre_arxiv_id
