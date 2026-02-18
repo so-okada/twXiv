@@ -17,16 +17,17 @@ def format(entries, half):
 # format each new submission
 def format_each(orig_entry, half):
     if half == 1:
-        global max_len
-        global urls_len
-        global min_len_authors
-        global min_len_title
-        max_len = max_len_short
-        urls_len = urls_len_short
-        min_len_authors = min_len_authors_short
-        min_len_title = min_len_title_short
+        local_max_len = max_len_short
+        local_urls_len = urls_len_short
+        local_min_len_authors = min_len_authors_short
+        local_min_len_title = min_len_title_short
+    else:
+        local_max_len = max_len
+        local_urls_len = urls_len
+        local_min_len_authors = min_len_authors
+        local_min_len_title = min_len_title
 
-    fixed_length = urls_len + newsub_spacer + margin
+    fixed_length = local_urls_len + newsub_spacer + margin
     entry = orig_entry.copy()
     orig_title = entry["title"]
 
@@ -34,20 +35,20 @@ def format_each(orig_entry, half):
     current_len = parse_tweet(authors_title).weightedLength + fixed_length
 
     # first,  a title
-    if current_len > max_len:
-        difference = current_len - max_len
+    if current_len > local_max_len:
+        difference = current_len - local_max_len
         current_len_title = parse_tweet(entry["title"]).weightedLength
-        lim = max(min_len_title, current_len_title - difference)
+        lim = max(local_min_len_title, current_len_title - difference)
         entry["title"] = simple(entry["title"], lim)
 
     authors_title = entry["authors"] + entry["title"]
     current_len = parse_tweet(authors_title).weightedLength + fixed_length
 
     # second, authors
-    if current_len > max_len:
-        difference = current_len - max_len
+    if current_len > local_max_len:
+        difference = current_len - local_max_len
         current_len_authors = parse_tweet(entry["authors"]).weightedLength
-        lim = max(min_len_authors, current_len_authors - difference)
+        lim = max(local_min_len_authors, current_len_authors - difference)
         entry["authors"] = authors(entry["authors"], lim)
 
     # third,  a longer title if the length of authors' names becomes shorter
@@ -55,10 +56,10 @@ def format_each(orig_entry, half):
     authors_title = entry["authors"] + entry["title"]
     current_len = parse_tweet(authors_title).weightedLength + fixed_length
 
-    if current_len > max_len:
-        difference = current_len - max_len
+    if current_len > local_max_len:
+        difference = current_len - local_max_len
         current_len_title = parse_tweet(entry["title"]).weightedLength
-        lim = max(min_len_title, current_len_title - difference)
+        lim = max(local_min_len_title, current_len_title - difference)
         entry["title"] = simple(entry["title"], lim)
 
     return entry
