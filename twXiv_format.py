@@ -141,8 +141,10 @@ def surnames(orig):
 
 
 def etal(orig):
-    first_author = re.search(r"[\w|.| ]+,", orig)
-    return first_author.group() + " et al."
+    names = orig.split(",")
+    if len(names) > 1:
+        return names[0].strip() + ", et al."
+    return orig
 
 
 # separate a text by weighted lengths <=lim
