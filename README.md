@@ -306,9 +306,9 @@ Since 2020-08, the
  bots above have used twXiv on gcp free tier.
  Since 2025-01, the author has 
  added the function of  two-new-submissions-in-one-tweet
- and abondoned
+ and abandoned
  the functions of abstracts, cross-lists, and replacements
- for the limitations of  X api free tire.
+ for the limitations of  X api free tier.
 
 
 For more background, see 
