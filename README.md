@@ -194,7 +194,7 @@ optional arguments:
 	
 * 0.1.5
 	
-	* 2022-01-09, a fix for semanticscholar 0.3.2.
+	* 2023-01-09, a fix for semanticscholar 0.3.2.
 	
 * 0.2.0	
 		
@@ -210,11 +210,12 @@ optional arguments:
 	
 * 0.4.1
 
-	* 2025-01-12, deleted functions of retweets and replies for the X free api limits,
-	updated for the X api "17 posts a day" limit by a tweet of two papers,
-	added https://en.wikipedia.org/wiki/Mathematics as a generic math page
-	for an automatic url preview of the two paper tweets, and
-	added html paper links.
+	* 2025-01-12, deleted functions of retweets and replies for the X
+	free api limits, updated for the X api "17 posts a day" limit by a
+	tweet of two papers, added
+	https://en.wikipedia.org/wiki/Mathematics as a generic math page
+	for an automatic url preview of the two paper tweets, and added
+	html paper links.
 	
 * 0.4.2
 
