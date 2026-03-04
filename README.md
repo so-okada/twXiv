@@ -294,9 +294,9 @@ So Okada, so.okada@gmail.com, https://so-okada.github.io/
 ## Motivation
 
 Since 2013-04, the author has been running the bots above for all
-arXiv math categories.  For example, [this
-tweet](https://x.com/mathACb/status/327218684810649601) appeared in
-2013-04.  Until 2020-08, the author used arxiv_speaker
+arXiv math categories.  For example,
+[this](https://x.com/mathACb/status/327218684810649601) is one of the
+earliest tweets.  Until 2020-08, the author used arxiv_speaker
 [https://github.com/misho104-obsolete/arxiv_speaker](https://github.com/misho104-obsolete/arxiv_speaker). Sho
 Iwamoto wrote it by ruby for tweeting new submissions with titles,
 authors, and ids.  However, it was discontinued.  Therefore, the
