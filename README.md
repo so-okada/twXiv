@@ -31,7 +31,7 @@ We use python3 scripts. twXiv is not affiliated with arXiv.
 * Configure switches.json, logfiles.json, and aliases.json in the
   tests directory for your settings.
 
-	- accesses.json specifies twitter access keys and whether to put
+	- switches.json specifies twitter access keys and whether to put
 	new submissions for each category.
 
     - logfiles.json indicates log file locations for tweet summaries
@@ -293,23 +293,21 @@ So Okada, so.okada@gmail.com, https://so-okada.github.io/
 
 ## Motivation
 
-Since 2013-04, the author has been running the bots above
- for all arXiv math categories.  Until 2020-08, the author
- used arxiv_speaker
- [https://github.com/misho104-obsolete/arxiv_speaker](https://github.com/misho104-obsolete/arxiv_speaker). Sho
- Iwamoto wrote it by ruby for tweeting new submissions with
- titles, authors, and ids.  However, it was
- discontinued.  Therefore, the author has
- written twXiv by python3, adding functions such as
- abstracts by replies, cross-lists by retweets, and
- replacements by quotes and retweets. 
-Since 2020-08, the
- bots above have used twXiv on gcp free tier.
- Since 2025-01, the author has 
- added the function of  two-new-submissions-in-one-tweet
- and abandoned
- the functions of abstracts, cross-lists, and replacements
- for the limitations of  X api free tier.
+Since 2013-04, the author has been running the bots above for all
+arXiv math categories.  For example, the first preprint tweet of
+[https://x.com/mathACb](https://x.com/mathACb)
+ is [this](https://x.com/mathACb/status/327218684810649601).
+Until 2020-08, the author used arxiv_speaker
+[https://github.com/misho104-obsolete/arxiv_speaker](https://github.com/misho104-obsolete/arxiv_speaker). Sho
+Iwamoto wrote it by ruby for tweeting new submissions with titles,
+authors, and ids.  However, it was discontinued.  Therefore, the
+author has written twXiv by python3, adding functions such as
+abstracts by replies, cross-lists by retweets, and replacements by
+quotes and retweets.  Since 2020-08, the bots above have used twXiv on
+gcp free tier.  Since 2025-01, the author has added the function of
+two-new-submissions-in-one-tweet and abandoned the functions of
+abstracts, cross-lists, and replacements for the limitations of X api
+free tier.
 
 
 For more background, see 
