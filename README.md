@@ -288,6 +288,8 @@ Spectral Theory
 * [https://x.com/mathSTb](https://x.com/mathSTb):
 Statistics Theory 
 
+twXiv scripts for the bots above are running on the OCI free tier (as of late March 2026).
+
 ## Author
 So Okada, so.okada@gmail.com, https://so-okada.github.io/
 
@@ -302,8 +304,7 @@ Iwamoto wrote it by ruby for tweeting new submissions with titles,
 authors, and ids.  However, it was discontinued.  Therefore, the
 author has written twXiv by python3, adding functions such as
 abstracts by replies, cross-lists by retweets, and replacements by
-quotes and retweets.  Since 2020-08, the bots above have used twXiv on
-GCP free tier.  Since 2025-01, the author has added the function of
+quotes and retweets.  Since 2020-08, the bots above have used twXiv. Since 2025-01, the author has added the function of
 two-new-submissions-in-one-tweet and abandoned the functions of
 abstracts, cross-lists, and replacements for the limitations of X api
 free tier.
