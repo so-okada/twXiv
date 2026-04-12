@@ -5,8 +5,8 @@ arxiv_call_limit = 1
 arxiv_call_period = 5
 
 arxiv_feed_timeout = 60
-arxiv_max_trial = 5
-arxiv_call_sleep = 20 * 60
+arxiv_max_trial = 3
+arxiv_call_sleep = 15 * 60
 main_thread_wait = 40
 
 # max tweet length is 280
