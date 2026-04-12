@@ -221,6 +221,10 @@ optional arguments:
 
 	* 2026-02-18, fixes for name handling.
 	
+* 0.4.3
+
+	* 2026-04-12, a fix for feedparser timeout.
+	
 ## List of Bots
 
 * [https://x.com/mathACb](https://x.com/mathACb): 
