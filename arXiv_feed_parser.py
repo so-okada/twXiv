@@ -5,15 +5,20 @@
 # https://github.com/so-okada/twXiv/
 
 import re
+import urllib.request
 import feedparser
 from datetime import datetime
 from dateutil.parser import parse
+
+import twXiv_variables as gv
 
 
 class retrieve:
     def __init__(self, cat, aliases):
         url = "http://rss.arxiv.org/rss/" + cat
-        resp = feedparser.parse(url)
+        with urllib.request.urlopen(url, timeout=gv.arxiv_feed_timeout) as r:
+            content = r.read()
+        resp = feedparser.parse(content)
 
         titles = []
         primary_subjects = []
