@@ -10,13 +10,13 @@ import feedparser
 from datetime import datetime
 from dateutil.parser import parse
 
-import twXiv_variables as gv
+from twXiv_variables import *
 
 
 class retrieve:
     def __init__(self, cat, aliases):
         url = "http://rss.arxiv.org/rss/" + cat
-        with urllib.request.urlopen(url, timeout=gv.arxiv_feed_timeout) as r:
+        with urllib.request.urlopen(url, timeout=arxiv_feed_timeout) as r:
             content = r.read()
         resp = feedparser.parse(content)
 
