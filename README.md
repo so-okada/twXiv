@@ -163,67 +163,39 @@ optional arguments:
 
 ## Versions
 
-* 0.0.1
-
-  * 2020-08-08, initial release.
+* 0.0.1, 2020-08-08, initial release.
   
-* 0.0.2
+* 0.0.2, 2020-08-15, added the -c option.
 
-  * 2020-08-15, added the -c option.
+* 0.1.0, 2021-01-31, text counting by twitter-text-parser, 
+        replacements by quotes and retweets, and links to research tools.
 
-* 0.1.0
-
-  * 2021-01-31, text counting by twitter-text-parser, replacements by
-	quotes and retweets, and links to research tools.
-
-* 0.1.1
-
-	* 2021-03-02, minor fixes.
+* 0.1.1, 2021-03-02, minor fixes.
   
-* 0.1.2
-
-	* 2021-06-03, a fix for semantic scholar api update.
+* 0.1.2, 2021-06-03, a fix for semantic scholar api update.
 	
-* 0.1.3
+* 0.1.3, 2021-10-26, a fix for tweepy v4.
 
-	* 2021-10-26, a fix for tweepy v4.
-
-* 0.1.4
-
-	* 2022-08-20, minor fixes.
+* 0.1.4, 2022-08-20, minor fixes.
 	
-* 0.1.5
+* 0.1.5, 2023-01-09, a fix for semanticscholar 0.3.2.
 	
-	* 2023-01-09, a fix for semanticscholar 0.3.2.
+* 0.2.0, 2023-06-25, a fix for twitter API V2 endpoints and a daily rate limit.
+
+* 0.3.0, 2024-02-04, updated arXiv_feed_parser for arXiv rss re-implemented.
 	
-* 0.2.0	
-		
-	* 2023-06-25, a fix for twitter API V2 endpoints and a daily rate limit.
-
-* 0.3.0	
-
-	* 2024-02-04, updated arXiv_feed_parser for arXiv rss re-implemented.
+* 0.3.1, 2024-02-07, a minor update.
 	
-* 0.3.1	
-
-	* 2024-02-07, a minor update.
-	
-* 0.4.1
-
-	* 2025-01-12, deleted functions of retweets and replies for the X
+* 0.4.1, 2025-01-12, deleted functions of retweets and replies for the X
 	free api limits, updated for the X api "17 posts a day" limit by a
 	tweet of two papers, added
 	https://en.wikipedia.org/wiki/Mathematics as a generic math page
 	for an automatic url preview of the two paper tweets, and added
 	html paper links.
 	
-* 0.4.2
-
-	* 2026-02-18, fixes for name handling.
+* 0.4.2, 2026-02-18, fixes for name handling.
 	
-* 0.4.3
-
-	* 2026-04-12, a fix for feedparser timeout.
+* 0.4.3, 2026-04-12, a fix for feedparser timeout.
 	
 ## List of Bots
 
