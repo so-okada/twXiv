@@ -23,7 +23,7 @@ def format_each(orig_entry, half):
         local_min_len_title = min_len_title_short
     elif half == 2:
         local_max_len = max_len_third
-        local_urls_len = urls_len_third
+        local_urls_len = arxiv_identifier_len_third
         local_min_len_authors = 0
         local_min_len_title = min_len_title_third
     else:
