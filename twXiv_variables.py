@@ -39,6 +39,8 @@ min_len_title_third = 30
 newsub_spacer = 2
 margin = 2
 
+num_papers_per_post = 1
+
 # rate limit for each category
 # https://devcommunity.x.com/t/specifics-about-the-new-free-tier-rate-limits/229761/2
 a_day = 24 * 60 * 60

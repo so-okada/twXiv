@@ -215,13 +215,6 @@ def newentries(
     if newsubmission_mode:
         print("new submissions for " + cat)
         if entries_dict[cat]:
-            if len(entries_dict[cat].newsubmissions) < post_updates:
-                num_papers_per_post = 1
-            elif len(entries_dict[cat].newsubmissions) < 2 * post_updates:
-                num_papers_per_post = 2
-            else:
-                num_papers_per_post = 3
-
             newsub_entries = tXf.format(entries_dict[cat].newsubmissions, num_papers_per_post)
             if not check_log_dates(cat, "tweet_log", logfiles) and not check_log_dates(
                 cat, "tweet_summary_log", logfiles
@@ -271,13 +264,6 @@ def intro(given_time, num, cat, caption, papers_per_post=1):
 # new submissions by tweets
 def newsubmissions(logfiles, cat, caption, api, update_limited, entries, pt_mode):
     time_now = datetime.utcnow().replace(microsecond=0)
-    if len(entries) < post_updates:
-        num_papers_per_post = 1
-    elif len(entries) < 2 * post_updates:
-        num_papers_per_post = 2
-    else:
-        num_papers_per_post = 3
-
     if num_papers_per_post != 3:
         ptext = intro(time_now, len(entries), cat, caption, num_papers_per_post)
         update_limited(
