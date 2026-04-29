@@ -276,10 +276,11 @@ def newsubmissions(logfiles, cat, caption, api, update_limited, entries, pt_mode
         num_papers_per_post = 2
         papers_per_post = 3
 
-    ptext = intro(time_now, len(entries), cat, caption, papers_per_post)
-    update_limited(
-        logfiles, cat, api, str(len(entries)), "", ptext, "", "tweet", pt_mode
-    )
+    if papers_per_post != 3:
+        ptext = intro(time_now, len(entries), cat, caption, papers_per_post)
+        update_limited(
+            logfiles, cat, api, str(len(entries)), "", ptext, "", "tweet", pt_mode
+        )
 
     post_counter = 1
     if num_papers_per_post == 0:
