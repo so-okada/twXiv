@@ -264,7 +264,7 @@ def intro(given_time, num, cat, caption, papers_per_post=1):
 # new submissions by tweets
 def newsubmissions(logfiles, cat, caption, api, update_limited, entries, pt_mode):
     time_now = datetime.utcnow().replace(microsecond=0)
-    if num_papers_per_post != 3:
+    if summary_posting:
         ptext = intro(time_now, len(entries), cat, caption, num_papers_per_post)
         update_limited(
             logfiles, cat, api, str(len(entries)), "", ptext, "", "tweet", pt_mode

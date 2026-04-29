@@ -40,6 +40,7 @@ newsub_spacer = 2
 margin = 2
 
 num_papers_per_post = 1
+summary_posting = 1
 
 # rate limit for each category
 # https://devcommunity.x.com/t/specifics-about-the-new-free-tier-rate-limits/229761/2
