@@ -10,17 +10,22 @@ from twXiv_variables import *
 
 
 # format all new submissions
-def format(entries, half):
-    return [format_each(one, half) for one in entries]
+def format(entries, num_papers_per_post):
+    return [format_each(one, num_papers_per_post) for one in entries]
 
 
 # format each new submission
-def format_each(orig_entry, half):
-    if half == 1:
-        local_max_len = max_len_short
-        local_urls_len = urls_len_short
-        local_min_len_authors = min_len_authors_short
-        local_min_len_title = min_len_title_short
+def format_each(orig_entry, num_papers_per_post):
+    if num_papers_per_post == 2:
+        local_max_len = max_len_second
+        local_urls_len = arxiv_identifier_len_second
+        local_min_len_authors = 0
+        local_min_len_title = min_len_title_second
+    elif num_papers_per_post == 3:
+        local_max_len = max_len_third
+        local_urls_len = arxiv_identifier_len_third
+        local_min_len_authors = 0
+        local_min_len_title = min_len_title_third
     else:
         local_max_len = max_len
         local_urls_len = urls_len
@@ -29,6 +34,8 @@ def format_each(orig_entry, half):
 
     fixed_length = local_urls_len + newsub_spacer + margin
     entry = orig_entry.copy()
+    if num_papers_per_post in (2, 3):
+        entry["authors"] = ""
     orig_title = entry["title"]
 
     authors_title = entry["authors"] + entry["title"]

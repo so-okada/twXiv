@@ -215,12 +215,7 @@ def newentries(
     if newsubmission_mode:
         print("new submissions for " + cat)
         if entries_dict[cat]:
-            if len(entries_dict[cat].newsubmissions) < post_updates:
-                half = 0
-            else:
-                half = 1
-
-            newsub_entries = tXf.format(entries_dict[cat].newsubmissions, half)
+            newsub_entries = tXf.format(entries_dict[cat].newsubmissions, num_papers_per_post)
             if not check_log_dates(cat, "tweet_log", logfiles) and not check_log_dates(
                 cat, "tweet_summary_log", logfiles
             ):
@@ -233,7 +228,7 @@ def newentries(
 
 # an introductory text of each category
 # an example: [2020-08-01 (UTC),  4 new articles found for mathCV]
-def intro(given_time, num, cat, caption):
+def intro(given_time, num, cat, caption, papers_per_post=1):
     ptext = "[" + given_time.strftime("%Y-%m-%d %a") + " (UTC), "
     # On the variable num, arXiv_feed_parser gives new
     # submissions whose primary subjects are the given category.
@@ -248,11 +243,12 @@ def intro(given_time, num, cat, caption):
     if caption:
         ptext = ptext + " " + caption
 
-    if num > 2 * (post_updates - 1):
+    max_articles = papers_per_post * (post_updates - 1)
+    if num > max_articles:
         ptext = (
             ptext
             + ", but only first "
-            + str(2 * (post_updates - 1))
+            + str(max_articles)
             + " articles to tweet."
             + " See https://arxiv.org/list/"
             + cat
@@ -268,17 +264,14 @@ def intro(given_time, num, cat, caption):
 # new submissions by tweets
 def newsubmissions(logfiles, cat, caption, api, update_limited, entries, pt_mode):
     time_now = datetime.utcnow().replace(microsecond=0)
-    ptext = intro(time_now, len(entries), cat, caption)
-    update_limited(
-        logfiles, cat, api, str(len(entries)), "", ptext, "", "tweet", pt_mode
-    )
-    if len(entries) < post_updates:
-        half = 0
-    else:
-        half = 1
+    if summary_posting:
+        ptext = intro(time_now, len(entries), cat, caption, num_papers_per_post)
+        update_limited(
+            logfiles, cat, api, str(len(entries)), "", ptext, "", "tweet", pt_mode
+        )
 
     post_counter = 1
-    if half == 0:
+    if num_papers_per_post == 1:
         for each in entries:
             arxiv_id = each["id"]
             authors_prefix = (
@@ -297,32 +290,51 @@ def newsubmissions(logfiles, cat, caption, api, update_limited, entries, pt_mode
             update_limited(
                 logfiles, cat, api, "", arxiv_id, article_text, "", "tweet", pt_mode
             )
-    else:
+    elif num_papers_per_post == 2:
+        arxiv_id = ""
+        article_text = ""
         for each in entries:
             pre_arxiv_id = each["id"]
-            authors_prefix = (
-                each["authors"] + ": " if each["authors"] else ""
-            )
-            pre_article_text = (
-                authors_prefix + each["title"] + " " + each["abs_url"]
-            )
-            if int(post_counter % 2) == 1:
+            pre_article_text = each["title"] + " arXiv:" + pre_arxiv_id
+            pos = post_counter % 2
+            if pos == 1:
                 arxiv_id = pre_arxiv_id
                 article_text = pre_article_text
-            if int(post_counter % 2) == 0:
+            else:
                 arxiv_id = arxiv_id + " AND " + pre_arxiv_id
-                article_text = (
-                    article_text
-                    + "\n\n"
-                    + pre_article_text
-                    + "\n\n https://en.wikipedia.org/wiki/Mathematics"
-                )
-
-            if int(post_counter % 2) == 0:
+                article_text = article_text + "\n\n" + pre_article_text
                 update_limited(
                     logfiles, cat, api, "", arxiv_id, article_text, "", "tweet", pt_mode
                 )
-            if int(post_counter % 2) == 1 and post_counter == len(entries):
+                arxiv_id = ""
+                article_text = ""
+            if post_counter == len(entries) and pos != 0:
+                update_limited(
+                    logfiles, cat, api, "", arxiv_id, article_text, "", "tweet", pt_mode
+                )
+            post_counter += 1
+    else:
+        arxiv_id = ""
+        article_text = ""
+        for each in entries:
+            pre_arxiv_id = each["id"]
+            pre_article_text = each["title"] + " arXiv:" + pre_arxiv_id
+            pos = post_counter % 3
+            if pos == 1:
+                arxiv_id = pre_arxiv_id
+                article_text = pre_article_text
+            elif pos == 2:
+                arxiv_id = arxiv_id + " AND " + pre_arxiv_id
+                article_text = article_text + "\n\n" + pre_article_text
+            else:
+                arxiv_id = arxiv_id + " AND " + pre_arxiv_id
+                article_text = article_text + "\n\n" + pre_article_text
+                update_limited(
+                    logfiles, cat, api, "", arxiv_id, article_text, "", "tweet", pt_mode
+                )
+                arxiv_id = ""
+                article_text = ""
+            if post_counter == len(entries) and pos != 0:
                 update_limited(
                     logfiles, cat, api, "", arxiv_id, article_text, "", "tweet", pt_mode
                 )
