@@ -216,9 +216,9 @@ def newentries(
         print("new submissions for " + cat)
         if entries_dict[cat]:
             if len(entries_dict[cat].newsubmissions) < post_updates:
-                num_papers_per_post = 0
+                num_papers_per_post = 1
             else:
-                num_papers_per_post = 2
+                num_papers_per_post = 3
 
             newsub_entries = tXf.format(entries_dict[cat].newsubmissions, num_papers_per_post)
             if not check_log_dates(cat, "tweet_log", logfiles) and not check_log_dates(
@@ -270,20 +270,18 @@ def intro(given_time, num, cat, caption, papers_per_post=1):
 def newsubmissions(logfiles, cat, caption, api, update_limited, entries, pt_mode):
     time_now = datetime.utcnow().replace(microsecond=0)
     if len(entries) < post_updates:
-        num_papers_per_post = 0
-        papers_per_post = 1
+        num_papers_per_post = 1
     else:
-        num_papers_per_post = 2
-        papers_per_post = 3
+        num_papers_per_post = 3
 
-    if papers_per_post != 3:
-        ptext = intro(time_now, len(entries), cat, caption, papers_per_post)
+    if num_papers_per_post != 3:
+        ptext = intro(time_now, len(entries), cat, caption, num_papers_per_post)
         update_limited(
             logfiles, cat, api, str(len(entries)), "", ptext, "", "tweet", pt_mode
         )
 
     post_counter = 1
-    if num_papers_per_post == 0:
+    if num_papers_per_post == 1:
         for each in entries:
             arxiv_id = each["id"]
             authors_prefix = (
