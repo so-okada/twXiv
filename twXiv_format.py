@@ -21,6 +21,11 @@ def format_each(orig_entry, half):
         local_urls_len = urls_len_short
         local_min_len_authors = min_len_authors_short
         local_min_len_title = min_len_title_short
+    elif half == 2:
+        local_max_len = max_len_third
+        local_urls_len = urls_len_third
+        local_min_len_authors = 0
+        local_min_len_title = min_len_title_third
     else:
         local_max_len = max_len
         local_urls_len = urls_len
@@ -29,6 +34,8 @@ def format_each(orig_entry, half):
 
     fixed_length = local_urls_len + newsub_spacer + margin
     entry = orig_entry.copy()
+    if half == 2:
+        entry["authors"] = ""
     orig_title = entry["title"]
 
     authors_title = entry["authors"] + entry["title"]

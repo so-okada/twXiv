@@ -24,6 +24,12 @@ min_len_authors = 70
 min_len_authors_short = int(min_len_authors / 2) - 10
 min_len_title = 150
 min_len_title_short = int(min_len_title / 2) - 10
+
+# for 3-paper posts (half=2): budget per entry in a 280-char tweet
+# 280 total - 4 chars for two "\n\n" separators = 276, divided by 3
+max_len_third = int((max_len - 4) / 3)
+urls_len_third = 17  # " arXiv:XXXX.YYYY" as plain text (not a URL)
+min_len_title_third = 30
 newsub_spacer = 2
 margin = 2
 
