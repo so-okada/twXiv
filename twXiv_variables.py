@@ -28,13 +28,13 @@ min_len_title_short = int(min_len_title / 2) - 10
 # for 2-paper posts: budget per entry in a 280-char tweet
 # 280 total - 2 chars for one "\n\n" separator = 278, divided by 2
 max_len_second = int((max_len - 2) / 2)
-arxiv_identifier_len_second = 17  # " arXiv:XXXX.YYYY" as plain text (not a URL)
+arxiv_identifier_len_second = 17  # " arXiv:XXXX.YYYY" as plain text
 min_len_title_second = 40
 
 # for 3-paper posts: budget per entry in a 280-char tweet
 # 280 total - 4 chars for two "\n\n" separators = 276, divided by 3
 max_len_third = int((max_len - 4) / 3)
-arxiv_identifier_len_third = 17  # " arXiv:XXXX.YYYY" as plain text (not a URL)
+arxiv_identifier_len_third = 17  # " arXiv:XXXX.YYYY" as plain text
 min_len_title_third = 30
 newsub_spacer = 2
 margin = 2
@@ -42,8 +42,7 @@ margin = 2
 num_papers_per_post = 1
 summary_posting = 1
 
-# rate limit for each category
-# https://devcommunity.x.com/t/specifics-about-the-new-free-tier-rate-limits/229761/2
+# limit for each category
 a_day = 24 * 60 * 60
 post_updates = 16
 
