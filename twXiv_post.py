@@ -291,24 +291,30 @@ def newsubmissions(logfiles, cat, caption, api, update_limited, entries, pt_mode
                 logfiles, cat, api, "", arxiv_id, article_text, "", "tweet", pt_mode
             )
     elif num_papers_per_post == 2:
-        arxiv_id = ""
-        article_text = ""
         for each in entries:
             pre_arxiv_id = each["id"]
-            pre_article_text = each["title"] + " arXiv:" + pre_arxiv_id
-            pos = post_counter % 2
-            if pos == 1:
+            authors_prefix = (
+                each["authors"] + ": " if each["authors"] else ""
+            )
+            pre_article_text = (
+                authors_prefix + each["title"] + " " + each["abs_url"]
+            )
+            if int(post_counter % 2) == 1:
                 arxiv_id = pre_arxiv_id
                 article_text = pre_article_text
-            else:
+            if int(post_counter % 2) == 0:
                 arxiv_id = arxiv_id + " AND " + pre_arxiv_id
-                article_text = article_text + "\n\n" + pre_article_text
+                article_text = (
+                    article_text
+                    + "\n\n"
+                    + pre_article_text
+                    + "\n\n https://en.wikipedia.org/wiki/Mathematics"
+                )
+            if int(post_counter % 2) == 0:
                 update_limited(
                     logfiles, cat, api, "", arxiv_id, article_text, "", "tweet", pt_mode
                 )
-                arxiv_id = ""
-                article_text = ""
-            if post_counter == len(entries) and pos != 0:
+            if int(post_counter % 2) == 1 and post_counter == len(entries):
                 update_limited(
                     logfiles, cat, api, "", arxiv_id, article_text, "", "tweet", pt_mode
                 )
