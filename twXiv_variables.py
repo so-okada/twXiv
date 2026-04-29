@@ -25,7 +25,13 @@ min_len_authors_short = int(min_len_authors / 2) - 10
 min_len_title = 150
 min_len_title_short = int(min_len_title / 2) - 10
 
-# for 3-paper posts (half=2): budget per entry in a 280-char tweet
+# for 2-paper posts: budget per entry in a 280-char tweet
+# 280 total - 2 chars for one "\n\n" separator = 278, divided by 2
+max_len_second = int((max_len - 2) / 2)
+arxiv_identifier_len_second = 17  # " arXiv:XXXX.YYYY" as plain text (not a URL)
+min_len_title_second = 40
+
+# for 3-paper posts: budget per entry in a 280-char tweet
 # 280 total - 4 chars for two "\n\n" separators = 276, divided by 3
 max_len_third = int((max_len - 4) / 3)
 arxiv_identifier_len_third = 17  # " arXiv:XXXX.YYYY" as plain text (not a URL)
