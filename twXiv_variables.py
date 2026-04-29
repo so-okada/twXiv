@@ -23,8 +23,7 @@ a_day = 24 * 60 * 60
 # for paper tweet setting:
 num_papers_per_post = 3
 summary_posting = 0
-post_updates = 16
-
+post_updates = 21
 
 # for 1-paper posts:
 url_margin = 2

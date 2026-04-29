@@ -12,7 +12,7 @@ We use python3 scripts. twXiv is not affiliated with arXiv.
 	% pip3 install pandas ratelimit tweepy twitter-text-parser nameparser feedparser 
 	```
 
-* Let twXiv.py be executable.
+* Make twXiv.py executable.
  
 	 ```
 	 % chmod +x twXiv.py
@@ -35,7 +35,7 @@ We use python3 scripts. twXiv is not affiliated with arXiv.
 	new submissions for each category.
 
     - logfiles.json indicates log file locations for tweet summaries
-	and tweets. In the tests/logfiles director, you have the sample
+	and tweets. In the tests/logfiles directory, you have the sample
 	log files mathACb_tweet_summaries.csv and mathACb_tweets.csv.
 		
 	- aliases.json tells twXiv aliases of arXiv category names.  For
@@ -180,7 +180,7 @@ optional arguments:
 	
 * 0.1.5, 2023-01-09, a fix for semanticscholar 0.3.2.
 	
-* 0.2.0, 2023-06-25, a fix for twitter API V2 endpoints and a daily rate limit.
+* 0.2.0, 2023-06-25, a fix for twitter api V2 endpoints and a daily rate limit.
 
 * 0.3.0, 2024-02-04, updated arXiv_feed_parser for arXiv rss re-implemented.
 	
@@ -196,6 +196,8 @@ optional arguments:
 * 0.4.2, 2026-02-18, fixes for name handling.
 	
 * 0.4.3, 2026-04-12, a fix for feedparser timeout.
+
+* 0.5.0, 2026-04-26, added a 3-papers-per-post option (without URLs) and an option not to post summaries with some simplified functions.
 	
 ## List of Bots
 
@@ -269,7 +271,7 @@ twXiv scripts for the bots above are running on the OCI free tier (as of late Ma
 ## Author
 So Okada, so.okada@gmail.com, https://so-okada.github.io/
 
-## Motivation
+## Motivation & Comments
 
 Since 2013-04, the author has been running the bots above for all
 arXiv math categories.  For example,
@@ -277,13 +279,21 @@ arXiv math categories.  For example,
 earliest tweets.  Until 2020-08, the author used arxiv_speaker
 [https://github.com/misho104-obsolete/arxiv_speaker](https://github.com/misho104-obsolete/arxiv_speaker). Sho
 Iwamoto wrote it by ruby for tweeting new submissions with titles,
-authors, and ids.  However, it was discontinued.  Therefore, the
-author has written twXiv by python3, adding functions such as
+authors, and ids.  However, it was discontinued.  Therefore, 
+in 2020-08, the
+author wrote twXiv by python3, adding functions such as
 abstracts by replies, cross-lists by retweets, and replacements by
-quotes and retweets.  Since 2020-08, the bots above have used twXiv. Since 2025-01, the author has added the function of
-two-new-submissions-in-one-tweet and abandoned the functions of
-abstracts, cross-lists, and replacements for the limitations of X api
-free tier.
+quotes and retweets.  Since 2020-08, the bots above have used twXiv. 
+
+- In 2025-01, the author added the option of 2-papers-per-post and
+abandoned the functions of abstracts, cross-lists, and replacements
+due to the limitations of X api free tier [https://devcommunity.x.com/t/upcoming-updates-to-the-self-serve-x-api/227668](https://devcommunity.x.com/t/upcoming-updates-to-the-self-serve-x-api/227668). 
+
+- In 2026-04, the author added the option of 3-papers-per-post without
+URLs and the option not to post summaries. From April 20 2026, it was announced that each
+api post with a URL costs $0.2, while each api post without a URL
+costs $0.015
+[https://devcommunity.x.com/t/x-api-pricing-update-owned-reads-now-0-001-other-changes-effective-april-20-2026/263025](https://devcommunity.x.com/t/x-api-pricing-update-owned-reads-now-0-001-other-changes-effective-april-20-2026/263025).
 
 
 For more background, see 
