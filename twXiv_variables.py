@@ -11,12 +11,22 @@ main_thread_wait = 40
 
 # max tweet length is 280
 # twitter url length is 23
-# 2020-06-14
 max_len = 280
-max_len_short = int(max_len / 2) - 24
 url_len = 23
 
-# tweets for new submissions:
+# for api call setting, independent to specific categories:
+twitter_sleep = 2
+overall_twitter_limit_call = 1
+overall_twitter_limit_period = 4
+a_day = 24 * 60 * 60
+
+# for paper tweet setting:
+num_papers_per_post = 3
+summary_posting = 0
+post_updates = 16
+
+
+# for 1-paper posts:
 url_margin = 2
 urls_len = (url_len + url_margin) * 3
 urls_len_short = urls_len
@@ -38,15 +48,3 @@ arxiv_identifier_len_third = 17  # " arXiv:XXXX.YYYY" as plain text
 min_len_title_third = 30
 newsub_spacer = 2
 margin = 2
-
-num_papers_per_post = 1
-summary_posting = 1
-
-# limit for each category
-a_day = 24 * 60 * 60
-post_updates = 16
-
-# limits independent to specific categories
-twitter_sleep = 2
-overall_twitter_limit_call = 1
-overall_twitter_limit_period = 4
