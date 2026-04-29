@@ -295,7 +295,7 @@ def newsubmissions(logfiles, cat, caption, api, update_limited, entries, pt_mode
         article_text = ""
         for each in entries:
             pre_arxiv_id = each["id"]
-            pre_article_text = each["title"] + " arXiv:" + pre_arxiv_id
+            pre_article_text = each["title"] + "\narXiv:" + pre_arxiv_id
             pos = post_counter % 2
             if pos == 1:
                 arxiv_id = pre_arxiv_id
@@ -318,7 +318,7 @@ def newsubmissions(logfiles, cat, caption, api, update_limited, entries, pt_mode
         article_text = ""
         for each in entries:
             pre_arxiv_id = each["id"]
-            pre_article_text = each["title"] + " arXiv:" + pre_arxiv_id
+            pre_article_text = each["title"] + "\narXiv:" + pre_arxiv_id
             pos = post_counter % 3
             if pos == 1:
                 arxiv_id = pre_arxiv_id
