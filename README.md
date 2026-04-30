@@ -279,21 +279,25 @@ arXiv math categories.  For example,
 earliest tweets.  Until 2020-08, the author used arxiv_speaker
 [https://github.com/misho104-obsolete/arxiv_speaker](https://github.com/misho104-obsolete/arxiv_speaker). Sho
 Iwamoto wrote it by ruby for tweeting new submissions with titles,
-authors, and ids.  However, it was discontinued.  Therefore, 
-in 2020-08, the
-author wrote twXiv by python3, adding functions such as
+authors, and ids.  However, it was discontinued.  Therefore, in
+2020-08, the author wrote twXiv by python3, adding functions such as
 abstracts by replies, cross-lists by retweets, and replacements by
-quotes and retweets.  Since 2020-08, the bots above have used twXiv. 
+quotes and retweets.  Since 2020-08, the bots above have used twXiv.
 
 - In 2025-01, the author added the option of 2-papers-per-post and
 abandoned the functions of abstracts, cross-lists, and replacements
 due to the limitations of X api free tier [https://devcommunity.x.com/t/upcoming-updates-to-the-self-serve-x-api/227668](https://devcommunity.x.com/t/upcoming-updates-to-the-self-serve-x-api/227668). 
 
 - In 2026-04, the author added the option of 3-papers-per-post without
-URLs and the option not to post summaries. From April 20 2026, it was announced that each
-api post with a URL costs $0.2, while each api post without a URL
-costs $0.015
-[https://devcommunity.x.com/t/x-api-pricing-update-owned-reads-now-0-001-other-changes-effective-april-20-2026/263025](https://devcommunity.x.com/t/x-api-pricing-update-owned-reads-now-0-001-other-changes-effective-april-20-2026/263025).
+URLs and the option not to post summaries.  As of 2026-04-30, a running cost of the 32 bots as before with URLs would be hundreds of dollars per month. From April 20 2026, it was announced that each api post with a URL costs $0.2, while each api post without a URL costs $0.015 [https://devcommunity.x.com/t/x-api-pricing-update-owned-reads-now-0-001-other-changes-effective-april-20-2026/263025](https://devcommunity.x.com/t/x-api-pricing-update-owned-reads-now-0-001-other-changes-effective-april-20-2026/263025).
+
+- In 2026-04, the author prepared a userscript
+[https://raw.githubusercontent.com/so-okada/twXiv/master/userscripts/arXiv-linkifier.user.js](https://raw.githubusercontent.com/so-okada/twXiv/master/userscripts/arXiv-linkifier.user.js)
+to turn arXiv:XXXX.YYYY on x.com into clickable arXiv links on your
+browser (you need Tampermonkey, Greasemonkey, or Violentmonkey browser
+extension to install and use the userscript). Also,
+[toXiv](https://github.com/so-okada/toXiv) and
+[bXiv](https://github.com/so-okada/bXiv) projects are available.
 
 
 For more background, see 
