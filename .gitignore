@@ -16,6 +16,7 @@ old/
 !.gitignore
 !tests/
 !tests/logfiles/
+!userscripts/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
