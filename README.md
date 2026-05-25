@@ -186,9 +186,9 @@ optional arguments:
 	
 * 0.3.1, 2024-02-07, a minor update.
 	
-* 0.4.1, 2025-01-12, deleted functions of retweets and replies for the X
-	free api limits, updated for the X api "17 posts a day" limit by a
-	tweet of two papers, added
+* 0.4.1, 2025-01-12, deleted functions of retweets and replies for the
+	X free api limits, updated for the X api "17 posts a day" limit by
+	a tweet of two papers, added
 	https://en.wikipedia.org/wiki/Mathematics as a generic math page
 	for an automatic url preview of the two paper tweets, and added
 	html paper links.
@@ -198,7 +198,9 @@ optional arguments:
 * 0.4.3, 2026-04-12, a fix for feedparser timeout.
 
 * 0.5.0, 2026-04-26, added a 3-papers-per-post option (without URLs) and an option not to post summaries with some simplified functions.
-	
+
+* 0.5.1, 2026-05-25, removed $ from titles to avoid missing papers by X cashtag errors.
+
 ## List of Bots
 
 * [https://x.com/mathACb](https://x.com/mathACb): 
