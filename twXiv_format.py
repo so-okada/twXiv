@@ -36,6 +36,7 @@ def format_each(orig_entry, num_papers_per_post):
     entry = orig_entry.copy()
     if num_papers_per_post in (2, 3):
         entry["authors"] = ""
+    entry["title"] = entry["title"].replace("$", "")
     orig_title = entry["title"]
 
     authors_title = entry["authors"] + entry["title"]
