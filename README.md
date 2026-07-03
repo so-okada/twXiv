@@ -301,6 +301,10 @@ extension to install and use the userscript). Also,
 [toXiv](https://github.com/so-okada/toXiv) and
 [bXiv](https://github.com/so-okada/bXiv) projects are available.
 
+- As of 2026-07, 
+[alphaXiv extension](https://chromewebstore.google.com/detail/alphaxiv-understand-resea/liihfcjialakefgidmaadhajjikbjjab) 
+for google chrome add links to corresponding alphaXiv web pages.
+
 
 For more background, see 
 [a paper on these bots](https://arxiv.org/abs/1410.4139),
